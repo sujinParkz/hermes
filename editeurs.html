@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>editeurs</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+    
+    <!-- <style>
+        .EditeurMain{
+            background: url('images/hermesEditeur_DanielBuren_TopImg.png') center 250px / contain no-repeat;
+        }
+        .EditeurMain h2{
+            background-color: white; line-height: 250px; text-align: center; margin-bottom: 50vw;
+        }
+       
+       
+    </style> -->
+</head>
+
+<body>
+    
+    <header>
+        <div>
+            <input type="button" value="menu" id="hamburger" data-panel="asidePanel">
+            <label for="hamburger">MENU</label>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo_Black.png" alt="logo">
+                </a>
+            </h1>
+            <div>
+                <a href="account.html">ACCOUNT</a>
+                <input type="button" value="search" data-panel="searchPanel">
+                <a href="shoppingCart.html">SHOPPINGCART</a>  
+            </div>
+        </div>
+    </header>
+    
+    <!-- header fin  -->
+
+    <aside id="asidePanel">
+        <div>
+            <h2>
+                MENU
+                <input type="button" value="close" class="btn_close">
+            </h2>
+            <nav>
+                <h3>Main</h3>
+                <ul>
+                    <li>
+                        READY-TO-WEAR
+                        <div>
+                            <h4>sub</h4>
+                            <ol>
+                                <li><a href="list_ReadyToWear.html">Coats and jackets</a></li>
+                                <li><a href="list_ReadyToWear.html">Dresses</a></li>
+                                <li><a href="list_ReadyToWear.html">Tops and shirts</a></li>
+                                <li><a href="list_ReadyToWear.html">Pants and shorts</a></li>
+                                <li><a href="list_ReadyToWear.html">Knitwear and twillaines</a></li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>
+                    BAG
+                        <ol>
+                            <li><a href="list_Bag.html">Handbags</a></li>
+                            <li><a href="list_Bag.html">Shoulder bags</a></li>
+                            <li><a href="list_Bag.html">Luggages</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    SHOES
+                        <ol>
+                            <li><a href="list_Shoes.html">Ankle boots</a></li>
+                            <li><a href="list_Shoes.html">Boots</a></li>
+                            <li><a href="list_Shoes.html">Moccasins</a></li>
+                            <li><a href="list_Shoes.html">Mules</a></li>
+                            <li><a href="list_Shoes.html">Sneakers</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    JEWELRY
+                        <ol>
+                            <li><a href="list_Jewerly.html">Gold</a></li>
+                            <li><a href="list_Jewerly.html">Silver</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    ABOUT HERMÈS
+                        <ol>
+                            <li><a href="aboutHermes.html">Contemporary artisans since 1837</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    HERMÈS EDITEUR
+                        <ol>
+                            <li><a href="editeur_josefAlbers.html">Josef Albers</a></li>
+                            <li><a href="editeur_danielBuren.html">Daniel Buren</a></li>
+                            <li><a href="editeur_hiroshiSugimoto.html">Hiroshi Sugimoto</a></li>
+                            <li><a href="editeur_julioLeParc.html">Julio Le Parc</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+            <ul>
+                <li>
+                    <strong>Services</strong>
+                    <a href="findAStore.html">Find a Store</a>
+                    <a href="FAQ.html">FAQ</a>
+                </li>
+                <li>
+                    <strong>Orders</strong>
+                    <a href="FAQ.html">Payment</a>
+                    <a href="FAQ.html">Shopping</a>
+                    <a href="FAQ.html">Collect in store</a>
+                    <a href="FAQ.html">Returns and exchanges</a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+
+    <!-- aside fin -->
+
+    <div id="searchPanel">
+        <div>
+            <form>
+                <fieldset>
+                    <input type="submit" value="submit">
+                    <input type="search" placeholder="KEYWORDS" data-panel="searchKeyword" title="keywords">
+                    <input type="button" value="close">
+                </fieldset>
+            </form>
+            <ul id="searchKeyword">
+                <li><a href="list_ReadyToWear.html">Ready to wear</a></li>
+                <li><a href="list_Jewerly.html">Jewerly</a></li>
+                <li><a href="list_Shoes.html">Shoes</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- searchPanel fin --> -->
+
+    <section class="wrap EditeurMain">
+
+        <h2>
+            <a href="#" class="btn_Return">BACK</a>
+            HERMÈS ÉDITEUR
+        </h2>
+
+        <p>
+            <strong>WHAT IS HERMÈS ÉDITEUR?</strong>
+
+            The Hermès scarf was born in 1937, instigated by Robert Dumas. Fascinated by innovative textile printing techniques, he quickly developed a passion for creating designs in a constant quest for new compositions and endless combinations of colours. His open-minded approach resulted in some wonderful encounters and fruitful collaborations based on reciprocal admiration, connecting the house to names such as Cassandre, Ledoux, Linarès and Dufy, to name but a few. Following his lead, Jean-Louis Dumas expanded the scarf’s horizons through artists such as Kermit Oliver, a Native American painter specialising in portraits of Native Americans, and the Polataka School of Sudan. <br>
+        </p>
+        <p>
+            It was on this fertile ground that Hermès Éditeur was born in 2005. “It was very important to me,” said Pierre-Alexis Dumas, artistic director at Hermès, “to extend this bridge between the applied arts, which is our domain, and the world of contemporary plastic arts. As is often the case with our house, the emergence of projects cannot be separated from human encounters and aesthetic shocks. The projects the artists bring us present our artisans with true challenges. These may seem insurmountable at first, but overcoming them allows us to vpush back the boundaries of our know-how.”
+        </p>
+        
+        <div class="centerguideMain">
+            <h3>THE EDITIONS</h3>
+
+            <ul>
+                <li>
+                    <figure>
+                        <img src="images/hermesEditeur_ColorBG_01.png" alt="Josef Albers Image">
+                        <figcaption>
+                            <dl>
+                                <dt>
+                                    <mark>Josef Albers</mark>
+                                </dt>
+                                <dd>
+                                    For its first edition of works of art on silk, Hermès immediately thought of Josef Albers, one of the great colour theorists, and in particular his Homage to the Square series. Six of his works were selected and reproduced on silk, then produced in 200 units each.
+                                </dd>
+                            </dl>
+                        <a href="editeur_josefAlbers.html" class="btn_self">DISCOVER</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/hermesEditeur_ColorBG_02.png" alt="Daniel Buren Image">
+                        <figcaption>
+                            <dl>
+                                <dt>
+                                    <mark>Daniel Buren</mark>
+                                </dt>
+                                <dd>
+                                    For its second edition of works of art on silk, Hermès invited renowned contemporary artist Daniel Buren to leave his imprint on house’s emblematic silk scarf. The exceptionally large-scale and highly original result, entitled Photos-souvenirs au carré, was a series of 365 unique scarves.
+                                </dd>
+                            </dl>
+                            <a href="editeur_danielBuren.html" class="btn_self">DISCOVER</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/hermesEditeur_ColorBG_03.png" alt="Hiroshi Sugimoto Image">
+                        <figcaption>
+                            <dl>
+                                <dt>
+                                    <mark>Hiroshi Sugimoto</mark>
+                                </dt>
+                                <dd>
+                                    For its third edition, Hermès invited Japanese artist Hiroshi Sugimoto. And so Couleurs de l’ombre was born, reproducing 20 Polaroids on silk to form a limited edition of 20 scarves produced in 7 units each, or a total of 140 scarves measuring 140 cm x 140 cm.
+                                </dd>
+                            </dl>
+                            <a href="editeur_hiroshiSugimoto.html" class="btn_self">DISCOVER</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/hermesEditeur_ColorBG_04.png" alt="Julio Le Parc Image">
+                        <figcaption>
+                            <dl>
+                                <dt>
+                                    <mark>Julio Le Parc</mark>
+                                </dt>
+                                <dd>
+                                    For its fourth edition, Hermès invited Julio Le Parc, a major figure in the kinetic and optic art world, to put his own stamp on the iconic silk scarf. A true ode to colour, his proposal entitled Variations autour de La Longue Marche led to the edition of 10 series of six unique scarves.
+                                </dd>
+                            </dl>
+                            <a href="editeur_julioLeParc.html" class="btn_self">DISCOVER</a>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+
+        </div>
+   
+    </section>
+
+    <footer>
+        <div>
+            <h2>
+                <img src="images/logo_white.png" alt="logo">
+            </h2>
+
+            <ul>
+                <li>
+                    <strong>Services</strong> 
+                    <ol>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="findAStore.html">Find a store</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <strong>Orders</strong>
+                    <ol>
+                        <li><a href="FAQ.html">Payment</a></li>
+                        <li><a href="FAQ.html">Shipping</a> </li>
+                        <li><a href="FAQ.html">Collect in store</a></li>
+                        <li><a href="FAQ.html">Returns and exchanges</a></li>
+                    </ol>
+                </li>
+                <li>
+                  <strong>La Maison Hermes</strong>
+                    <ol>
+                        <li><a href="https://www.fondationdentreprisehermes.org/en" target="_blank" >The Hermes FoundationNew tab</a></li>
+                        <li><a href="https://finance.hermes.com/en/" target="_blank">Finance & GovernanceNew tab</a></li>
+                    </ol>
+                </li>
+            </ul>
+
+            <form>
+                <fieldset>
+                    <legend>Subscribe Now</legend>
+                        <input type="email" placeholder="Enter your  Email" title="Enter your  Email">
+                        <input type="submit" value="Subscribe">
+                </fieldset>
+            </form>
+
+            <div>
+                <p>United Kingdom ⓒ Hermes 2021 All rights reserved.</p>
+
+                <ul>
+                    <li><a href="https://www.facebook.com/hermes" target="_blank">fackBook</a></li>
+                    <li><a href="https://twitter.com/hermes_paris" target="_blank">Twiiter</a></li>
+                    <li><a href="https://www.youtube.com/user/hermes" target="_blank">youTube</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer fin -->
+    
+</body>
+</html>

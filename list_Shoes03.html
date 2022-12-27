@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listPage - Shoes</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+    
+    <header>
+        <div>
+            <input type="button" value="menu" id="hamburger" data-panel="asidePanel">
+            <label for="hamburger">MENU</label>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo_Black.png" alt="logo">
+                </a>
+            </h1>
+           <div>
+               <a href="account.html">ACCOUNT</a>
+               <input type="button" value="search" data-panel="searchPanel">
+               <a href="shoppingCart.html">SHOPPINGCART</a>  
+           </div>
+        </div>
+    </header>
+    
+    <!-- header fin -->
+    
+    <aside id="asidePanel">
+        <div>
+            <h2>
+                MENU
+                <input type="button" value="close" class="btn_close">
+            </h2>
+            <nav>
+                <h3>Main</h3>
+                <ul>
+                    <li>
+                        READY-TO-WEAR
+                        <div>
+                            <h4>sub</h4>
+                            <ol>
+                                <li><a href="list_ReadyToWear.html">Coats and jackets</a></li>
+                                <li><a href="list_ReadyToWear.html">Dresses</a></li>
+                                <li><a href="list_ReadyToWear.html">Tops and shirts</a></li>
+                                <li><a href="list_ReadyToWear.html">Pants and shorts</a></li>
+                                <li><a href="list_ReadyToWear.html">Knitwear and twillaines</a></li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>
+                    BAG
+                        <ol>
+                            <li><a href="list_Bag.html">Handbags</a></li>
+                            <li><a href="list_Bag.html">Shoulder bags</a></li>
+                            <li><a href="list_Bag.html">Luggages</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    SHOES
+                        <ol>
+                            <li><a href="list_Shoes.html">Ankle boots</a></li>
+                            <li><a href="list_Shoes.html">Boots</a></li>
+                            <li><a href="list_Shoes.html">Moccasins</a></li>
+                            <li><a href="list_Shoes.html">Mules</a></li>
+                            <li><a href="list_Shoes.html">Sneakers</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    JEWELRY
+                        <ol>
+                            <li><a href="list_Jewerly.html">Gold</a></li>
+                            <li><a href="list_Jewerly.html">Silver</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    ABOUT HERMÈS
+                        <ol>
+                            <li><a href="aboutHermes.html">Contemporary artisans since 1837</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    HERMÈS EDITEUR
+                        <ol>
+                            <li><a href="editeur_josefAlbers.html">Josef Albers</a></li>
+                            <li><a href="editeur_danielBuren.html">Daniel Buren</a></li>
+                            <li><a href="editeur_hiroshiSugimoto.html">Hiroshi Sugimoto</a></li>
+                            <li><a href="editeur_julioLeParc.html">Julio Le Parc</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+            <ul>
+                <li>
+                    <strong>Services</strong>
+                    <a href="findAStore.html">Find a Store</a>
+                    <a href="FAQ.html">FAQ</a>
+                </li>
+                <li>
+                    <strong>Orders</strong>
+                    <a href="FAQ.html#payment">Payment</a>
+                    <a href="FAQ.html#delivery">Shipping</a>
+                    <a href="FAQ.html#collerctInStore">Collect in store</a>
+                    <a href="FAQ.html#returnsAndExchanges">Returns and exchanges</a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    
+    <!-- aside fin -->
+    
+    <div id="searchPanel">
+        <div>
+            <form>
+                <fieldset>
+                    <input type="submit" value="submit">
+                    <input type="search" placeholder="KEYWORDS" data-panel="searchKeyword" title="keywords">
+                    <input type="button" value="close" class="btn_close">
+                </fieldset>
+            </form>
+            <ul id="searchKeyword">
+                <li><a href="list_ReadyToWear.html">Ready to wear</a></li>
+                <li><a href="list_Jewerly.html">Jewerly</a></li>
+                <li><a href="list_Shoes.html">Shoes</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- searchPanel fin -->
+    
+
+    <section class="wrap shoesSideImageList">
+        <!-- Bg -->
+
+        <div>
+            <h2>SHOES</h2>
+            
+            <input type="button" value="Filter" data-panel="filterPanel">
+            
+            <ul id="filterPanel">
+                <li>
+                    <span>Category</span>
+                    <div>
+                        <input type="checkbox" id="ankleBoots">
+                        <label for="ankleBoots">Ankle boots</label>
+                        <input type="checkbox" id="boots">
+                        <label for="boots">Boots</label>
+                        <input type="checkbox" id="moccasins">
+                        <label for="moccasins">Moccasins</label>
+                        <input type="checkbox" id="mules">
+                        <label for="mules">Mules</label>
+                        <input type="checkbox" id="sneakers">
+                        <label for="sneakers">Sneakers</label>
+                    </div>
+                </li>
+                <li>
+                    <span>Color</span> 
+                    <div>
+                        <a href="#">
+                            <img src="images/listSortbarColor_Green.png" alt="green">
+                        </a>
+                        <a href="#">
+                            <img src="images/listSortbarColor_Yellow.png" alt="yellow">
+                        </a>
+                        <a href="#">
+                            <img src="images/listSortbarColor_Red.png" alt="red">
+                        </a>
+                        <a href="#">
+                            <img src="images/listSortbarColor_Orange.png" alt="orange">
+                        </a>
+                        <a href="#">
+                            <img src="images/listSortbarColor_Black.png" alt="black">
+                        </a>
+                        <a href="#">
+                            <img src="images/listSortbarColor_Multi.png" alt="multi">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <span>Sort by</span>
+                    <div>
+                        <a href="#">Popular</a>
+                        <a href="#">Lowest Price</a>
+                        <a href="#">Highest Price</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- <ul id="shoesFirstPage">
+            
+           <li>
+               <a href="detailPage_Shoes_01_Yellow.html">
+                   <img src="images/listShoes_01.png" alt="Catena mule">
+               </a>
+               <dl>
+                   <dt>Catena mule</dt>
+                   <dd>£700</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Shoes_02_Coral.html">
+                   <img src="images/listShoes_02.png" alt="Oz mule">
+               </a>
+               <dl>
+                   <dt>Oz mule</dt>
+                   <dd>£1,000</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Shoes_03_Black.html">
+                   <img src="images/listShoes_03.png" alt="Blink mule">
+               </a>
+               <dl>
+                   <dt>Blink mule</dt>
+                   <dd>£760</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Shoes_04_Black.html">
+                   <img src="images/listShoes_04.png" alt="Christie mule">
+               </a>
+               <dl>
+                   <dt>Christie mule</dt>
+                   <dd>£640</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Shoes_05_Brown.html">
+                   <img src="images/listShoes_05.png" alt="Detail mule">
+               </a>
+               <dl>
+                <dt>Detail mule</dt>
+                <dd>£610</dd>
+            </dl>
+           </li>
+           <li>
+               <a href="detailPage_Shoes_06_Brown.html">
+                   <img src="images/listShoes_06.png" alt="Blossom mule">
+               </a>
+               <dl>
+                <dt>Blossom mule</dt>
+                <dd>£1,020</dd>
+            </dl>
+           </li>
+           <li>
+               <a href="detailPage_Shoes_07_White.html">
+                   <img src="images/listShoes_07.png" alt="Camilla mule">
+               </a>
+               <dl>
+                   <dt>Camilla mule</dt>
+                   <dd>£770</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Shoes_08_Black.html">
+                   <img src="images/listShoes_08.png" alt="Diane mule">
+               </a>
+               <dl>
+                   <dt>Diane mule</dt>
+                   <dd>£810</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Shoes_09_White.html">
+                   <img src="images/listShoes_09.png" alt="Ancora loafer">
+               </a>
+               <dl>
+                   <dt>Ancora loafer</dt>
+                   <dd>£720</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Shoes_10_Navy.html">
+                   <img src="images/listShoes_10.png" alt="Colette loafer">
+               </a>
+               <dl>
+                   <dt>Colette loafer</dt>
+                   <dd>£840</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Shoes_11_Ivory.html">
+                   <img src="images/listShoes_11.png" alt="Destin loafer">
+               </a>
+               <dl>
+                   <dt>Destin loafer</dt>
+                   <dd>£1,030</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Shoes_12_Pink.html">
+                   <img src="images/listShoes_12.png" alt="Dana loafer">
+                </a>
+                <dl>
+                    <dt>Dana loafer</dt>
+                    <dd>£710</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_13_Black.html">
+                    <img src="images/listShoes_13.png" alt="Dalhia loafer">
+                </a>
+                <dl>
+                    <dt>Dalhia loafer</dt>
+                    <dd>£710</dd>
+               </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_14_Brown.html">
+                    <img src="images/listShoes_14.png" alt="Royal loafer">
+                </a>
+                <dl>
+                    <dt>Royal loafer</dt>
+                    <dd>£840</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_15_Black.html">
+                    <img src="images/listShoes_15.png" alt="Paris loafer">
+                </a>
+                <dl>
+                    <dt>Paris loafer</dt>
+                    <dd>£830</dd>
+                </dl>
+            </li>
+        </ul> -->
+        
+        <!-- <ul id="shoesSecondPage">
+            <li>
+                <a href="detailPage_Shoes_16_Brown.html">
+                    <img src="images/listShoes_16.png" alt="Dauphine 70 loafer">
+                </a>
+                <dl>
+                    <dt>Dauphine 70 loafer</dt>
+                    <dd>£1,030</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_17_Gold.html">
+                    <img src="images/listShoes_17.png" alt="Darling ankle boot">
+                </a>
+                <dl>
+                    <dt>Darling ankle boot</dt>
+                    <dd>£910</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_18_Black.html">
+                    <img src="images/listShoes_18.png" alt="Blanche ankle boot">
+                </a>
+                <dl>
+                    <dt>Blanche ankle boot</dt>
+                    <dd>£960</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_19_Black.html">
+                    <img src="images/listShoes_19.png" alt="Carlie ankle boot">
+                </a>
+                <dl>
+                    <dt>Carlie ankle boot</dt>
+                    <dd>£810</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_20_Brown.html">
+                    <img src="images/listShoes_20.png" alt="Demarche ankle boot">
+                </a>
+                <dl>
+                 <dt>Demarche ankle boot</dt>
+                 <dd>£870</dd>
+             </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_21_Black.html">
+                    <img src="images/listShoes_21.png" alt="Delice ankle boot">
+                </a>
+                <dl>
+                 <dt>Delice ankle boot</dt>
+                 <dd>£870</dd>
+             </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_22_Ivory.html">
+                    <img src="images/listShoes_22.png" alt="Bridge ankle boot">
+                </a>
+                <dl>
+                    <dt>Bridge ankle boot</dt>
+                    <dd>£1,330</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_23_Brown.html">
+                    <img src="images/listShoes_23.png" alt="Dear ankle boot">
+                </a>
+                <dl>
+                    <dt>Dear ankle boot</dt>
+                    <dd>£1,130</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_24_Wine.html">
+                    <img src="images/listShoes_24.png" alt="Defile ankle boot">
+                </a>
+                <dl>
+                    <dt>Defile ankle boot</dt>
+                    <dd>£1,390</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_25_Black.html">
+                    <img src="images/listShoes_25.png" alt="Jumping boot">
+                </a>
+                <dl>
+                    <dt>Jumping boot</dt>
+                    <dd>£2,060</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_26_Black.html">
+                    <img src="images/listShoes_26.png" alt="Jumping shorter boot">
+                </a>
+                <dl>
+                    <dt>Jumping shorter boot</dt>
+                    <dd>£2,060</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_27_Brown.html">
+                    <img src="images/listShoes_27.png" alt="Story 50 shorter boot">
+                 </a>
+                 <dl>
+                     <dt>Story 50 shorter boot</dt>
+                     <dd>£1,850</dd>
+                 </dl>
+             </li>
+             <li>
+                 <a href="detailPage_Shoes_28_Black.html">
+                     <img src="images/listShoes_28.png" alt="Daphne boot">
+                 </a>
+                 <dl>
+                     <dt>Daphne boot</dt>
+                     <dd>£1,540</dd>
+                </dl>
+             </li>
+             <li>
+                 <a href="detailPage_Shoes_29_DarkBrown.html">
+                     <img src="images/listShoes_29.png" alt="Dressage boot">
+                 </a>
+                 <dl>
+                     <dt>Dressage boot</dt>
+                     <dd>£1,590</dd>
+                 </dl>
+             </li>
+             <li>
+                 <a href="detailPage_Shoes_30_Black.html">
+                     <img src="images/listShoes_30.png" alt="Dakota thigh-high boot">
+                 </a>
+                 <dl>
+                     <dt>Dakota thigh-high boot</dt>
+                     <dd>£1,540</dd>
+                 </dl>
+             </li>
+         </ul> -->
+
+         <ul id="shoesThirdPage">
+            <li>
+                <a href="detailPage_Shoes_31_Blue.html">
+                    <img src="images/listShoes_31.png" alt="Avantage sneaker">
+                </a>
+                <dl>
+                    <dt>Avantage sneaker</dt>
+                    <dd>£640</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_32_Pink.html">
+                    <img src="images/listShoes_32.png" alt="Boomerang sneaker">
+                </a>
+                <dl>
+                    <dt>Boomerang sneaker</dt>
+                    <dd>£680</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_33_Black.html">
+                    <img src="images/listShoes_33.png" alt="Bouncing sneaker">
+                </a>
+                <dl>
+                    <dt>Bouncing sneaker</dt>
+                    <dd>£680</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_34_Beige.html">
+                    <img src="images/listShoes_34.png" alt="Deep sneaker">
+                </a>
+                <dl>
+                    <dt>Deep sneaker</dt>
+                    <dd>£650</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_35_Blue.html">
+                    <img src="images/listShoes_35.png" alt="Duel sneaker">
+                </a>
+                <dl>
+                 <dt>Duel sneaker</dt>
+                 <dd>£690</dd>
+             </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_36_White.html">
+                    <img src="images/listShoes_36.png" alt="Drive sneaker">
+                </a>
+                <dl>
+                 <dt>Drive sneaker</dt>
+                 <dd>£800</dd>
+             </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_37_Brown.html">
+                    <img src="images/listShoes_37.png" alt="Daydream sneaker">
+                </a>
+                <dl>
+                    <dt>Daydream sneaker</dt>
+                    <dd>£1,010</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_38_Ivory.html">
+                    <img src="images/listShoes_38.png" alt="Quicker sneaker">
+                </a>
+                <dl>
+                    <dt>Quicker sneaker</dt>
+                    <dd>£780</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Shoes_39_Black.html">
+                    <img src="images/listShoes_39.png" alt="Climb sneaker">
+                </a>
+                <dl>
+                    <dt>Climb sneaker</dt>
+                    <dd>£710</dd>
+                </dl>
+            </li>
+         </ul>
+
+        
+        <div class="pager">
+            <a href="list_Shoes02.html">prev</a>
+            <a href="#">next</a>
+            <ol>
+                <li><a href="list_Shoes.html">1</a></li>
+                <li><a href="list_Shoes02.html">2</a></li>
+                <li><a href="list_Shoes03.html" class="active">3</a></li>
+            </ol>
+        </div>
+
+    </section>
+
+    <!-- list Page fin -->
+    
+    <footer>
+        <div>
+            <h2>
+                <img src="images/logo_white.png" alt="logo">
+            </h2>
+    
+            <ul>
+                <li>
+                    <strong>Services</strong> 
+                    <ol>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="findAStore.html">Find a store</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <strong>Orders</strong>
+                    <ol>
+                        <li><a href="FAQ.html#payment">Payment</a></li>
+                        <li><a href="FAQ.html#delivery">Shipping</a> </li>
+                        <li><a href="FAQ.html#collerctInStore">Collect in store</a></li>
+                        <li><a href="FAQ.html#returnsAndExchanges">Returns and exchanges</a></li>
+                    </ol>
+                </li>
+                <li>
+                  <strong>La Maison Hermes</strong>
+                    <ol>
+                        <li><a href="https://www.fondationdentreprisehermes.org/en" target="_blank" >The Hermes FoundationNew tab</a></li>
+                        <li><a href="https://finance.hermes.com/en/" target="_blank">Finance & GovernanceNew tab</a></li>
+                    </ol>
+                </li>
+            </ul>
+    
+            <form>
+                <fieldset>
+                    <legend>Subscribe Now</legend>
+                        <input type="email" placeholder="Enter your  Email" title="Enter your  Email">
+                        <input type="submit" value="Subscribe">
+                </fieldset>
+            </form>
+    
+            <div>
+                <p>United Kingdom ⓒ Hermes 2021 All rights reserved.</p>
+    
+                <ul>
+                    <li><a href="https://www.facebook.com/hermes" target="_blank">fackBook</a></li>
+                    <li><a href="https://twitter.com/hermes_paris" target="_blank">Twiiter</a></li>
+                    <li><a href="https://www.youtube.com/user/hermes" target="_blank">youTube</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Footer fin -->
+    
+</body>
+</html>

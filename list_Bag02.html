@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listPage - Bag</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+ 
+    <header>
+        <div>
+            <input type="button" value="menu" id="hamburger" data-panel="asidePanel">
+            <label for="hamburger">MENU</label>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo_Black.png" alt="logo">
+                </a>
+            </h1>
+           <div>
+               <a href="account.html">ACCOUNT</a>
+               <input type="button" value="search" data-panel="searchPanel">
+               <a href="shoppingCart.html">SHOPPINGCART</a>  
+           </div>
+        </div>
+    </header>
+    
+    <!-- header fin -->
+    
+    <aside id="asidePanel">
+        <div>
+            <h2>
+                MENU
+                <input type="button" value="close" class="btn_close">
+            </h2>
+            <nav>
+                <h3>Main</h3>
+                <ul>
+                    <li>
+                        READY-TO-WEAR
+                        <div>
+                            <h4>sub</h4>
+                            <ol>
+                                <li><a href="list_ReadyToWear.html">Coats and jackets</a></li>
+                                <li><a href="list_ReadyToWear.html">Dresses</a></li>
+                                <li><a href="list_ReadyToWear.html">Tops and shirts</a></li>
+                                <li><a href="list_ReadyToWear.html">Pants and shorts</a></li>
+                                <li><a href="list_ReadyToWear.html">Knitwear and twillaines</a></li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>
+                    BAG
+                        <ol>
+                            <li><a href="list_Bag.html">Handbags</a></li>
+                            <li><a href="list_Bag.html">Shoulder bags</a></li>
+                            <li><a href="list_Bag.html">Luggages</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    SHOES
+                        <ol>
+                            <li><a href="list_Shoes.html">Ankle boots</a></li>
+                            <li><a href="list_Shoes.html">Boots</a></li>
+                            <li><a href="list_Shoes.html">Moccasins</a></li>
+                            <li><a href="list_Shoes.html">Mules</a></li>
+                            <li><a href="list_Shoes.html">Sneakers</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    JEWELRY
+                        <ol>
+                            <li><a href="list_Jewerly.html">Gold</a></li>
+                            <li><a href="list_Jewerly.html">Silver</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    ABOUT HERMÈS
+                        <ol>
+                            <li><a href="aboutHermes.html">Contemporary artisans since 1837</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    HERMÈS EDITEUR
+                        <ol>
+                            <li><a href="editeur_josefAlbers.html">Josef Albers</a></li>
+                            <li><a href="editeur_danielBuren.html">Daniel Buren</a></li>
+                            <li><a href="editeur_hiroshiSugimoto.html">Hiroshi Sugimoto</a></li>
+                            <li><a href="editeur_julioLeParc.html">Julio Le Parc</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+            <ul>
+                <li>
+                    <strong>Services</strong>
+                    <a href="findAStore.html">Find a Store</a>
+                    <a href="FAQ.html">FAQ</a>
+                </li>
+                <li>
+                    <strong>Orders</strong>
+                    <a href="FAQ.html#payment">Payment</a>
+                    <a href="FAQ.html#delivery">Shipping</a>
+                    <a href="FAQ.html#collerctInStore">Collect in store</a>
+                    <a href="FAQ.html#returnsAndExchanges">Returns and exchanges</a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    
+    <!-- aside fin -->
+    
+    <div id="searchPanel">
+        <div>
+            <form>
+                <fieldset>
+                    <input type="submit" value="submit">
+                    <input type="search" placeholder="KEYWORDS" data-panel="searchKeyword" title="keywords">
+                    <input type="button" value="close" class="btn_close">
+                </fieldset>
+            </form>
+            <ul id="searchKeyword">
+                <li><a href="list_ReadyToWear.html">Ready to wear</a></li>
+                <li><a href="list_Jewerly.html">Jewerly</a></li>
+                <li><a href="list_Shoes.html">Shoes</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- searchPanel fin -->
+    
+
+    <section class="wrap bagSideImageList">
+        <!-- Bg -->
+
+        <div>
+            <h2>BAGS</h2>
+            
+            <input type="button" value="Filter" data-panel="filterPanel">
+            
+            <ul id="filterPanel">
+                <li>
+                    <span>Category</span>
+                    <div>
+                        <input type="checkbox" id="shoulderBags">
+                        <label for="shoulderBags">Shoulder bags</label>
+                        <input type="checkbox" id="handBags">
+                        <label for="handBags">Handbags</label>
+                        <input type="checkbox" id="luggage">
+                        <label for="luggage">Luggage</label>
+                    </div>
+                </li>
+                <li>
+                    <span>Color</span> 
+                    <div>
+                        <a href="#">
+                            <img src="images/listSortbarColor_Green.png" alt="green">
+                        </a>
+                        <a href="#">
+                            <img src="images/listSortbarColor_Yellow.png" alt="yellow">
+                        </a>
+                        <a href="#">
+                            <img src="images/listSortbarColor_Red.png" alt="red">
+                        </a>
+                        <a href="#">
+                            <img src="images/listSortbarColor_Orange.png" alt="orange">
+                        </a>
+                        <a href="#">
+                            <img src="images/listSortbarColor_Black.png" alt="black">
+                        </a>
+                        <a href="#">
+                            <img src="images/listSortbarColor_Multi.png" alt="multi">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <span>Sort by</span>
+                    <div>
+                        <a href="#">Popular</a>
+                        <a href="#">Lowest Price</a>
+                        <a href="#">Highest Price</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- <ul id="bagFirstPage">
+           <li>
+               <a href="detailPage_Bag_01_Brown.html">
+                   <img src="images/listBag_01.png" alt="Cabas H en Biais 40 bag">
+               </a>
+               <dl>
+                   <dt>Cabas H en Biais 40 bag</dt>
+                   <dd>£2,510</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Bag_02_Ivory.html">
+                   <img src="images/listBag_02.png" alt="24/24 - 35 bag">
+               </a>
+               <dl>
+                   <dt>24/24 - 35 bag</dt>
+                   <dd>£7,080</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Bag_03_Multi.html">
+                   <img src="images/listBag_03.png" alt="Bolide 1923 30 craft bag">
+               </a>
+               <dl>
+                   <dt>Bolide 1923 30 craft bag</dt>
+                   <dd>£20,490</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Bag_04_Black.html">
+                   <img src="images/listBag_04.png" alt="Bolide 31 bag">
+               </a>
+               <dl>
+                   <dt>Bolide 31 bag</dt>
+                   <dd>£6,230</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Bag_05_Multi.html">
+                   <img src="images/listBag_05.png" alt="Trim 31 silky bag">
+               </a>
+               <dl>
+                <dt>Trim 31 silky bag</dt>
+                <dd>£4,020</dd>
+            </dl>
+           </li>
+           <li>
+               <a href="detailPage_Bag_06_Brown.html">
+                   <img src="images/listBag_06.png" alt="Trim Duo 24 bag">
+               </a>
+               <dl>
+                <dt>Trim Duo 24 bag</dt>
+                <dd>£3,920</dd>
+            </dl>
+           </li>
+           <li>
+               <a href="detailPage_Bag_07_Pink.html">
+                   <img src="images/listBag_07.png" alt="Clou Medor clutch">
+               </a>
+               <dl>
+                   <dt>Clou Medor clutch</dt>
+                   <dd>£7,940</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Bag_08_Black.html">
+                   <img src="images/listBag_08.png" alt="Verrou mini strap bag">
+               </a>
+               <dl>
+                   <dt>Verrou mini strap bag</dt>
+                   <dd>£5,730</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Bag_09_Purple.html">
+                   <img src="images/listBag_09.png" alt="Hermes Cinhetic bag">
+               </a>
+               <dl>
+                   <dt>Hermes Cinhetic bag</dt>
+                   <dd>£7,280</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Bag_10_Yellow.html">
+                   <img src="images/listBag_10.png" alt="Hermes 2002 - 20 bag">
+               </a>
+               <dl>
+                   <dt>Hermes 2002 - 20 bag</dt>
+                   <dd>£5,040</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Bag_11_Black.html">
+                   <img src="images/listBag_11.png" alt="Simone Hermes bag">
+               </a>
+               <dl>
+                   <dt>Simone Hermes bag</dt>
+                   <dd>£8,040</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Bag_12_Black.html">
+                   <img src="images/listBag_12.png" alt="Hermes Clic-H 33 bag">
+                </a>
+                <dl>
+                    <dt>Hermes Clic-H 33 bag</dt>
+                    <dd>£5,580</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Bag_13_Multi.html">
+                    <img src="images/listBag_13.png" alt="Cabas H en Biais 27 bag">
+                </a>
+                <dl>
+                    <dt>Cabas H en Biais 27 bag</dt>
+                    <dd>£3,620</dd>
+               </dl>
+            </li>
+            <li>
+                <a href="detailPage_Bag_14_Orange.html">
+                    <img src="images/listBag_14.png" alt="Hermes Bridleback 50 Rocabar bag">
+                </a>
+                <dl>
+                    <dt>Hermes Bridleback 50 Rocabar bag</dt>
+                    <dd>£4,080</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Bag_15_Wine.html">
+                    <img src="images/listBag_15.png" alt="Galop d'Hermes fourre-tout 50 bag">
+                </a>
+                <dl>
+                    <dt>Galop d'Hermes fourre-tout 50 bag</dt>
+                    <dd>£4,280</dd>
+                </dl>
+            </li>
+        </ul> -->
+
+        <ul id="bagSecondPage">
+            <li>
+                <a href="detailPage_Bag_16_Navy.html">
+                    <img src="images/listBag_16.png" alt="Garden Party 49 voyage bag">
+                </a>
+                <dl>
+                    <dt>Garden Party 49 voyage bag</dt>
+                    <dd>£3,120</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Bag_17_Gray.html">
+                    <img src="images/listBag_17.png" alt="Hermes Cavour bayadere bag">
+                </a>
+                <dl>
+                    <dt>Hermes Cavour bayadere bag</dt>
+                    <dd>£6,590</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Bag_18_Blue.html">
+                    <img src="images/listBag_18.png" alt="Dynamo duffle bag">
+                </a>
+                <dl>
+                    <dt>Dynamo duffle bag</dt>
+                    <dd>£4,080</dd>
+                </dl>
+            </li>
+        </ul>   
+
+        <div class="pager">
+            <a href="list_Bag.html">prev</a>
+            <a href="list_Bag02.html">next</a>
+            <ol>
+                <li><a href="list_Bag.html">1</a></li>
+                <li><a href="list_Bag02.html" class="active">2</a></li>
+            </ol>
+        </div>
+
+    </section>
+
+    <!-- list Page fin -->
+    
+    <footer>
+        <div>
+            <h2>
+                <img src="images/logo_white.png" alt="logo">
+            </h2>
+    
+            <ul>
+                <li>
+                    <strong>Services</strong> 
+                    <ol>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="findAStore.html">Find a store</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <strong>Orders</strong>
+                    <ol>
+                        <li><a href="FAQ.html#payment">Payment</a></li>
+                        <li><a href="FAQ.html#delivery">Shipping</a> </li>
+                        <li><a href="FAQ.html#collerctInStore">Collect in store</a></li>
+                        <li><a href="FAQ.html#returnsAndExchanges">Returns and exchanges</a></li>
+                    </ol>
+                </li>
+                <li>
+                  <strong>La Maison Hermes</strong>
+                    <ol>
+                        <li><a href="https://www.fondationdentreprisehermes.org/en" target="_blank" >The Hermes FoundationNew tab</a></li>
+                        <li><a href="https://finance.hermes.com/en/" target="_blank">Finance & GovernanceNew tab</a></li>
+                    </ol>
+                </li>
+            </ul>
+    
+            <form>
+                <fieldset>
+                    <legend>Subscribe Now</legend>
+                        <input type="email" placeholder="Enter your  Email" title="Enter your  Email">
+                        <input type="submit" value="Subscribe">
+                </fieldset>
+            </form>
+    
+            <div>
+                <p>United Kingdom ⓒ Hermes 2021 All rights reserved.</p>
+    
+                <ul>
+                    <li><a href="https://www.facebook.com/hermes" target="_blank">fackBook</a></li>
+                    <li><a href="https://twitter.com/hermes_paris" target="_blank">Twiiter</a></li>
+                    <li><a href="https://www.youtube.com/user/hermes" target="_blank">youTube</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Footer fin -->
+
+</body>
+</html>

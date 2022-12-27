@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listPage - Ready To Wear</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+    
+    <header>
+        <div>
+            <input type="button" value="menu" id="hamburger" data-panel="asidePanel">
+            <label for="hamburger">MENU</label>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo_Black.png" alt="logo">
+                </a>
+            </h1>
+           <div>
+               <a href="account.html">ACCOUNT</a>
+               <input type="button" value="search" data-panel="searchPanel">
+               <a href="shoppingCart.html">SHOPPINGCART</a>  
+           </div>
+        </div>
+    </header>
+    
+    <!-- header fin -->
+    
+    <aside id="asidePanel">
+        <div>
+            <h2>
+                MENU
+                <input type="button" value="close" class="btn_close">
+            </h2>
+            <nav>
+                <h3>Main</h3>
+                <ul>
+                    <li>
+                        READY-TO-WEAR
+                        <div>
+                            <h4>sub</h4>
+                            <ol>
+                                <li><a href="list_ReadyToWear.html">Coats and jackets</a></li>
+                                <li><a href="list_ReadyToWear.html">Dresses</a></li>
+                                <li><a href="list_ReadyToWear.html">Tops and shirts</a></li>
+                                <li><a href="list_ReadyToWear.html">Pants and shorts</a></li>
+                                <li><a href="list_ReadyToWear.html">Knitwear and twillaines</a></li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>
+                    BAG
+                        <ol>
+                            <li><a href="list_Bag.html">Handbags</a></li>
+                            <li><a href="list_Bag.html">Shoulder bags</a></li>
+                            <li><a href="list_Bag.html">Luggages</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    SHOES
+                        <ol>
+                            <li><a href="list_Shoes.html">Ankle boots</a></li>
+                            <li><a href="list_Shoes.html">Boots</a></li>
+                            <li><a href="list_Shoes.html">Moccasins</a></li>
+                            <li><a href="list_Shoes.html">Mules</a></li>
+                            <li><a href="list_Shoes.html">Sneakers</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    JEWELRY
+                        <ol>
+                            <li><a href="list_Jewerly.html">Gold</a></li>
+                            <li><a href="list_Jewerly.html">Silver</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    ABOUT HERMÈS
+                        <ol>
+                            <li><a href="aboutHermes.html">Contemporary artisans since 1837</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    HERMÈS EDITEUR
+                        <ol>
+                            <li><a href="editeur_josefAlbers.html">Josef Albers</a></li>
+                            <li><a href="editeur_danielBuren.html">Daniel Buren</a></li>
+                            <li><a href="editeur_hiroshiSugimoto.html">Hiroshi Sugimoto</a></li>
+                            <li><a href="editeur_julioLeParc.html">Julio Le Parc</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+            <ul>
+                <li>
+                    <strong>Services</strong>
+                    <a href="findAStore.html">Find a Store</a>
+                    <a href="FAQ.html">FAQ</a>
+                </li>
+                <li>
+                    <strong>Orders</strong>
+                    <a href="FAQ.html#payment">Payment</a>
+                    <a href="FAQ.html#delivery">Shipping</a>
+                    <a href="FAQ.html#collerctInStore">Collect in store</a>
+                    <a href="FAQ.html#returnsAndExchanges">Returns and exchanges</a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    
+    <!-- aside fin -->
+    
+    <div id="searchPanel">
+        <div>
+            <form>
+                <fieldset>
+                    <input type="submit" value="submit">
+                    <input type="search" placeholder="KEYWORDS" data-panel="searchKeyword" title="keywords">
+                    <input type="button" value="close" class="btn_close">
+                </fieldset>
+            </form>
+            <ul id="searchKeyword">
+                <li><a href="list_ReadyToWear.html">Ready to wear</a></li>
+                <li><a href="list_Jewerly.html">Jewerly</a></li>
+                <li><a href="list_Shoes.html">Shoes</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- searchPanel fin -->
+
+    
+    <section class="wrap readytowearSideImageList">
+        <!-- Bg -->
+
+        <div>
+            <h2>READY-TO-WEAR</h2>
+            
+            <input type="button" value="Filter" data-panel="filterPanel">
+            
+            <ul id="filterPanel">
+                <li>
+                    <span>Category</span>
+                    <div>
+                        <input type="checkbox" id="coatsandJackets">
+                        <label for="coatsandJackets">Coats and Jackets</label>
+                        <input type="checkbox" id="dress">
+                        <label for="dress">Dress</label>
+                        <input type="checkbox" id="knitwearAndTwillaines">
+                        <label for="knitwearAndTwillaines">Knitwear and twillaines</label>
+                        <input type="checkbox" id="pantsAndSkirts">
+                        <label for="pantsAndSkirts">Pants and skirts</label>
+                        <input type="checkbox" id="topsAndShirts">
+                        <label for="topsAndShirts">Tops and shirts</label>
+                    </div>
+                </li>
+                <li>
+                    <span>Color</span> 
+                    <div>
+                        <a href="#">
+                            <img src="images/listSortbarColor_Green.png" alt="green">
+                        </a>
+                        <a href="#">
+                            <img src="images/listSortbarColor_Yellow.png" alt="yellow">
+                        </a>
+                        <a href="#">
+                            <img src="images/listSortbarColor_Red.png" alt="red">
+                        </a>
+                        <a href="#">
+                            <img src="images/listSortbarColor_Orange.png" alt="orange">
+                        </a>
+                        <a href="#">
+                            <img src="images/listSortbarColor_Black.png" alt="black">
+                        </a>
+                        <a href="#">
+                            <img src="images/listSortbarColor_Multi.png" alt="multi">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <span>Sort by</span>
+                    <div>
+                        <a href="#">Popular</a>
+                        <a href="#">Lowest Price</a>
+                        <a href="#">Highest Price</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- <ul id="readytoWearFirstPage">
+           <li>
+               <a href="detailPage_readyToWear_01_Brown.html">
+                   <img src="images/listReadyToWear_01.png" alt="Fringe parka">
+               </a>
+               <dl>
+                   <dt>Fringe parka</dt>
+                   <dd>£7,020</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_ReadyToWear_02_Wine.html">
+                   <img src="images/listReadyToWear_02.png" alt="Esprit Couverture vest">
+               </a>
+               <dl>
+                   <dt>Esprit Couverture vest</dt>
+                   <dd>£4,030</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_ReadyToWear_03_Black.html">
+                   <img src="images/listReadyToWear_03.png" alt="Esprit Bombers Brides de Gala Bandana jacket">
+               </a>
+               <dl>
+                   <dt>Esprit Bombers "Brides de Gala Bandana" jacket</dt>
+                   <dd>£4,030</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_ReadyToWear_04_Ivory.html">
+                   <img src="images/listReadyToWear_04.png" alt="Esprit Bombers Zouaves et Dragons Finesse jacket">
+               </a>
+               <dl>
+                   <dt>Esprit Bombers "Zouaves et Dragons Finesse" jacket</dt>
+                   <dd>£1,290</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_ReadyToWear_05_Black.html">
+                   <img src="images/listReadyToWear_05.png" alt="Reversible jacket">
+               </a>
+               <dl>
+                <dt>Reversible jacket</dt>
+                <dd>£7,740</dd>
+            </dl>
+           </li>
+           <li>
+               <a href="detailPage_ReadyToWear_06_Brown.html">
+                   <img src="images/listReadyToWear_06.png" alt="Jacket with Medor details">
+                </a>
+                <dl>
+                    <dt>Jacket with Medor details</dt>
+                    <dd>£4,030</dd>
+                </dl>
+           </li>
+           <li>
+               <a href="detailPage_ReadyToWear_07_Black.html">
+                   <img src="images/listReadyToWear_07.png" alt="Esprit Surchemise coat">
+               </a>
+               <dl>
+                   <dt>Esprit Surchemise coat</dt>
+                   <dd>£2,890</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_ReadyToWear_08_Ivory.html">
+                   <img src="images/listReadyToWear_08.png" alt="Esprit Mariniere straight dress">
+               </a>
+               <dl>
+                   <dt>Esprit Mariniere straight dress</dt>
+                   <dd>£830</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_ReadyToWear_09_Black.html">
+                   <img src="images/listReadyToWear_09.png" alt="Brides de Gala en Desordre straight dress">
+               </a>
+               <dl>
+                   <dt>"Brides de Gala en Desordre" straight dress</dt>
+                   <dd>£730</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_ReadyToWear_10_Black.html">
+                   <img src="images/listReadyToWear_10.png" alt="Brides de Gala long-sleeve twillaine dress">
+               </a>
+               <dl>
+                   <dt>"Brides de Gala" long-sleeve twillaine dress</dt>
+                   <dd>£2,580</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_ReadyToWear_11_Orange.html">
+                   <img src="images/listReadyToWear_11.png" alt="Esprit Sweatshirt dress">
+               </a>
+               <dl>
+                   <dt>Esprit Sweatshirt dress</dt>
+                   <dd>£990</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_ReadyToWear_12_White.html">
+                   <img src="images/listReadyToWear_12.png" alt="Wide shirt dress">
+                </a>
+                <dl>
+                    <dt>Wide shirt dress</dt>
+                    <dd>£1,860</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_13_Black.html">
+                    <img src="images/listReadyToWear_13.png" alt="Knotted collar dress">
+                </a>
+                <dl>
+                    <dt>Knotted collar dress</dt>
+                    <dd>£1,760</dd>
+               </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_14_Black.html">
+                    <img src="images/listReadyToWear_14.png" alt="Zouaves et Dragons Finesse cocoon dress">
+                </a>
+                <dl>
+                    <dt>"Zouaves et Dragons Finesse" cocoon dress</dt>
+                    <dd>£2,690</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_15_Red.html">
+                    <img src="images/listReadyToWear_15.png" alt="Zouaves et Dragons jacquard smock dress">
+                </a>
+                <dl>
+                    <dt>Zouaves et Dragons jacquard smock dress</dt>
+                    <dd>£3,100</dd>
+                </dl>
+            </li>
+        </ul> -->
+
+        <!-- <ul id="readytoWearSecondPage">
+            <li>
+                <a href="detailPage_ReadyToWear_16_Black.html">
+                    <img src="images/listReadyToWear_16.png" alt="Maxi t-shirt">
+                </a>
+                <dl>
+                    <dt>Maxi t-shirt</dt>
+                    <dd>£520</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_17_Pink.html">
+                    <img src="images/listReadyToWear_17.png" alt="Brides de Gala en Desordre straight t-shirt">
+                </a>
+                <dl>
+                    <dt>"Brides de Gala en Desordre" straight t-shirt</dt>
+                    <dd>£520</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_18_Black.html">
+                    <img src="images/listReadyToWear_18.png" alt="H Rond jacquard micro t-shirt">
+                </a>
+                <dl>
+                    <dt>"H Rond" jacquard micro t-shirt</dt>
+                    <dd>£530</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_19_Blue.html">
+                    <img src="images/listReadyToWear_19.png" alt="Clic Clac a Pois Losanges micro t-shirt">
+                 </a>
+                 <dl>
+                  <dt>"Clic Clac a Pois Losanges" micro t-shirt</dt>
+                  <dd>£570</dd>
+              </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_20_Black.html">
+                    <img src="images/listReadyToWear_20.png" alt="Sleeveless ascot collar blouse">
+                </a>
+                <dl>
+                 <dt>Sleeveless ascot collar blouse</dt>
+                 <dd>£1,240</dd>
+             </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_21_Navy.html">
+                    <img src="images/listReadyToWear_21.png" alt="Brides de Gala en Desordre short-sleeve blouse">
+                 </a>
+                 <dl>
+                     <dt>"Brides de Gala en Desordre" short-sleeve blouse</dt>
+                     <dd>£1,860</dd>
+                 </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_22_Ivory.html">
+                    <img src="images/listReadyToWear_22.png" alt="Zouaves et Dragons sweatshirt">
+                </a>
+                <dl>
+                    <dt>"Zouaves et Dragons" sweatshirt</dt>
+                    <dd>£880</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_23_Blue.html">
+                    <img src="images/listReadyToWear_23.png" alt="Long-sleeve sweater">
+                </a>
+                <dl>
+                    <dt>Long-sleeve sweater</dt>
+                    <dd>£1,140</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_24_Ivory.html">
+                    <img src="images/listReadyToWear_24.png" alt="Boatneck sweater">
+                 </a>
+                 <dl>
+                     <dt>Boatneck sweater</dt>
+                     <dd>£930</dd>
+                 </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_25_Rose.html">
+                    <img src="images/listReadyToWear_25.png" alt="Brides de Gala long-sleeve sweater">
+                </a>
+                <dl>
+                    <dt>"Brides de Gala" long-sleeve sweater</dt>
+                    <dd>£830</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_26_Black.html">
+                    <img src="images/listReadyToWear_26.png" alt="Crewneck sweater">
+                </a>
+                <dl>
+                    <dt>Crewneck sweater</dt>
+                    <dd>£830</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_27_Wine.html">
+                    <img src="images/listReadyToWear_27.png" alt="High collar sweater">
+                 </a>
+                 <dl>
+                     <dt>High collar sweater</dt>
+                     <dd>£1,040</dd>
+                 </dl>
+             </li>
+             <li>
+                 <a href="detailPage_ReadyToWear_28_Ivory.html">
+                     <img src="images/listReadyToWear_28.png" alt="H Rond long-sleeve sweater">
+                 </a>
+                 <dl>
+                     <dt>"H Rond" long-sleeve sweater</dt>
+                     <dd>£1,140</dd>
+                </dl>
+             </li>
+             <li>
+                 <a href="detailPage_ReadyToWear_29_Black.html">
+                     <img src="images/listReadyToWear_29.png" alt="Long-sleeve Cliquetis intarsia sweater">
+                 </a>
+                 <dl>
+                     <dt>Long-sleeve "Cliquetis" intarsia sweater</dt>
+                     <dd>£1,040</dd>
+                 </dl>
+             </li>
+             <li>
+                 <a href="detailPage_ReadyToWear_30_Black.html">
+                     <img src="images/listReadyToWear_30.png" alt="Tatersale high collar sweater">
+                 </a>
+                 <dl>
+                     <dt>"Tatersale" high collar sweater</dt>
+                     <dd>£1,450</dd>
+                 </dl>
+             </li>
+        </ul> -->
+
+         <ul id="readytoWearThirdPage">
+            <li>
+                <a href="detailPage_ReadyToWear_31_Ivory.html">
+                    <img src="images/listReadyToWear_31.png" alt="Esprit Jean pants">
+                </a>
+                <dl>
+                    <dt>Esprit Jean pants</dt>
+                    <dd>£1,040</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_32_Black.html">
+                    <img src="images/listReadyToWear_32.png" alt="Straight leg pants">
+                </a>
+                <dl>
+                    <dt>Straight leg pants</dt>
+                    <dd>£1,860</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_33_Ivory.html">
+                    <img src="images/listReadyToWear_33.png" alt="Esprit Puriste cigarette pants">
+                </a>
+                <dl>
+                    <dt>Esprit Puriste cigarette pants</dt>
+                    <dd>£880</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_34_Gray.html">
+                    <img src="images/listReadyToWear_34.png" alt="Esprit Jogging H pants">
+                 </a>
+                 <dl>
+                  <dt>Esprit Jogging "H" pants</dt>
+                  <dd>£1,040</dd>
+              </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_35_Ivory.html">
+                    <img src="images/listReadyToWear_35.png" alt="Esprit Jogging Zouaves et Dragons Finesse pants">
+                </a>
+                <dl>
+                 <dt>Esprit Jogging "Zouaves et Dragons Finesse" pants</dt>
+                 <dd>£930</dd>
+             </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_36_DarkBrown.html">
+                    <img src="images/listReadyToWear_36.png" alt="Mid-length pleated skirt">
+                 </a>
+                 <dl>
+                     <dt>Mid-length pleated skirt</dt>
+                     <dd>£1,970</dd>
+                 </dl>
+            </li>
+         
+         </ul> 
+        
+        <div class="pager">
+            <a href="list_ReadyToWear02.html">prev</a>
+            <a href="#">next</a>
+            <ol>
+                <li><a href="list_ReadyToWear.html">1</a></li>
+                <li><a href="list_ReadyToWear02.html">2</a></li>
+                <li><a href="list_ReadyToWear03.html" class="active">3</a></li>
+            </ol>
+        </div>
+
+    </section>
+
+    <!-- list Page fin -->
+    
+    <footer>
+        <div>
+            <h2>
+                <img src="images/logo_white.png" alt="logo">
+            </h2>
+    
+            <ul>
+                <li>
+                    <strong>Services</strong> 
+                    <ol>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="findAStore.html">Find a store</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <strong>Orders</strong>
+                    <ol>
+                        <li><a href="FAQ.html#payment">Payment</a></li>
+                        <li><a href="FAQ.html#delivery">Shipping</a> </li>
+                        <li><a href="FAQ.html#collerctInStore">Collect in store</a></li>
+                        <li><a href="FAQ.html#returnsAndExchanges">Returns and exchanges</a></li>
+                    </ol>
+                </li>
+                <li>
+                  <strong>La Maison Hermes</strong>
+                    <ol>
+                        <li><a href="https://www.fondationdentreprisehermes.org/en" target="_blank" >The Hermes FoundationNew tab</a></li>
+                        <li><a href="https://finance.hermes.com/en/" target="_blank">Finance & GovernanceNew tab</a></li>
+                    </ol>
+                </li>
+            </ul>
+    
+            <form>
+                <fieldset>
+                    <legend>Subscribe Now</legend>
+                        <input type="email" placeholder="Enter your  Email" title="Enter your  Email">
+                        <input type="submit" value="Subscribe">
+                </fieldset>
+            </form>
+    
+            <div>
+                <p>United Kingdom ⓒ Hermes 2021 All rights reserved.</p>
+    
+                <ul>
+                    <li><a href="https://www.facebook.com/hermes" target="_blank">fackBook</a></li>
+                    <li><a href="https://twitter.com/hermes_paris" target="_blank">Twiiter</a></li>
+                    <li><a href="https://www.youtube.com/user/hermes" target="_blank">youTube</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Footer fin -->
+</body>
+</html>

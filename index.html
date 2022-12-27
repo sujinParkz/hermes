@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hermes</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <script src="js/scrollEvent.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <input type="button" value="menu" id="hamburger">
+            <label for="hamburger" data-panel="asidePanel">MENU</label>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo_Black.png" alt="logo">
+                </a>
+            </h1>
+           <div>
+               <a href="account.html">ACCOUNT</a>
+               <input type="button" value="search" data-panel="searchPanel">
+               <a href="shoppingCart.html">SHOPPINGCART</a>  
+           </div>
+        </div>
+    </header>
+    
+
+    <!-- header fin -->
+
+    <aside id="asidePanel">
+        <div>
+            <h2>
+                MENU
+                <input type="button" value="close" class="btn_close">
+            </h2>
+            <nav>
+                <h3>Main</h3>
+                <ul>
+                    <li>
+                        READY-TO-WEAR
+                        <div>
+                            <h4>Sub</h4>
+                            <ol>
+                                <li><a href="list_ReadyToWear.html">Coats and jackets</a></li>
+                                <li><a href="list_ReadyToWear.html">Dresses</a></li>
+                                <li><a href="list_ReadyToWear.html">Tops and shirts</a></li>
+                                <li><a href="list_ReadyToWear.html">Pants and shorts</a></li>
+                                <li><a href="list_ReadyToWear.html">Knitwear and twillaines</a></li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>
+                    BAG
+                        <ol>
+                            <li><a href="list_Bag.html">Handbags</a></li>
+                            <li><a href="list_Bag.html">Shoulder bags</a></li>
+                            <li><a href="list_Bag.html">Luggages</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    SHOES
+                        <ol>
+                            <li><a href="list_Shoes.html">Ankle boots</a></li>
+                            <li><a href="list_Shoes.html">Boots</a></li>
+                            <li><a href="list_Shoes.html">Moccasins</a></li>
+                            <li><a href="list_Shoes.html">Mules</a></li>
+                            <li><a href="list_Shoes.html">Sneakers</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    JEWELRY
+                        <ol>
+                            <li><a href="list_Jewerly.html">Gold</a></li>
+                            <li><a href="list_Jewerly.html">Silver</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    ABOUT HERMÈS
+                        <ol>
+                            <li><a href="aboutHermes.html">Contemporary artisans since 1837</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    HERMÈS EDITEUR
+                        <ol>
+                            <li><a href="editeur_josefAlbers.html">Josef Albers</a></li>
+                            <li><a href="editeur_danielBuren.html">Daniel Buren</a></li>
+                            <li><a href="editeur_hiroshiSugimoto.html">Hiroshi Sugimoto</a></li>
+                            <li><a href="editeur_julioLeParc.html">Julio Le Parc</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+            <ul>
+                <li>
+                    <strong>Services</strong>
+                    <a href="findAStore.html">Find a Store</a>
+                    <a href="FAQ.html">FAQ</a>
+                </li>
+                <li>
+                    <strong>Orders</strong>
+                    <a href="FAQ.html#payment">Payment</a>
+                    <a href="FAQ.html#delivery">Shipping</a>
+                    <a href="FAQ.html#collerctInStore">Collect in store</a>
+                    <a href="FAQ.html#returnsAndExchanges">Returns and exchanges</a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <!-- aside fin -->
+
+    <div id="searchPanel">
+        <div>
+            <form>
+                <fieldset>
+                    <input type="submit" value="submit">
+                    <input type="search" placeholder="KEYWORDS" data-panel="searchKeyword" title="keywords">
+                    <input type="button" value="close" class="btn_close">
+                </fieldset>
+            </form>
+            <ul id="searchKeyword">
+                <li><a href="list_ReadyToWear.html">Ready to wear</a></li>
+                <li><a href="list_Jewerly.html">Jewerly</a></li>
+                <li><a href="list_Shoes.html">Shoes</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- searchPanel fin -->
+
+<div class="wrap Main">
+
+    <ul class="mainSlider">
+        <li class="firstSlide">
+            <figure>
+                <img src="images/mainReadyToWear_SliderBG.png" alt="readyToWearSliderBackgroundImage">
+                <figcaption>
+                    <dl>
+                        <dt>Hermès</dt>
+                        <dd>
+                            Ready <br>
+                            To <br>
+                            Wear.
+                        </dd>
+                    </dl>
+                    <a href="#">share</a>
+                </figcaption>
+            </figure>
+
+            <p>The Hermès vocabulary of blanket coats, superfine leather, quilting, and pyramid studs was played through a wardrobe that this time included dark tailored denim and references to technical cycling gear.</p>    
+            
+            <div class="sliderSidePanel">
+                <input type="button" value="plusButton">
+                <ol>
+                    <li>
+                        <h3><a href="detailPage_ReadyToWear_04_Ivory.html">Esprit Bombers jacket</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_ReadyToWear_24_Ivory.html">Boatneck sweater</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_ReadyToWear_05_Black.html">Reversible jacket</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_ReadyToWear_31_Ivory.html">Esprit Jean pants</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_readyToWear_01_Brown.html">Fringe parka</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_ReadyToWear_15_Red.html">Jacquard smock dress</a></h3>
+                    </li>
+                </ol>
+            </div>
+        </li>
+        <li class="secondSlide">
+            <figure>
+                <img src="images/mainBag_SliderBG.png" alt="bagSliderBackgroundImage">
+                <figcaption>
+                    <dl>
+                        <dt>Hermès</dt>
+                        <dd>Bag.</dd>
+                    </dl>
+                    <a href="#">share</a>
+                </figcaption>
+            </figure>
+
+            <p>Inspired by the vanity cases of yesteryear, their distinct silhouette and square-ish shape evolve around a clever clasp: when locked, its mechanism draws a H, which turns, when opened, into a discreet gold line. 
+                A goldsmith’s feat made for leather works in motion.</p>
+            
+            <div class="sliderSidePanel">
+                <input type="button" value="plusButton">
+                <ol>
+                    <li>
+                        <h3><a href="detailPage_Bag_09_Purple.html">Hermes Cinhetic bag</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_Bag_05_Multi.html">Trim 31 silky bag</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_Bag_02_Ivory.html">24/24 - 35 bag</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_Bag_06_Brown.html">Trim Duo 24 bag</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_Bag_10_Yellow.html">Hermes 2002 - 20 bag</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_Bag_11_Black.html">Simone Hermes bag</a></h3>
+                    </li>
+                </ol>
+            </div>
+        </li>
+        <li class="thirdSlide">
+            <figure>
+                <img src="images/mainJewerly_SliderBG.png" alt="jewerlySliderBackgroundImage">
+                <figcaption>
+                    <dl>
+                        <dt>Hermès</dt>
+                        <dd>Jewelry.</dd>
+                    </dl>
+                    <a href="#">share</a>
+                </figcaption>
+            </figure>
+
+            <p>The holiday season is full of striking moments. Celebrate the season in style with an intimate dinner, lavish feast or long-awaited holiday. There is no shortage of memorable events. And what better way to make your season's star moments shine than by wearing the right piece of jewelry?</p>
+            
+            <div class="sliderSidePanel">
+                <input type="button" value="plusButton">
+                <ol>
+                    <li>
+                        <h3><a href="detailPage_Jewerly_01.html">Kelly Clochette bracelet</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_Jewerly_06.html">Collier de chien ring</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_Jewerly_05.html">Loop earrings</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_Jewerly_11.html">Hermes Ex-Libris earrings</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_Jewerly_20.html">Eclipse Ruban ring</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_Jewerly_14.html">Chaine d'ancre bracelet</a></h3>
+                    </li>
+                </ol>
+            </div>
+        </li>
+        <li class="fourthSlide">
+            <figure>
+                <img src="images/mainShoes_SliderBG.png" alt="shoesSliderBackgroundImage">
+                <figcaption>
+                    <dl>
+                        <dt>Hermès</dt>
+                        <dd>Shose.</dd>
+                    </dl>
+                    <a href="#">share</a>
+                </figcaption>
+            </figure>
+
+            <p>The sophisticated look of the leather high boot is fastened to the ankle with the iconic Hermès buckle. Buckles and swivels accentuate the ankle and add a refined touch to the leather. Trending with body-matching or contrasting soles.</p>
+            
+            <div class="sliderSidePanel">
+                <input type="button" value="plusButton">
+                <ol>
+                    <li>
+                        <h3><a href="detailPage_Shoes_01_Yellow.html">Catena mule</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_Shoes_03_Black.html">Blink mule</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_Shoes_16_Brown.html">Dauphine 70 loafer</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_Shoes_35_Blue.html">Duel sneaker</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_Shoes_22_Ivory.html">Bridge ankle boot</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="detailPage_Shoes_26_Black.html">Jumping shorter boot</a></h3>
+                    </li>
+                </ol>
+            </div>
+        </li>
+    </ul>
+
+    <!-- Main Slider Fin -->
+    
+    <section class="frontImageList">
+  
+        <div>
+             <h2>READY-TO-WEAR</h2>
+             <p>The Hermès vocabulary of blanket coats, superfine leather, quilting, and pyramid studs was played through a wardrobe that this time included dark tailored denim and references to technical cycling gear.</p>
+             <a href="list_ReadyToWear.html" class="btn_self">VIEW ALL</a>
+        </div>
+        
+        <ul >
+            <li>
+                <a href="detailPage_ReadyToWear_04_Ivory.html">
+                    <img src="images/mainReadyToWear_BestList_01.png" alt="Esprit Bombers Zouaves et Dragons Finesse jacket">
+                </a>
+                <dl>
+                    <dt>Esprit Bombers jacket</dt>
+                    <dd>£1,290</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_24_Ivory.html">
+                    <img src="images/mainReadyToWear_BestList_02.png" alt="Boatneck sweater">
+                </a>
+                <dl>
+                    <dt>Boatneck sweater</dt>
+                    <dd>£930</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_05_Black.html">
+                    <img src="images/mainReadyToWear_BestList_03.png" alt="Reversible jacket">
+                </a>
+                <dl>
+                    <dt>Reversible jacket</dt>
+                    <dd>£7,740</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_31_Ivory.html">
+                    <img src="images/mainReadyToWear_BestList_04.png" alt="Esprit Jean pants">
+                </a>
+                <dl>
+                    <dt>Esprit Jean pants</dt>
+                    <dd>£1,040</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_readyToWear_01_Brown.html">
+                    <img src="images/mainReadyToWear_BestList_05.png" alt="Fringe parka">
+                </a>
+                <dl>
+                    <dt>Fringe parka</dt>
+                    <dd>£7,020</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_ReadyToWear_15_Red.html">
+                    <img src="images/mainReadyToWear_BestList_06.png" alt="Zouaves et Dragons jacquard smock dress">
+                </a>
+                <dl>
+                    <dt>"Zouaves et Dragons" jacquard smock dress</dt>
+                    <dd>£3,100</dd>
+                </dl>
+            </li>
+        </ul>
+    
+    </section>
+
+    <!-- Ready To Wear fin -->
+
+    <section>
+        <div>
+            <h2>WOMEN’S COLLECTION</h2>
+            <p>The Fall-Winter 2021 collection reveals a dynamic, multi-faceted look that is fluid yet structured, familiar yet surprising.</p>
+        </div>
+    </section>
+
+    <!-- Women collection fin -->
+
+    <section>
+        <h2 class="underLine">Our cave of wonders</h2>
+        <p>Make each day exceptional</p>
+
+        <ul>
+            <li>
+                <a href="list_ReadyToWear.html">READY TO WEAR</a>
+            </li>
+            <li>
+                <a href="list_Bag.html">BAGS</a>
+            </li>
+            <li>
+                <a href="list_Shoes.html">SHOSE</a>
+            </li>
+            <li>
+                <a href="list_Jewerly.html">JEWELRY</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Our cave of wonders fin -->
+
+    <figure class="bagMovingBox">
+        <img src="images/mainParallaxBanner_Bag.png" alt="bagBannerImage">
+        <figcaption>
+            <dl>
+                <dt>
+                    Beauty <br> 
+                    Speaks
+                </dt>
+                <dd>The 24/24 plays on a stylistic oxymoron by oscillating between soft leather and an architectural construction. A hybrid, two-in-one creation, it sits midway between a structured bag and a more relaxed model with a casual-chic twist.</dd>
+            </dl>
+        </figcaption>
+    </figure>
+
+    <!-- Beauty speaks fin -->
+
+
+    <section class="frontImageList">
+
+        <div>
+             <h2>BAGS</h2>
+             <p>Inspired by the vanity cases of yesteryear, their distinct silhouette and square-ish shape evolve around a clever clasp: when locked, its mechanism draws a H, which turns, when opened, into a discreet gold line. A goldsmith’s feat made for leather works in motion.</p>
+             <a href="list_Bag.html" class="btn_self">VIEW ALL</a>
+        </div>
+
+        <ul>
+            <li>
+                <a href="detailPage_Bag_09_Purple.html">
+                    <img src="images/mainBag_BestList_01.png" alt="Hermes Cinhetic bag">
+                </a>
+                <dl>
+                    <dt>Hermes Cinhetic bag</dt>
+                    <dd>£6,780</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Bag_05_Multi.html">
+                    <img src="images/mainBag_BestList_02.png" alt="Trim 31 silky bag">
+                </a>
+                <dl>
+                    <dt>Trim 31 silky bag</dt>
+                    <dd>£4,020</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Bag_02_Ivory.html">
+                    <img src="images/mainBag_BestList_03.png" alt="24/24 - 35 bag">
+                </a>
+                <dl>
+                    <dt>24/24 - 35 bag</dt>
+                    <dd>£7,080</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Bag_06_Brown.html">
+                    <img src="images/mainBag_BestList_04.png" alt="Trim Duo 24 bag">
+                </a>
+                <dl>
+                    <dt>Trim Duo 24 bag</dt>
+                    <dd>£3,920</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Bag_10_Yellow.html">
+                    <img src="images/mainBag_BestList_05.png" alt="Hermes 2002 - 20 bag">
+                </a>
+                <dl>
+                    <dt>Hermes 2002 - 20 bag</dt>
+                    <dd>£8,710</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Bag_11_Black.html">
+                    <img src="images/mainBag_BestList_06.png" alt="Simone Hermes bag">
+                </a>
+                <dl>
+                    <dt>Simone Hermes bag</dt>
+                    <dd>£8,040</dd>
+                </dl>
+            </li>
+        </ul>
+
+    </section>
+
+    <!-- Bag fin -->
+
+    <section>
+        <h2>" Dive into colour "</h2>
+        <p>Nestled in a silken embrace,  tyour scarf fair and square.</p>
+    </section>
+
+    <!-- ParallaxScrolling -->
+
+
+    <section class="backImageList">
+        <!-- BG -->
+    
+        <div>
+             <h2>SHOES</h2>
+             <p>The sophisticated look of the leather high boot is fastened to the ankle with the iconic Hermès buckle. Buckles and swivels accentuate the ankle and add a refined touch to the leather. Trending with body-matching or contrasting soles.</p>
+             <a href="list_Shoes.html" class="btn_self">VIEW ALL</a>
+        </div>
+    
+        <ul>
+           <li>
+               <a href="detailPage_Shoes_01_Yellow.html">
+                   <img src="images/mainShoes_BestList_01.png" alt="Catena mule">
+               </a>
+               <dl>
+                   <dt>Catena mule</dt>
+                   <dd>£700</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Shoes_03_Black.html">
+                   <img src="images/mainShoes_BestList_02.png" alt="Blink mule">
+               </a>
+               <dl>
+                   <dt>Blink mule</dt>
+                   <dd>£760</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Shoes_16_Brown.html">
+                   <img src="images/mainShoes_BestList_03.png" alt="Dauphine 70 loafer">
+               </a>
+               <dl>
+                   <dt>Dauphine 70 loafer</dt>
+                   <dd>£1,030</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Shoes_35_Blue.html">
+                   <img src="images/mainShoes_BestList_04.png" alt="Duel sneaker">
+               </a>
+               <dl>
+                   <dt>Duel sneaker</dt>
+                   <dd>£690</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Shoes_22_Ivory.html">
+                   <img src="images/mainShoes_BestList_05.png" alt="Bridge ankle boot">
+               </a>
+               <dl>
+                   <dt>Bridge ankle boot</dt>
+                   <dd>£1,330</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Shoes_26_Black.html">
+                   <img src="images/mainShoes_BestList_06.png" alt="Jumping shorter boot">
+               </a>
+               <dl>
+                   <dt>Jumping shorter boot</dt>
+                   <dd>£2,060</dd>
+               </dl>
+           </li>
+        </ul>
+        
+    </section>
+
+    <!-- Shoes fin -->
+
+    <figure class="jewerlyMovingBox">
+        <img src="images/mainParallaxBanner_Jewerly.png" alt="jewelryBannerImage">
+        <figcaption>
+            <dl>
+                <dt>Jewelry That Listens to the Body</dt>
+                <dd>Where jewelry meets the saddler’s spirit. Freely designed, radical in form, demanding of their materials. Hermès shakes up the conventions of jewelry. The precious becomes natural.</dd>
+            </dl>
+        </figcaption>
+    </figure>
+
+    <!-- Jewelry That Listens to the Body fin -->
+
+  
+    <section class="backImageList">
+   
+        <div>
+            <h2>JEWELRY</h2>
+            <p>The holiday season is full of striking moments. Celebrate the season in style with an intimate dinner, lavish feast or long-awaited holiday. There is no shortage of memorable events. And what better way to make your season's star moments shine than by wearing the right piece of jewelry?</p>
+            <a href="list_Jewerly.html" class="btn_self">VIEW ALL</a>
+        </div>
+            
+        <ul>
+            <li>
+                <a href="detailPage_Jewerly_01.html">
+                    <img src="images/mainJewerly_BestList_01.png" alt="Kelly Clochette bracelet">
+                </a>
+                <dl>
+                    <dt>Kelly Clochette bracelet</dt>
+                    <dd>£3,960</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Jewerly_06.html">
+                    <img src="images/mainJewerly_BestList_02.png" alt="Collier de chien ring">
+                </a>
+                <dl>
+                    <dt>Collier de chien ring</dt>
+                    <dd>£1,480</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Jewerly_05.html">
+                    <img src="images/mainJewerly_BestList_03.png" alt="Loop earrings">
+                </a>
+                <dl>
+                    <dt>Loop earrings</dt>
+                    <dd>£1,950</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Jewerly_11.html">
+                    <img src="images/mainJewerly_BestList_04.png" alt="Hermes Ex-Libris earrings">
+                </a>
+                <dl>
+                    <dt>Hermes Ex-Libris earrings</dt>
+                    <dd>£560</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Jewerly_20.html">
+                    <img src="images/mainJewerly_BestList_05.png" alt="Eclipse Ruban ring">
+                </a>
+                <dl>
+                    <dt>Eclipse Ruban ring</dt>
+                    <dd>£360</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Jewerly_14.html">
+                    <img src="images/mainJewerly_BestList_06.png" alt="Chaine d'ancre bracelet">
+                </a>
+                <dl>
+                    <dt>Chaine d'ancre bracelet</dt>
+                    <dd>£1,110</dd>
+                </dl>
+            </li>
+        </ul>
+
+    </section>
+    
+
+    <!-- Jewelry fin -->
+
+    <section>
+        <h2>
+            HERMÈS EDITEUR
+            <a href="editeurs.html">Discover</a>
+        </h2>
+    </section>
+
+    <!-- Hermes Editeur fin -->
+
+    <section>
+        <h2>ABOUT HERMÈS</h2>
+        
+        <div class="aboutSlider">
+            <ul class="way3Carousel">
+                <li>
+                    <figure>
+                        <figcaption>
+                            <dl>
+                                <dt>An entrepreneurial spirit</dt>
+                                <dd>For six generations, Hermès has been an independent, family-owned French house, artisanal, creative, innovative and responsible, whose entrepreneurial spirit has become its business model.</dd>
+                            </dl>
+                            <a href="aboutHermes_01.html">MORE</a>
+                        </figcaption>
+                        <img src="images/aboutHermes_Slider_01.png" alt="An entrepreneurial spirit Image">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>
+                            <dl>
+                                <dt>Creative freedom</dt>
+                                <dd>The sixteen métiers of the house create collections that combine freedom with iventiveness and know-how. The objects are designed to be durable and to adapt to changing lifestyles.</dd>
+                            </dl>
+                            <a href="aboutHermes_02.html">MORE</a>
+                        </figcaption>
+                        <img src="images/aboutHermes_Slider_02.png" alt="Creative freedom Image">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>
+                            <dl>
+                                <dt>Responsible and sustainable development</dt>
+                                <dd>Humanist values, based in the artisanal world, guide the company in its development: Hermès is committed to preserving resources, supporting the regions in which its manufactures operate and ensuring the transmission of exceptional know-how.</dd>
+                            </dl>
+                            <a href="aboutHermes_03.html">MORE</a>
+                        </figcaption>
+                        <img src="images/aboutHermes_Slider_03.png" alt="Responsible and sustainable development Image">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>
+                            <dl>
+                                <dt>Hermès around the world</dt>
+                                <dd>Each of the 306 stores across 45 countries is a welcoming and unique “house of objects” that combines the identity of Hermès with the local culture, offering visitors a unique experience.</dd>
+                            </dl>
+                            <a href="aboutHermes_04.html">MORE</a>
+                        </figcaption>
+                        <img src="images/aboutHermes_Slider_04.png" alt="Hermès around the world Image">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>
+                            <dl>
+                                <dt>Six generations of artisans</dt>
+                                <dd>Since 1837, generation after generation, Hermès has followed a dual thread &#45; on the one hand the painstaking work of the craftsman in his workshop, and on the other the lifestyles of its customers.</dd>
+                            </dl>
+                            <a href="aboutHermes_05.html">MORE</a>
+                        </figcaption>
+                        <img src="images/aboutHermes_Slider_05.png" alt="Six generations of artisans Image">
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- About Hermes slider fin -->
+
+</div>
+
+
+    <footer>
+        <div>
+            <h2>
+                <img src="images/logo_white.png" alt="logo">
+            </h2>
+
+            <ul>
+                <li>
+                    <strong>Services</strong> 
+                    <ol>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="findAStore.html">Find a store</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <strong>Orders</strong>
+                    <ol>
+                        <li><a href="FAQ.html#payment">Payment</a></li>
+                        <li><a href="FAQ.html#delivery">Shipping</a> </li>
+                        <li><a href="FAQ.html#collerctInStore">Collect in store</a></li>
+                        <li><a href="FAQ.html#returnsAndExchanges">Returns and exchanges</a></li>
+                    </ol>
+                </li>
+                <li>
+                  <strong>La Maison Hermes</strong>
+                    <ol>
+                        <li><a href="https://www.fondationdentreprisehermes.org/en" target="_blank" >The Hermes FoundationNew tab</a></li>
+                        <li><a href="https://finance.hermes.com/en/" target="_blank">Finance & GovernanceNew tab</a></li>
+                    </ol>
+                </li>
+            </ul>
+
+            <form>
+                <fieldset>
+                    <legend>Subscribe Now</legend>
+                        <input type="email" placeholder="Enter your  Email" title="Enter your  Email">
+                        <input type="submit" value="Subscribe">
+                </fieldset>
+            </form>
+
+            <div>
+                <p>United Kingdom ⓒ Hermes 2021 All rights reserved.</p>
+
+                <ul>
+                    <li><a href="https://www.facebook.com/hermes" target="_blank">fackBook</a></li>
+                    <li><a href="https://twitter.com/hermes_paris" target="_blank">Twiiter</a></li>
+                    <li><a href="https://www.youtube.com/user/hermes" target="_blank">youTube</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- footer fin -->
+
+    
+</body>
+</html>

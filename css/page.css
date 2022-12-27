@@ -1,0 +1,4887 @@
+    
+    
+    
+    footer,
+    .orderCheckout div fieldset:not(.summaryBox) ul > li:nth-child(3),
+    .orderCheckout div fieldset:not(.summaryBox) ul li:nth-child(6){
+        clear: both;
+    }
+    
+    
+    
+    
+    .Main > .bx-wrapper .bx-prev {
+        bottom: 125px;
+        background: url('../images/bul_MainSlider_UpBtn.png') no-repeat center rgba(255, 255, 255, 0.9);
+    }
+    .Main > .bx-wrapper .bx-prev:hover{
+        background: url('../images/bul_MainSlider_UpBtn.png') no-repeat center rgba(255, 255, 255, 0.6);
+    }
+    .Main > .bx-wrapper .bx-next{
+        bottom: 50px;
+        background: url('../images/bul_MainSliderDownBtn.png') no-repeat center rgba(0, 0, 0, 0.9);
+    }
+    .Main > .bx-wrapper .bx-next:hover{
+        background: url('../images/bul_MainSliderDownBtn.png') no-repeat center rgba(90, 90, 90, 0.6);
+    }
+    .Main > .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:first-child a:hover,
+    .Main > .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:first-child a.active,
+    .Main > .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:first-child a:focus {
+        background-color: #e87c36;
+    }
+    .Main > .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(2) a:hover,
+    .Main > .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(2) a.active,
+    .Main > .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(2) a:focus {
+        background-color: #9e9e9e;
+    }
+    .Main > .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(3) a:hover,
+    .Main > .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(3) a.active,
+    .Main > .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(3) a:focus {
+        background-color: #b2c702;
+    }
+    .Main > .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(4) a:hover,
+    .Main > .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(4) a.active,
+    .Main > .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(4) a:focus {
+        background-color: #668f9e;
+    }
+    .Main > .bx-wrapper .bx-pager:first-child{
+        text-align: center;
+        font-size: .85em;
+        color: #e8e8e8;  
+    }
+    .Main > .bx-wrapper .bx-pager.bx-default-pager a{
+        background: #e8e8e8;
+    }
+    .mainSlider > li:first-child figure figcaption dl dd{
+        line-height: 100px;
+    }
+    .mainSlider > li p{
+        position: absolute;
+        bottom: 0; 
+        color: #fff;
+    }
+    .mainSlider > li .sliderSidePanel{
+        position: absolute;
+        color: #fff;
+        box-sizing: border-box;
+        height: 100%;
+    }
+    .mainSlider > li .sliderSidePanel > ol{
+        height: 100%; min-height: auto;
+        display: flex; 
+        justify-content: space-around;
+        flex-direction: column; 
+    }
+    .mainSlider > li.firstSlide .sliderSidePanel ol li:nth-child(1){
+        background-image: url('../images/mainReadyToWear_SliderBestPanel_01.png') ;
+    }
+    .mainSlider > li.firstSlide .sliderSidePanel ol li:nth-child(2){
+        background-image: url('../images/mainReadyToWear_SliderBestPanel_02.png') ;
+    }
+    .mainSlider > li.firstSlide .sliderSidePanel ol li:nth-child(3){
+        background-image: url('../images/mainReadyToWear_SliderBestPanel_03.png') ;
+    }
+    .mainSlider > li.firstSlide .sliderSidePanel ol li:nth-child(4){
+        background-image: url('../images/mainReadyToWear_SliderBestPanel_04.png') ;
+    }
+    .mainSlider > li.firstSlide .sliderSidePanel ol li:nth-child(5){
+        background-image: url('../images/mainReadyToWear_SliderBestPanel_05.png') ;
+    }
+    .mainSlider > li.firstSlide .sliderSidePanel ol li:nth-child(6){
+        background-image: url('../images/mainReadyToWear_SliderBestPanel_06.png') ;
+    }
+    .mainSlider > li.secondSlide .sliderSidePanel ol li:first-child{
+        background-image: url('../images/mainBag_SliderBestPanel_01.png') ;
+    }
+    .mainSlider > li.secondSlide .sliderSidePanel ol li:nth-child(2){
+        background-image: url('../images/mainBag_SliderBestPanel_02.png') ;
+    }
+    .mainSlider > li.secondSlide .sliderSidePanel ol li:nth-child(3){
+        background-image: url('../images/mainBag_SliderBestPanel_03.png') ;
+    }
+    .mainSlider > li.secondSlide .sliderSidePanel ol li:nth-child(4){
+        background-image: url('../images/mainBag_SliderBestPanel_04.png') ;
+    }
+    .mainSlider > li.secondSlide .sliderSidePanel ol li:nth-child(5){
+        background-image: url('../images/mainBag_SliderBestPanel_05.png') ;
+    }
+    .mainSlider > li.secondSlide .sliderSidePanel ol li:nth-child(6){
+        background-image: url('../images/mainBag_SliderBestPanel_06.png') ;
+    }
+    .mainSlider > li.thirdSlide .sliderSidePanel ol li:first-child{
+        background-image: url('../images/mainJewerly_SliderBestPanel_01.png') ;
+    }
+    .mainSlider > li.thirdSlide .sliderSidePanel ol li:nth-child(2){
+        background-image: url('../images/mainJewerly_SliderBestPanel_02.png') ;
+    }
+    .mainSlider > li.thirdSlide .sliderSidePanel ol li:nth-child(3){
+        background-image: url('../images/mainJewerly_SliderBestPanel_03.png') ;
+    }
+    .mainSlider > li.thirdSlide .sliderSidePanel ol li:nth-child(4){
+        background-image: url('../images/mainJewerly_SliderBestPanel_04.png') ;
+    }
+    .mainSlider > li.thirdSlide .sliderSidePanel ol li:nth-child(5){
+        background-image: url('../images/mainJewerly_SliderBestPanel_05.png') ;
+    }
+    .mainSlider > li.thirdSlide .sliderSidePanel ol li:nth-child(6){
+        background-image: url('../images/mainJewerly_SliderBestPanel_06.png') ;
+    }
+    .mainSlider > li.fourthSlide .sliderSidePanel ol li:first-child{
+        background-image: url('../images/mainShoes_SliderBestPanel_01.png') ;
+    }
+    .mainSlider > li.fourthSlide .sliderSidePanel ol li:nth-child(2){
+        background-image: url('../images/mainShoes_SliderBestPanel_02.png') ;
+    }
+    .mainSlider > li.fourthSlide .sliderSidePanel ol li:nth-child(3){
+        background-image: url('../images/mainShoes_SliderBestPanel_03.png') ;
+    }
+    .mainSlider > li.fourthSlide .sliderSidePanel ol li:nth-child(4){
+        background-image: url('../images/mainShoes_SliderBestPanel_04.png') ;
+    }
+    .mainSlider > li.fourthSlide .sliderSidePanel ol li:nth-child(5){
+        background-image: url('../images/mainShoes_SliderBestPanel_05.png') ;
+    }
+    .mainSlider > li.fourthSlide .sliderSidePanel ol li:nth-child(6){
+        background-image: url('../images/mainShoes_SliderBestPanel_06.png') ;
+    }
+    .Main > section:nth-child(3) div{
+        margin: 0 auto;
+        color: #fff; 
+        border: 1px solid #fff;
+        padding: 50px 0;
+    } 
+    .Main > section:nth-child(3) div h2{
+        font-weight: 300;
+        text-align: center;
+    }
+    .Main > section:nth-child(4) ul li,
+    .Main > section:nth-child(4) ul li a:hover{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .Main > section:nth-child(4) ul li:first-child{background-image: url('../images/category_N01.png');}
+    .Main > section:nth-child(4) ul li:nth-child(2){background-image: url('../images/category_N02.png');}
+    .Main > section:nth-child(4) ul li:nth-child(3){background-image: url('../images/category_N03.png');}
+    .Main > section:nth-child(4) ul li:nth-child(4){background-image: url('../images/category_N04.png');}
+
+    .Main > section:nth-child(4) ul li:first-child a:hover{background-image: url('../images/category_N01_Hover.png');}
+    .Main > section:nth-child(4) ul li:nth-child(2) a:hover{background-image: url('../images/category_N02_Hover.png');}
+    .Main > section:nth-child(4) ul li:nth-child(3) a:hover{background-image: url('../images/category_N03_Hover.png');}
+    .Main > section:nth-child(4) ul li:nth-child(4) a:hover{background-image: url('../images/category_N04_Hover.png');}
+ 
+    .Main > section:nth-child(4) ul li a{
+        display: block; color: #fff; font-weight:400;
+    }
+
+    [class$='MovingBox'] figcaption{
+        background-color: #5e8492;
+        position: relative;
+        box-sizing: border-box;
+    }
+    [class$='MovingBox'] figcaption dl dt{
+        position: absolute; 
+        z-index: 10;
+        color: #fff;
+        box-sizing: border-box;
+    }
+    [class$='MovingBox'] figcaption dl dd{
+        position: absolute; 
+        z-index: 1;
+        border-style: solid;
+        border-width: 1px;
+    }
+    .bagMovingBox figcaption dl dt{
+        background-color: #e17167;
+        text-align: right;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+    .bagMovingBox figcaption dl dd{
+        color: #e17167;
+        font-weight: 300;
+        transition: top 1.3s ease-in-out;
+    }
+    .jewerlyMovingBox figcaption dl dt{
+        background-color: #5e8492;
+        text-align: center;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+    .jewerlyMovingBox figcaption dl dd{
+        color: #5e8492;
+        width: 80.68%;
+        font-weight: 300;
+        transition: top 1.3s ease-in-out;
+    }
+    .Main > section:nth-child(7){
+        background-image: url('../images/main_ScrollingBG_L.png');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #fff;
+        text-align: center;
+    }
+    .Main > section:nth-child(11){
+        background-image:url('../images/main_hermesEditeur.png');
+        background-repeat: no-repeat;
+        background-size:cover ;
+        margin-bottom: 100px;
+        color: #fff;
+        text-shadow: 3px 3px 5px #000;
+        position: relative;
+    }
+    .Main > section:nth-child(11) h2{
+        font-weight: 300;
+        position: absolute;
+        top: 70%;
+    }
+    .Main > section:nth-child(11) h2 a{
+        width: 30%;
+        color: #fff; 
+        display: block; 
+        border: 1px solid #fff; text-align: center;
+    }
+    .aboutSlider .way3Carousel li figure figcaption dl dt{
+        font-weight:400;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+    }
+    .aboutSlider .way3Carousel li figure figcaption a{
+        font-size: 14px; font-weight: 400; 
+        display: inline-block;
+        color: #301a0b; padding-right: 15px;
+        background: url('../images/bul_MoreBtn.png') right center no-repeat;
+    }
+    .aboutSlider .bx-wrapper .bx-controls-direction a {
+        display: inline-block;
+        height: 15px;
+        font-size: 16px;
+        color: #000;
+        font-weight: 400;
+        top: 110%;
+        text-indent: 0px;
+        z-index: 1;
+    }
+    .aboutSlider .bx-wrapper .bx-prev {
+        text-align: right;
+        left: 0;
+    }
+    .aboutSlider .bx-wrapper .bx-next {
+        float: right;
+        right: 0;
+    }
+    [class$='SideImageList'] div.pager{
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 30px;
+        padding: 70px 0;
+        width: 35%;
+    }
+    [class$='SideImageList'] div.pager > a{
+        position: absolute;
+    }
+    [class$='SideImageList'] div.pager a{
+        font-size: 16px;
+        font-weight: 300;
+        color: #000;
+        display: block;
+        width: 40px;
+    }
+    [class$='SideImageList'] div.pager > a:first-of-type{
+        left: 0; padding-left: 10px;
+        background: url('../images/bul_List_PagerPrevBtn.png') left center no-repeat;
+    }
+    [class$='SideImageList'] div.pager > a:last-of-type{
+        right: 0; padding-right: 10px;
+        background: url('../images/bul_List_PagerNextBtn.png') right center no-repeat;
+    }
+    [class$='SideImageList'] div.pager ol li > a:hover,
+    [class$='SideImageList'] div.pager ol li > a.active{
+        font-size: 18px; color: #bababa;
+        text-decoration: underline;
+    }
+    .bx-wrapper .bx-controls-direction a{
+        top: 93%;
+    }
+    .bx-wrapper .bx-pager{
+        position: absolute;
+        padding: 0;
+        font-size: 28px; font-style: italic;
+        font-weight: 400;
+        letter-spacing: 4px;
+        color: #000;
+        text-shadow: 1px 3px 6px rgb(175, 175, 175);
+    }
+    [class$='DetailPage'] > div [id^='goods'] > p,
+    [class$='DetailPage']:not(.shoesDetailPage) > div [id^='goods'] form fieldset:not(:last-child){
+        margin-bottom: 40px;
+    }
+    [class$='DetailPage'] > div [id^='goods'] > p > strong,
+    [class$='DetailPage'] > div [id^='goods'] form fieldset legend{
+        margin-bottom: 25px; 
+    }
+    [class$='DetailPage'] > div [id^='goods'] > p{
+        color: #3d3d3d; font-weight: 300;
+        line-height: 24px;
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .colorSet a{
+        display: inline-block; width: 35px; height: 35px; 
+        position: relative;
+        border-radius: 18px; text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    [class$='DetailPage'] > div [class$='SelectedOp']{
+        background-image: url('../images/bul_Detail_SelectBtn.png');
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .sizeSet input[type='button']{
+        width: 35px; height: 35px; color: #9e9e9e; font-weight:700;
+        background-color: transparent;
+        border: 1px solid #9e9e9e;
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .sizeSet input[type='button']:hover,
+    [class$='DetailPage'] > div [id^='goods'] form .sizeSet input[type='button'].active{
+        border-color: #000;
+        color: #000;    
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .sizeSet > span{
+        margin-top: 20px; font-size: 14px; font-weight: 300;
+        display: block;
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .quantSet .numberInput{
+        color: #3d3d3d;
+        margin: 0 auto; 
+        border: 1px solid #b7b7b7;
+        border-radius: 30px;
+        padding: 5px;
+        vertical-align: middle;
+        min-width: 150px;
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .quantSet .numberInput input[type='number']{
+        font-size: 20px; font-weight: 400;  
+        border-style: none; text-align: center;
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .quantSet .numberInput input[type='button']{
+        width: 20px; height: 20px; border-style: none;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: transparent;
+        text-indent: -9999px;
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .quantSet .numberInput input[type='button']:first-of-type{
+        background-image: url('../images/bul_Detail_Quantity_Minus.png');    
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .quantSet .numberInput input[type='button']:last-of-type{
+        background-image: url('../images/bul_Detail_Quantity_Plus.png');
+    }
+    .colorSet a:after{
+        position:absolute; left: 0; top: 0; text-indent: 0; z-index: -1; width: 100%;
+    }
+    .readytowearDetailPage > div [id*='goodsReadyToWear29'] fieldset.colorSet a:nth-child(2)::after{
+        content: url('../images/detail_IvoryBlack.png'); 
+    }
+    .readytowearDetailPage > div [id*='goodsReadyToWear29'] fieldset.colorSet a:nth-child(3)::after{
+        content: url('../images/detail_PurpleOrange.png'); 
+    }
+    .shoesDetailPage > div [id*='goodsShoes02'] fieldset.colorSet a:nth-child(2)::after{
+        content: url('../images/detail_whiteCoral.png'); 
+    }
+    .shoesDetailPage > div [id*='goodsShoes17'] fieldset.colorSet a:nth-child(2)::after{
+        content: url('../images/detail_GoldBlack.png'); 
+    }
+    .shoesDetailPage > div [id*='goodsShoes17'] fieldset.colorSet a:nth-child(3)::after{
+        content: url('../images/detail_SliverBlack.png'); 
+    }
+    .shoesDetailPage > div [id*='goodsShoes31'] fieldset.colorSet a:nth-child(2)::after{
+        content: url('../images/detail_BlueWhite.png'); 
+    }
+    .shoesDetailPage > div [id*='goodsShoes31'] fieldset.colorSet a:nth-child(3)::after{
+        content: url('../images/detail_GoldWhite.png'); 
+    }
+    .shoesDetailPage > div [id*='goodsShoes31'] fieldset.colorSet a:nth-child(4)::after{
+        content: url('../images/detail_OrangeWhite.png'); 
+    }
+    .shoesDetailPage > div [id*='goodsShoes31'] fieldset.colorSet a:nth-child(4)::after{
+        content: url('../images/detail_OrangeWhite.png'); 
+    }
+    .shoesDetailPage > div [id*='goodsShoes32'] fieldset.colorSet a:nth-child(2)::after{
+        content: url('../images/detail_PinkWhite.png'); 
+    }
+    .shoesDetailPage > div [id*='goodsShoes32'] fieldset.colorSet a:nth-child(3)::after{
+        content: url('../images/detail_SkyWhite.png'); 
+    }
+    .shoesDetailPage > div [id*='goodsShoes35'] fieldset.colorSet a:nth-child(2)::after{
+        content: url('../images/detail_WhiteBlue.png'); 
+    }
+    .shoesDetailPage > div [id*='goodsShoes35'] fieldset.colorSet a:nth-child(3)::after{
+        content: url('../images/detail_WhiteBlack.png'); 
+    }
+    .shoesDetailPage > div [id*='goodsShoes35'] fieldset.colorSet a:nth-child(4)::after{
+        content: url('../images/detail_IvoryPink.png'); 
+    }
+    .shoesDetailPage > div [id*='goodsShoes38'] fieldset.colorSet a:nth-child(3 )::after{
+        content: url('../images/detail_OrangeWhite.png'); 
+    }
+    .shoesDetailPage > div [id*='goodsShoes38'] fieldset.colorSet a:nth-child(4)::after{
+        content: url('../images/detail_BlackWhite.png'); 
+    }
+    .bagDetailPage > div [id*='goodsBag03'] fieldset.colorSet a:nth-child(2)::after{
+        content: url('../images/detail_Rainbow.png'); 
+    }
+    .bagDetailPage > div [id*='goodsBag05'] fieldset.colorSet a:nth-child(2)::after{
+        content: url('../images/detail_YellowPink.png'); 
+    }
+    .bagDetailPage > div [id*='goodsBag13'] fieldset.colorSet a:nth-child(2)::after{
+        content: url('../images/detail_PurpleMint.png'); 
+    }
+    .bagDetailPage > div [id*='goodsBag14'] fieldset.colorSet a:nth-child(2)::after{
+        content: url('../images/detail_YellowOrange.png'); 
+    }
+    .bagDetailPage > div [id*='goodsBag17'] fieldset.colorSet a:nth-child(2)::after{
+        content: url('../images/detail_GrayBlack.png'); 
+    }
+    [class$='DetailPage'] > div [id^='productDetails'] p,
+    [class$='DetailPage'] > div [id^='productDetails'] ul li{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    [class$='DetailPage'] > div [id^='productDetails'] p:nth-child(2){
+        border: 1px solid #acacac;
+        line-height: 30px; padding: 30px 10%;
+        margin-bottom: 30px;
+    }
+    [class$='DetailPage'] > div [id^='productDetails'] p:first-of-type::first-line{
+        line-height: 25px;
+    }
+    [class$='DetailPage'] > div [id^='productDetails'] > ul li{
+        line-height: 23px;
+    }
+    [class$='DetailPage'] > div [id^='productDetails'] > p:nth-child(6){
+        line-height: 23px;
+        margin-bottom: 15px;
+    }
+    [class$='DetailPage'] > div [id^='productDetails'] > span{
+        font-size: 14px; font-weight: 500;
+    }
+    .jewerlyDetailPage > div p:nth-child(6) a{
+        color: #d87332; text-decoration: underline;
+    }
+    [class$='DetailPage'] > div [id^='deliveryReturns'] strong{
+        margin-bottom: 50px;
+    }
+    [class$='DetailPage'] > div [id^='deliveryReturns'] > span{
+        display: block;
+        font-size: 16px ; color: #3d3d3d;
+        font-weight: 500;
+        margin-bottom: 30px; 
+    }
+    [class$='DetailPage'] > div [id^='deliveryReturns'] ul li::before{
+        content: '•  ' ; color: #3d3d3d;
+        font-size: 12px; vertical-align: middle;
+    }
+    [class$='DetailPage'] > div [id^='deliveryReturns'] ul li{
+        font-size: 14px; color: #3d3d3d; 
+        font-weight: 400; line-height: 24px;
+    }
+    [class$='DetailPage'] > div [id^='deliveryReturns'] ul li:not(:last-of-type){
+        margin-bottom: 5px;
+    }
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] ol li figure figcaption > *{
+        font-size: 14px; font-weight:400; 
+    }
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] ol li figure figcaption >span a{
+        display:block; color: #80441E; float: right; 
+    }
+    [class$='DetailPage'] > div .underPager > a{
+        display: block; background-color: #d87332;
+        font-size: 16px; color: #fff;
+        padding: 20px 3%;
+    }
+    [class$='DetailPage'] > div .underPager ul li{
+        margin: 50px 0 30px 0; 
+        cursor: pointer;
+    }
+    [class$='DetailPage'] > div .underPager ul li a:hover,
+    [class$='DetailPage'] > div .underPager ul li a.active{ 
+        color: #000;
+        text-decoration: underline; 
+        text-shadow: 2px 2px 2px #dedede;
+    } 
+    .jewelryCareTips > p{
+        font-weight: 300; color: #9e9e9e;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .jewelryCareTips > ol{
+        counter-reset: h3;
+    }
+    .jewelryCareTips > ol li h3{
+        font-weight: 300; 
+        padding-bottom: 20px; 
+        border-bottom: 1px solid #e8e8e8;
+        counter-increment: h3;
+    }
+    .jewelryCareTips > ol li h3::before{
+        content: counter(h3)'. ';
+    }
+    .jewelryCareTips > ol > li{
+        margin-bottom: 110px;
+    }
+    .jewelryCareTips > ol li em{
+        font-weight:200; color: #9e9e9e;
+        margin-bottom: 50px;
+        display: block;
+        letter-spacing: 0.5px;
+    }
+    .jewelryCareTips > ol > li ol li:not(strong){
+        font-weight: 300; color: #605f5f;
+        margin-bottom: 35px;
+        letter-spacing: 0.4px;
+    }
+    .jewelryCareTips > ol > li ol{
+        counter-reset: strong;
+    }
+    .jewelryCareTips > ol > li ol li strong{
+        display: block; margin-bottom: 30px;
+        font-weight: 400;
+        counter-increment: strong;
+    }
+    .jewelryCareTips > ol > li ol li strong::before{
+        content: "Q" counter(strong)". ";
+    }
+    .jewelryCareTips > ol > li ol li p{
+        margin-bottom: 30px; font-weight: 300;
+    }
+    .jewelryCareTips > ol > li ol li ul{
+        margin-top: 35px;
+    }
+    .FAQ > p{
+        font-weight: 300; color:#808080;
+        text-align: center;
+    }
+    .FAQ > aside ul li a:hover,
+    .FAQ > aside ul li a.active{
+        color: #000;
+        border-bottom: 2px solid #000;
+        font-weight: 400;
+    }
+    .FAQ > div h3{
+        font-weight: 500;
+        padding-left: 40px; 
+        background-repeat: no-repeat;
+        background-position: left center;
+        line-height: 30px;
+    }
+
+    .FAQ > div h3.iconOnline{background-image: url('../images/bul_FAQ_Online-Shopping.png');}
+    .FAQ > div h3.iconCustomer{background-image: url('../images/bul_FAQ_Customer-account.png');}
+    .FAQ > div h3.iconProducts{background-image: url('../images/bul_FAQ_Products.png');}
+    .FAQ > div h3.iconLamaison{background-image: url('../images/bul_FAQ_La-Maison-Hermès.png');}
+
+    .FAQ > div > ol > li h4::before{
+        content: counter(h4)". ";
+    }
+    .FAQ > div > ol > li > ol{
+        counter-reset: li;
+    }
+    .FAQ > div > ol > li > ol > li{
+        line-height: 30px;
+        counter-increment: li;
+        position: relative; cursor: default;
+    }
+    .FAQ > div > ol > li > ol > li::before{
+        content: "Q"counter(li)". ";
+    }
+    .FAQ > div > ol > li > ol > li p,
+    .FAQ > div > ol > li > ol > li ul{
+        color: rgba(96, 95, 95, 0);
+        transition: all 0.3s ease-out; 
+        line-height: 0;
+        font-weight: 300; 
+        padding: 0px;
+    }
+    [class*='Editeur'] h2{
+        font-weight: 300;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .EditeurMain h2{background-image: url('../images/hermesEditeur_Main_TopImg.png')}
+    .EditeurJosefalbers h2{background-image: url('../images/hermesEditeur_josefAlbers_TopImg.png')}
+    .EditeurDanielburen h2{background-image: url('../images/hermesEditeur_DanielBuren_TopImg.png')}
+    .EditeurHiroshisugimoto h2{background-image: url('../images/hermesEditeur_Hiroshi-Sugimoto_TopImg.png')}
+    .EditeurJulioleparc h2{background-image: url('../images/hermesEditeur_JulioLeParc_TopImg.png')}
+
+    .EditeurMain p{
+        font-weight:300;
+        color: #3d3d3d;
+        text-align: center;
+    }
+    .EditeurMain p:first-of-type strong{
+        font-weight: 300;
+        display: block;
+    }
+    .EditeurMain div.centerguideMain ul li:not(:last-of-type){
+        margin-bottom: 110px;
+    }
+    .EditeurMain div.centerguideMain ul li figure figcaption{
+        align-self: center;
+    }
+    .EditeurMain div.centerguideMain ul li figure figcaption dl dt mark{
+        display: inline-block;
+        font-style: normal;
+        font-weight: 300;
+    }
+    
+    .EditeurJosefalbers div.centerguideArtist figure{background-image:url('../images/hermesEditeur_JosefAlbers.png');}
+    .EditeurDanielburen div.centerguideArtist figure{background-image:url('../images/hermesEditeur_DanielBuren.png');}
+    .EditeurHiroshisugimoto div.centerguideArtist figure{background-image:url('../images/hermesEditeur_HiroshiSugimoto.png');}
+    .EditeurJulioleparc div.centerguideArtist figure{background-image:url('../images/hermesEditeur_JulioLeParc.png');}
+
+    [class*='Editeur'] [class$='Artist'] figure figcaption dl{ 
+        color: #fff;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    [class*='Editeur'] [class$='Project'] ul li div > p{
+        background-color: transparent;
+    }
+    [class*='Editeur'] [class$='Project'] ul li div > p:not(:last-of-type){
+        margin-bottom: 2.8vh;
+    }
+    [class*='Editeur'] [class$='Project'] ul li:nth-of-type(odd){
+        background-position-x: right;
+    }
+    [class*='Editeur'] [class$='Project'] ul li:nth-of-type(even){
+        background-position-x: left;
+    }
+    [class*='Editeur'] [class$='Project'] ul li:nth-of-type(even) div{
+        right: 0;
+    }
+    .EditeurJosefalbers div.centerguideProject ul{
+        background-position-x: right;
+        background-repeat: no-repeat;
+        background-image: url('../images/hermesEditeur_JosefAlbers_TheProJect.png');
+        background-size: 75%;
+    }
+    .EditeurDanielburen div.centerguideProject ul li:first-of-type{background-image: url('../images/hermesEditeur_DanielBuren_TheProject_01.png');}
+    .EditeurDanielburen div.centerguideProject ul li:nth-of-type(2){background-image: url('../images/hermesEditeur_DanielBuren_TheProject_02.png');}
+    .EditeurDanielburen div.centerguideProject ul li:nth-of-type(3){background-image: url('../images/hermesEditeur_DanielBuren_TheProject_03.png');}
+
+    .EditeurHiroshisugimoto div.centerguideArtist figure figcaption dl dt{
+        margin-bottom: 3.3vh;
+    }
+
+    .EditeurHiroshisugimoto div.centerguideProject ul li:first-of-type{background-image: url('../images/hermesEditeur_Hiroshi-Sugimoto_TheProject_01.png');}
+    .EditeurHiroshisugimoto div.centerguideProject ul li:nth-of-type(2){background-image: url('../images/hermesEditeur_Hiroshi-Sugimoto_TheProject_02.png');}
+
+    .EditeurJulioleparc div.centerguideArtist figure figcaption dl dt{
+        margin-bottom: 45px;
+    }
+
+    .EditeurJulioleparc div.centerguideProject ul li:first-of-type{background-image: url('../images/hermesEditeur_JulioLeParc_TheProject_01.png');}
+    .EditeurJulioleparc div.centerguideProject ul li:nth-of-type(2){background-image: url('../images/hermesEditeur_JulioLeParc_TheProject_02.png');}
+    .EditeurJulioleparc div.centerguideProject ul li:nth-of-type(3){background-image: url('../images/hermesEditeur_JulioLeParc_TheProject_03.png');}
+    .EditeurJulioleparc div.centerguideProject ul li:nth-of-type(4){background-image: url('../images/hermesEditeur_JulioLeParc_TheProject_04.png');}
+
+    [class*='AboutHermes']:not(.AboutHermesChronology) p{
+        color: #3d3d3d;
+    }
+    [class*='AboutHermes'] > p{
+        font-weight:300; font-style: italic;
+        letter-spacing: 0.5px; 
+    }
+    .AboutHermes ul.aboutTheworldContent li.wayClear span{
+        display: block;
+        color: #3d3d3d;
+        font-weight: 200;
+    }
+    .AboutHermesChronology{
+        background-color: #f4f2ee;
+        padding-bottom: 140px;
+    }
+    .AboutHermesChronology >img{
+        margin-bottom: 120px;
+    }
+
+    #subscribePanel{
+        position: fixed;
+        width: 100%; height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 9999;
+    }
+    #subscribePanel > div{
+        position: absolute;
+        background-color: #fff;
+        border-radius: 10px;
+        text-align: center;
+    }
+    #subscribePanel > div h3{
+        padding-top: 187px;
+        background: url('../images/findAStore_SendEmail_Img.png') center center no-repeat;
+        color: #12191c;
+        margin-bottom: 30px;
+        font-weight: 400;
+    }
+    #subscribePanel > div p{
+        font-weight: 400;
+        color: #9e9e9e;
+        margin-bottom: 50px;
+    }
+    #subscribePanel > div input[type='button']{
+        background-color: transparent;
+        font-weight: 400;
+        color: #12191c;
+        border: 1px solid #12191c;
+        border-radius: 23px;
+        padding: 10px 5%;
+        margin-bottom: 50px;
+        letter-spacing: 0.4px;
+    }
+    .findAStore{
+        position: relative;
+    }
+    .findAStore h2{
+        color: #fff; font-weight: 600; position: absolute;
+        z-index: 1000;
+        text-shadow: 5px -4px 5px rgb(107, 107, 107);
+    }
+    .findAStore h2::first-line{
+        line-height: 80px;
+    }
+    .findAStore form input[type='search']{
+        border: 2px solid #9e9e9e;
+        background: url('../images/bul_search_findaStore.png') 20px center no-repeat;
+        font-size: 18px; font-weight: 400;
+        padding: 10px 40px 10px 60px;
+        margin: 50px 0;
+    }
+    .findAStore form input[type='search']::placeholder{
+        color: #9e9e9e; font-weight: 400;
+        text-align: center;
+    }
+    .findAStore strong{
+        display: block; font-size: 16px;
+        font-weight: 500; margin-bottom: 20px;
+    }
+    .findAStore address{
+        margin:0 auto 25px; 
+        border-bottom: 2px solid #bababa;
+        font-style: normal;
+        padding-bottom: 25px;
+    }
+    .findAStore address *:not(strong){
+        font-size: 12px; font-weight: 400;
+        color: #3d3d3d;
+    }
+    .findAStore > p{
+        margin-bottom: 20px;
+        color: #3d3d3d;
+    }
+    .findAStore input[type='submit']{
+        font-size: 12px; font-weight: 400;
+        letter-spacing: 0.7px;
+        background-color: transparent;
+        border: 1px solid #605f5f;
+        border-radius: 20px;
+        display: block; margin: 0 auto;
+    }   
+    [class*='order'] > div ul.stepBox li.active{
+        color: #000; font-weight: 400;
+        background: url('../images/bul_ShoppingList3way_Check.png') left center no-repeat;
+    }
+    [class*='order'] [class$='UnderArea']{
+        box-shadow: 0px -3px 13px #efefef;
+        background-color: #fff;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+    }
+    .orderShoppingCart > div:first-of-type > ol li div span.numberInput input{
+        background-color: transparent;
+        border: none; 
+    }
+    .orderShoppingCart > div:first-of-type > ol li div span.numberInput input[type='button']:first-of-type{
+        background: url('../images/bul_MinusBtn_shoppingCart.png') left center no-repeat;
+    }
+    .orderShoppingCart > div:first-of-type > ol li div span.numberInput input[type='button']:last-of-type{
+        background: url('../images/bul_plusBtn_shoppingCart.png') left center no-repeat;
+    } 
+    .orderShoppingCart > div:first-of-type > ol li > input[type='button'] {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        right: 0;
+        background: url('../images/bul_CloseBtn_shoppingCart.png') center/ 18px no-repeat transparent;
+        border: none;
+        text-indent: -9999px;
+    }
+    .orderShoppingCart > div.shoppingUnderArea > div a{
+        display: block; 
+        width: 20%; max-width: 250px; min-width: 200px; 
+        text-align: center;
+        margin: 0 auto;
+        background-color: #e87c36;
+        color: #fff;
+        font-size: 18px; font-weight: 300;
+        padding: 13px 0;
+    }
+    .orderCheckout div fieldset legend{
+        width: 100%;
+        font-weight: 400;
+        color: #1c1c1c;
+        border-bottom: 1px solid #bababa;
+        margin-bottom: 40px;
+        padding-bottom: 10px;
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul li input:not([type='radio'],[type='checkbox']),
+    .orderCheckout div fieldset:not(.summaryBox) ul li span.selectComponent select{
+        border: 1px solid #bababa; 
+        border-radius: 10px; box-sizing: border-box;
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul > li > label,
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment li h3{
+        display: block;
+        font-weight: 300;
+        color: #3d3d3d;
+        margin-bottom: 20px;
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:nth-child(3) ol li{
+        float: left; width: 32%; 
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:nth-child(3) ol li:not(:first-child){
+        margin-left: 2%;
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:nth-child(3) ol li label{
+        border: 1px solid #bababa; display: block;
+        border-radius: 10px;
+        box-sizing: border-box;
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:nth-child(3) ol li:first-child label{background-image: url('../images/icon_MasterCard.png');}
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:nth-child(3) ol li:nth-child(2) label{background-image: url('../images/icon_VISA.png');}
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:nth-child(3) ol li:nth-child(3) label{background-image: url('../images/icon_PayPal.png');}
+    
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:nth-child(3) ol li:hover label,
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:nth-child(3) ol li.active label{
+        border-color: #3d3d3d; border-width: 2px; 
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment li:nth-child(4) input[type='text']{
+        width: 47%; 
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment li:nth-child(4) input#yearNumber{
+        margin-left: 3%;
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:last-child {
+        margin-bottom: 25px ;
+        clear: both;
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:last-child label{
+        padding-left: 40px; 
+        line-height: 20px;
+        background: url('../images/bul_Payment_CheckBox.png') left top no-repeat;
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:last-child input[type='checkbox']:checked + label{
+        background: url('../images/bul_Payment_CheckBoxIN.png') left top no-repeat;
+    }
+    .orderCheckout div fieldset.summaryBox input{
+        border: none; background-color: transparent;
+        width: 30%;
+    }
+    .orderCheckout div fieldset.summaryBox figure figcaption h3{
+        font-size: 18px; font-weight: 400;
+        color: #1c1c1c; padding: 10px 0 15px 0;
+    }
+    .orderCheckout div fieldset.summaryBox figure figcaption ul li input#colorOption{
+        display: inline-block; 
+        text-indent: -9999px;
+        width: 15px;
+        height: 15px;
+        background-color: #f8e14a;
+        border-radius: 5px;
+    }
+    .orderCheckout div fieldset.summaryBox figure figcaption ul li:last-child input[type='text']{
+        text-align: right; width: 100%;
+        font-size: 18px; font-weight: 400;
+        box-sizing: border-box;
+    }
+    .orderCheckout div fieldset.summaryBox > div:nth-child(3) span{
+        position: relative;
+        display: block;
+    }
+    .orderCheckout div fieldset.summaryBox > div:nth-child(3) span:first-of-type *{
+        font-size: 16px; font-weight: 400; color: #3d3d3d;
+    }
+    .orderCheckout div fieldset.summaryBox > div:nth-child(3) span:last-of-type *{
+        font-size: 26px; font-weight: 400; color: #3d3d3d;
+    }
+    .orderCheckout div fieldset.summaryBox > div:nth-child(3) span input[type='text']{
+        position: absolute;
+        text-align: right;
+        right: 0;
+    }
+    .orderCheckout div fieldset.summaryBox > p{
+        font-size: 14px; 
+        font-weight: 300;
+        color: #605f5f;
+    }
+    .orderCheckout div fieldset.summaryBox p mark{
+        display: block;
+        background-color: transparent;
+        color: #d87332;
+        font-size: 16px; font-weight: 400;
+        font-style: normal;
+        margin-bottom: 15px;
+    }
+    .orderCheckout div fieldset.summaryBox div#orderComplete{
+        background-color: #e87c36;
+        width: 94.74%;
+        color: #fff;
+        position: absolute;
+        top: 0%;
+        display: none;
+    }
+    .orderCheckout div fieldset.summaryBox div#orderComplete h2{
+        padding-top:250px; 
+        background: url('../images/bul_Payment_PopUpCheck.png') 50% 100px no-repeat;
+        font-weight: 400; 
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .orderCheckout div fieldset.summaryBox div#orderComplete p{
+        text-align: center;
+        font-size: 22px; font-weight: 400;
+        line-height: 30px;
+    }
+    .orderCheckout div fieldset.summaryBox div#orderComplete > input[type='button']{
+        text-indent: -9999px; width: 14px; height: 14px;
+        background: url('../images/bul_Payment_PopUpClose.png') center no-repeat;
+    }
+    .orderCheckout div.checkoutUnderArea div >*{
+        font-weight: 300;
+        text-align: center;
+        padding: 13px 0;
+    }
+    .orderCheckout div.checkoutUnderArea div a{
+        display: none;
+        border: 1px solid #808080;
+        color: #808080;
+    }
+    .orderCheckout div.checkoutUnderArea div input[type='button']{
+        position: absolute;
+        top: 0; right: 0;
+        border: none;
+        background-color:#e87c36; 
+        color: #fff;
+    }   
+    .Account{
+        background:url('../images/account_BackgroundImgae.png') center top / 100% 100% no-repeat;
+    } 
+    .Account > div fieldset.createSet > label{
+        display: block;
+        text-align: left;
+        padding-left: 30px;
+        box-sizing: border-box;
+        font-size: 14px;
+        font-weight: 400;
+        background: url('../images/bul_CreateAccount_Box.png') left center no-repeat;
+    }
+    .Account > div fieldset.createSet > input#agreeBox:checked+label{
+        background: url('../images/bul_CreateAccount_checkBox.png') left center no-repeat;
+    }
+       
+
+@media screen and (max-width: 767px){
+
+    [class$='ImageList']:not([class$='SideImageList']) > ul li dl::after,
+    .Main > section:nth-child(3) div::after,
+    .Main > section:nth-child(4) ul::after,
+    [class$='MovingBox']::after,
+    [class$='SideImageList'] > ul::after,
+    .AboutHermes > ul li::after,
+    .AboutHermes ul.aboutCreativeContent li:nth-child(2)::after,
+    .AboutHermesChronology > ul li::after,
+    .orderCheckout div::after,
+    .orderCheckout div fieldset:first-of-type ul#checkout::after,
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment::after,
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment li:nth-child(4)::after,
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment li:nth-child(5):after,
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:nth-child(3) ol::after,
+    .orderCheckout div fieldset.summaryBox figure::after{
+        content: ''; display: block; clear: both;
+    }
+
+    /* footer,
+    .orderCheckout div fieldset:not(.summaryBox) ul > li:nth-child(3),
+    .orderCheckout div fieldset:not(.summaryBox) ul li:nth-child(6){
+        clear: both;
+    } */
+
+    [class$='SideImageList'] > ul li a,
+    [class$='DetailPage'] > div:nth-of-type(2) > div:not(.underPager).active,
+    [class$='DetailPage'] > div [id^='goods'] > span,
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] ol li figure figcaption > span,
+    #subscribePanel.active,
+    .findAStore address > a,
+    .orderCheckout fieldset:not(.summaryBox) ul.active,
+    .orderCheckout div fieldset:first-of-type ul#checkout li label,
+    .orderCheckout div fieldset.summaryBox div#orderComplete.active,
+    .orderCheckout div.checkoutUnderArea div a.active,
+    .Account > div fieldset.active,
+    .Account > div fieldset.accountSet address > a,
+    .Account > div fieldset.accountSet > span:nth-child(6){
+        display: block;
+    }
+
+    .aboutSlider .bx-wrapper .bx-pager.bx-default-pager a,
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li:nth-child(2) span + div a,
+    [class$='DetailPage'] > div:nth-of-type(2) > div:not(.underPager),
+    .jewerlyDetailPage > div .colorSet,
+    .bagDetailPage > div .sizeSet,
+    #subscribePanel,
+    .orderShoppingCart > div:first-of-type ul:nth-child(3),
+    .orderCheckout fieldset:not(.summaryBox) ul,
+    .Account > div fieldset,
+    .Account > div > a,
+    .Account > div fieldset.accountSet ul li:first-child > p,
+    .Account > div fieldset.accountSet ul li:nth-child(2).deactive,
+    .Account > div fieldset.accountSet input#deactivePW.deactive,
+    .Account > div div[class$=Active],
+    .Account > div fieldset.createSet > input#agreeBox{
+        display: none;
+    }
+
+    [class$='DetailPage'] > div [id^='goods'],
+    [class$='DetailPage'] > div [id^='productDetails'] p:nth-child(2),
+    [class$='DetailPage'] > div h2,
+    [class$='DetailPage'] > div div strong:not(:nth-child(3),:nth-child(5)),
+    [class$='DetailPage'] > div div:nth-of-type(5) > a,
+    .AboutHermes ul.aboutTheworldContent li.wayClear,
+    .AboutHermesChronology > ul li[class*='fullImage'] h3,
+    .AboutHermesChronology > ul li[class*='fullImage']:not(.fullImage_1967) p,
+    .AboutHermesChronology > ul li.fullImage_1967,
+    .findAStore >*:not(h2){
+        text-align: center;
+    }
+    
+    .EditeurMain div.centerguideMain ul li:nth-child(even) figure figcaption,
+    .AboutHermes > ul li:nth-child(even),
+    .AboutHermesChronology > ul li:nth-child(even):not([class*='fullImage']) img,
+    .AboutHermesChronology > ul li:nth-child(even):not([class*='fullImage']) *:not(img),
+    .AboutHermesChronology > ul li.fullImage_1967 p,
+    .orderCheckout div fieldset.summaryBox div#orderComplete:not(h2,p){
+        text-align: right;
+    }
+
+    [class$='ImageList'] > ul li a img,
+    [class$='MovingBox'] img,
+    .EditeurMain div.centerguideMain ul li:nth-child(odd) figure img,
+    .EditeurMain div.centerguideMain ul li:nth-child(even) figure img,
+    [class*='Editeur']:not(.EditeurMain) > div:nth-child(4) img,
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs li figure img,
+    .AboutHermes > ul li:not(.wayClear) h3,
+    .AboutHermes ul.aboutTheworldContent li.wayClear img,
+    .AboutHermesChronology > img,
+    .AboutHermesChronology > ul [class^='fullImage'] img,
+    .orderCheckout div fieldset:first-of-type,
+    .orderCheckout div fieldset:last-of-type,
+    .orderCheckout div fieldset:not(.summaryBox) ul li input:not([type='radio'],[type='checkbox']),
+    .orderCheckout div fieldset:not(.summaryBox) ul li span.selectComponent select{
+        width: 100%;
+    }
+
+    [class$='DetailPage'] > div,
+    [class*='Editeur'] [class$='Artist'] figure,
+    [class*='Editeur'] [class$='Project'] ul li,
+    [class*='order'],
+    .orderShoppingCart > div:first-of-type > ol li,
+    .orderShoppingCart > div.shoppingUnderArea > div,
+    .orderCheckout div fieldset.summaryBox,
+    .orderCheckout div.checkoutUnderArea div,
+    .Account > div fieldset ul li.pwField{
+        position: relative;
+    }
+
+    .aboutSlider .way3Carousel li figure figcaption,
+    [class$='DetailPage'] > div [id^='productDetails'] strong:not(:first-of-type),
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] ol li:not(:last-child),
+    .findAStore address *:not(strong, :last-child){
+        margin-bottom: 15px;
+    }
+
+     .mainSlider > li figure figcaption dl dt,
+     .aboutSlider .bx-wrapper .bx-viewport,
+     [class$='DetailPage'] > div [id^='productDetails'] > ul,
+     .AboutHermesMain > ul li h3,
+     .AboutHermesChronology > ul > li h3,
+     .orderShoppingCart > div:first-of-type > ol li div span:not(:last-child){
+        margin-bottom: 20px;
+    }
+
+    .mainSlider > li figure figcaption dl,
+    [class$='ImageList']:not([class$='SideImageList']) > ul li,
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li span.active,
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li span.active + div label:not(:last-child),
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li:not(:nth-child(2)) span.active + div a:not(:last-child),
+    [class$='DetailPage'] > div [id^='productDetails'] strong:first-of-type,
+    .FAQ > div > ol > li > ol > li:not(:last-of-type),
+    .EditeurMain p:first-of-type,
+    .AboutHermes > ul li p:not(:last-of-type),
+    .AboutHermesChronology > ul li.fullImage_1937 p,
+    .AboutHermesChronology > ul li.fullImage_1967 img,
+    .AboutHermesChronology > ul li.fullImage_1992 img,
+    .orderCheckout div fieldset:not(.summaryBox) ul > li,
+    .orderCheckout div fieldset.summaryBox > div:nth-child(3) span:first-of-type{
+        margin-bottom: 30px;
+    }
+
+    [class$='DetailPage'] > div [id^='productDetails'] > ul li::before,
+    .jewelryCareTips > ol > li ol li ul li::before,
+    .FAQ > div > ol > li > ol > li ul li::before{
+        content: '- ';
+    }
+
+    .wrap{
+        padding-top: 91px;
+    }
+    .Main > .bx-wrapper .bx-pager-item{
+        display: block; 
+        margin-bottom: 20px;
+    }
+    .Main > .bx-wrapper .bx-pager,
+    .Main > .bx-wrapper .bx-controls-auto {
+        top: 73%;
+        left: 25%;
+        width: 15px;
+        z-index: 0;
+    }
+    .Main > .bx-wrapper .bx-controls-direction a{
+        left: 3.57%;
+        top: auto;
+        width: 40px;
+        height: 40px;
+        border-radius: 30px;
+        z-index: 0;
+    }
+    .Main > .bx-wrapper .bx-controls-direction a.bx-prev{
+        top: 77%;
+    }
+    .Main > .bx-wrapper .bx-controls-direction a.bx-next{
+        top: 90%;
+    }
+    .mainSlider > li figure{
+        overflow-x: hidden;
+    }
+    .mainSlider > li figure img{
+        width: 100%; min-width: 900px;
+    }
+    .mainSlider > li figure figcaption{
+        position: absolute; top: 12.96%; left: 11.97%;
+        color: #fff;
+        width: 13.54%; max-width: 260px;
+    }
+    .mainSlider > li figure figcaption a{
+        display: block; text-indent: -9999px;
+    }
+    .mainSlider > li p{
+        width: 60%; 
+        line-height: 16px;
+        right: 0;
+        padding: 2%;
+        font-size: 12px;
+    }
+    .mainSlider > li:nth-child(2) p{
+        background-color: rgba(232, 124, 54, 0.75);
+    }
+    .mainSlider > li:nth-child(3) p{
+        background-color: rgba(158, 158, 158, 0.75);
+    }
+    .mainSlider > li:nth-child(4) p{
+        background-color: rgba(178, 199, 2, 0.75);
+    }
+    .mainSlider > li:nth-child(5) p{
+        background-color: rgba(102, 143, 158, 0.75);
+    }
+    .mainSlider > li .sliderSidePanel{
+        background-color: rgba(0, 0, 0, 0);
+        top: 0;
+        width: 100%;
+        right: -85%;
+        padding: 55px 3.57% 30px;
+        transition: all 0.7s ease-in;
+        z-index: 100;
+    }
+    .mainSlider > li .sliderSidePanel.active{
+        right: 0; background-color: rgba(0, 0, 0, 0.8);
+    }
+    .mainSlider > li .sliderSidePanel ol{
+        opacity: 0;
+    }
+    .mainSlider > li .sliderSidePanel.active ol{
+        opacity: 1;
+    }
+    .mainSlider > li .sliderSidePanel input[type='button']{
+        position: absolute; left: 3.57%; 
+        background: url('../images/bul_BestItemPanelOpenBtn_Mobile.png') no-repeat center ,transparent;
+        border-style: none;
+        text-indent: -9999px;
+        opacity: 0.5;
+    }
+    .mainSlider > li .sliderSidePanel input[type='button'].active{
+        background: url('../images/bul_BestItemPanelCloseBtn_Mobile.png') no-repeat center ,transparent;
+    }
+    .mainSlider > li .sliderSidePanel > ol{
+        width: 90%; margin-left: auto;
+    }
+    .mainSlider > li .sliderSidePanel > ol li{
+        counter-increment: rint; 
+        margin-bottom: 2%;
+    }
+    .mainSlider > li .sliderSidePanel > ol li h3{
+        width: 80%; padding: 2% 0;
+    }
+    .mainSlider > li .sliderSidePanel > ol li:not(:last-child) h3{
+        border-bottom: 1px solid #605f5f;
+    }
+    .mainSlider > li .sliderSidePanel > ol li h3 a{
+        display: block;
+        color: #fff; font-size: 12px; font-weight: 300;
+        margin-left: 5%;
+    }
+    .mainSlider > li .sliderSidePanel ol li{
+        background-position: right center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }   
+    [class$='ImageList']{
+        background-size: 100% 16%;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    [class$='ImageList']:not([class$='SideImageList']) > div{
+        width: 100%;
+        top: 2%;
+        padding: 0 3.57%; 
+    }
+    [class$='ImageList'] > div p{
+        font-size: 12px; line-height: 20px; color: #fff;
+        margin-bottom: 40px;
+    }
+    [class$='ImageList'] > ul li a{
+        display: block;
+        margin-bottom: 10px;
+    }
+    [class$='ImageList']:not([class$='SideImageList']) > ul li dl{
+        font-size: 14px; 
+    }
+    [class$='ImageList']:not([class$='SideImageList']) > ul li dl dd{
+        float: right; width: 25%;
+        margin-left: 5%; text-align: right;
+    }
+    [class$='ImageList'] > div a.btn_self{
+        right: 3.57%;
+    }
+    .frontImageList,
+    .backImageList{
+        padding-top: 120%;
+        margin: 0 auto 100px;
+        width: 92.86%;
+        background-position: top;
+    }
+    .Main > section:nth-child(2){
+        background-image: url('../images/mainTopContainer_ReadyToWear_Mobile.png');
+    }
+    .Main > section:nth-child(6){
+        background-image: url('../images/mainTopContainer_Bag_Mobile.png');
+    }
+    .Main > section:nth-child(8){
+        background-image: url('../images/mainTopContainer_Shoes_Mobile.png');
+    }
+    .Main > section:nth-child(10){
+        background-image: url('../images/mainTopContainer_Jewerly_Mobile.png');
+    }    
+    .Main > section:nth-child(3){
+        background: url('../images/main_WomenCollectionBG.png') center / cover no-repeat;
+        margin-bottom: 100px;
+    }
+    .Main > section:nth-child(3) div{
+        width: 75%;
+        padding: 30px 5%;
+    } 
+    .Main > section:nth-child(3) div h2{
+        border-bottom: 1px solid #fff;
+        font-size: 18px;
+        width: 100%;
+        padding-bottom: 15px;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+    }
+    .Main > section:nth-child(3) div p{
+        font-weight: 300;
+        width: 100%;
+    }    
+    .Main > section:nth-child(4){
+        margin: 0 3.57% 90px; 
+    }
+    .Main > section:nth-child(4) h2{
+        font-size: 24px; 
+    }
+    .Main > section:nth-child(4) p{
+        margin-bottom: 50px;
+    }
+    .Main > section:nth-child(4) ul li{
+        float: left; width: 48.5%; line-height: 24vh;
+        text-align: center;
+    }
+    .Main > section:nth-child(4) ul li:nth-child(2n+1){
+        margin-right: 3%;
+    }
+    .Main > section:nth-child(4) ul li:nth-child(1n+3){
+        margin-top: 30px;
+    }  
+    [class$='MovingBox']{
+        margin-bottom: 320px;
+    }    
+    .bagMovingBox figcaption dl dt{
+        width: 52%;
+        padding: 20px 2.4% 20px 9.37%;
+        font-size: 18px;
+        right: 3.57%;
+        line-height: 25px;
+        bottom: 7vh;
+        transition: bottom 1.3s ease-in-out;
+    }
+    .bagMovingBox figcaption dl dd{
+        font-size: 12px;
+        padding: 14vh 5% 2.5%;
+        line-height: 20px;
+        width: 80%;
+        left: 3.57%;
+        top: 12vh;
+        box-sizing: border-box;
+        text-align: right;
+    }
+    .bagMovingBox figcaption.active dl dt{
+        bottom: -2vh;
+    }
+    .bagMovingBox figcaption.active dl dd{
+        top: -8vh;
+    }
+    .jewerlyMovingBox img{
+        float: left;
+    }
+    .jewerlyMovingBox figcaption dl dt{
+        width: 80%;
+        font-size: 16px;
+        padding: 8% 1.5%;
+        left: 3.57%;
+        top: 0;
+        transition: top 1.3s ease-in-out;
+    }
+    .jewerlyMovingBox figcaption dl dd{
+        font-size: 12px;
+        padding: 26vw 4.42% 2.5%;
+        width: 70%;
+        right: 3.57%;
+        line-height: 20px;
+        text-align: right;
+        top: 33vh;
+    }
+    .jewerlyMovingBox figcaption.active dl dt{
+        top: 18vh;
+        line-height: 22px;
+    }
+    .jewerlyMovingBox figcaption.active dl dd{
+        top: 22vh;
+    }        
+    .Main > section:nth-child(7){
+        background-size: 170% 100%;
+        margin-bottom: 120px;
+        padding: 16vw 0;
+    }
+    .Main > section:nth-child(7) h2{
+        font-size: 18px; 
+    }
+    .Main > section:nth-child(7) p{
+        width: 97%; margin: 0 auto;
+    }    
+    
+    .Main > section:nth-child(11) h2{
+        font-size: 26px;
+        right: 3.57%;
+    }        
+    .Main > section:nth-child(12){
+        margin: 0 3.57% 120px;
+    }
+    .Main > section:nth-child(12) h2{
+        font-size: 26px;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+    .aboutSlider .way3Carousel li figure figcaption dl{
+        min-height: 100px;
+        max-height: 100px;
+        overflow-y: hidden;
+        margin-bottom: 20px;
+    }
+    .aboutSlider .way3Carousel li figure figcaption dl dt{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .aboutSlider .way3Carousel li figure figcaption dl dd{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .aboutSlider .bx-wrapper .bx-controls-direction a {
+        width: 50px;
+    }
+    .aboutSlider .bx-wrapper .bx-prev {
+        background: url('../images/bul_List_PagerPrevBtn.png') left center no-repeat;
+        text-align: right;
+        left: 0;
+    }
+    .aboutSlider .bx-wrapper .bx-next {
+        background: url('../images/bul_List_PagerNextBtn.png') right center no-repeat;
+        float: right;
+        right: 0;
+    }    
+
+    [class$='SideImageList']{
+        padding-top: 30vh;
+        background-repeat: no-repeat;
+        background-size: 140%;
+        background-position: center 91px;
+    }    
+    [class$='SideImageList'] > div:first-child{
+        position: relative;
+        z-index: 1;
+        background-color: #fff;
+    }
+    [class$='SideImageList'] > div:first-child h2{
+        font-size: 36px; 
+        right: 3.57%;
+        top: -50px; 
+    }
+    [class$='SideImageList'] > ul{
+        padding: 0 3.57%; 
+        background-color: #fff;
+    }
+    [class$='SideImageList'] > ul li:not(:last-child){
+        margin-bottom: 40px;
+    }
+    [class$='SideImageList'] div.lock{
+        position: fixed; 
+        top: 91px;
+        box-shadow: 1px 1px 10px rgba(192, 192, 192, 0.3);
+        width: 100%; 
+        text-align: right;
+    }
+    [class$='SideImageList'] > div:first-child input[type='button']{
+        position: relative;
+        display: block;
+        border-style: none;
+        background: url('../images/bul_FilterBtn.png')left center no-repeat transparent;
+        padding: 0 3.57% 0 20px;
+        margin-left: auto;
+        line-height: 70px;
+        font-size: 14px;
+    }
+    [class$='SideImageList'] > div:first-child input[type='button'].active{
+        position: absolute; right: 3.57%; top: 20px;
+        background: url('../images/bul_SearchCloseBtn_Mobile.png') center no-repeat;
+        width: 18px; height: 18px; z-index: 1;
+        text-indent: -9999px;padding: 0;
+    }
+    [class$='SideImageList'] div:first-child ul#filterPanel{
+        background-color: #fff;
+        padding: 80px 3.57%;
+        display: none;
+        position: absolute;
+    }
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel{
+        display: block;        
+        box-shadow: 1px 0px 10px #d9d9d9;
+    }
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li{
+        position: relative;
+        margin-bottom: 40px;
+    }
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li span{
+        font-size: 18px; font-weight: 400; line-height: 32px;
+        margin-bottom: 0px ; display:block;
+        transition-timing-function: ease-in;
+        transition-duration: 0.3s;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li span::after{
+        content: url('../images/bul_List_SortBarBtn.png');
+        position: absolute; right: 0;
+        transform: rotate(0deg);
+    }
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li span.active::after{
+        transition: transform ease-in 0.3s;
+        transform: rotate(180deg) ;
+    }
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li span + div{
+        font-size: 0px; opacity: 0;
+    }
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li span.active + div{
+        font-size: 14px; font-weight: 400; opacity: 1;
+        margin-bottom: 30px;
+    }
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li span + div label{
+        margin-bottom: 0px;
+    }
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li span.active + div a{
+        color: #000; display: inline-block;
+    }
+    [class$='SideImageList'] div:first-child input[type='button'] + ul#filterPanel li span+div input[type='checkbox'] + label,
+    [class$='SideImageList'] div:first-child input[type='button'] + ul#filterPanel li:nth-child(3) span+div a{
+        background: none;
+    }
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li span.active + div input[type='checkbox'] + label,
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li:nth-child(3) span+div a{
+        display: block;
+        padding-left: 25px;
+        line-height: 18px;
+        text-align: left;
+    }
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li span.active + div input[type='checkbox'] + label{
+        background: url('../images/bul_List_SortBarCheckBox.png') no-repeat left center;
+    }
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li:nth-child(3) span+div a{
+        background: url('../images/bul_List_SortBarRadioBox.png') no-repeat left center;
+    }
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li span.active + div input[type='checkbox']:checked + label,
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li span.active + div input[type='checkbox']:checked + label{
+        background: url('../images/bul_List_SortBarCheck.png') no-repeat left center;
+    }
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li span.active + div a.active{
+        background: url('../images/bul_List_SortBarRadioCheck.png') no-repeat left center;
+    }
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li:nth-child(2) span.active + div{
+        display: flex;
+        justify-content: space-between;
+    }
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li:nth-child(2) span.active + div a,
+    [class$='SideImageList'] div.pager ol li{
+        display: inline-block;
+    }
+    [class$='SideImageList'] div:first-child input[type='button'].active + ul#filterPanel li:nth-child(2) span.active + div a.active{
+        border-bottom: 2px solid #605f5f; padding-bottom: 5px;
+    }
+    [class$='SideImageList'] div.pager{
+        width: 80%;
+    }    
+    
+    [class$='DetailPage'] .bx-viewport{
+        min-height: 510px;
+    }
+    .bx-wrapper .bx-pager{
+        top: 90%;
+        left: 36%;
+        width: 30%;
+    }
+    [class$='DetailPage'] .bx-wrapper img{
+        width: 100%;
+        min-height: 510px;
+    }
+    [class$='DetailPage'] .bx-wrapper .bx-prev{
+        background: url('../images/bul_Detail_SliderPrevArrowBtn.png') no-repeat center center;
+        left: 15%;
+        z-index: 1;
+    }
+    [class$='DetailPage'] .bx-wrapper .bx-next{
+        background: url('../images/bul_Detail_SliderNextArrowBtn.png') no-repeat center center;
+        right: 15%;
+    }
+    [class$='DetailPage'] > div div strong,
+    [class$='DetailPage'] > div div .underLineTitle,
+    [class$='DetailPage'] > div [id^='goods'] form fieldset legend{
+        font-size: 16px ; font-weight: 400; 
+        display: block;
+    } 
+    [class$='DetailPage'] > div [id^='goods'],
+    [class$='DetailPage'] > div [id^='productDetails'],
+    [class$='DetailPage'] > div [id^='deliveryReturns'],
+    [class$='DetailPage'] > div [id^='thePerfectPartner']{
+        min-height:790px;
+    }
+    [class$='DetailPage'] > div h2{
+        font-size: 34px;
+        line-height: 40px;
+    }
+    [class$='DetailPage'] > div [id^='goods'] .underLinePrice{
+        font-size: 26px; font-weight: 400;
+        margin-bottom: 35px;
+    }
+    .shoesDetailPage > div [id^='goods'] form fieldset:not(:last-child){
+        margin-bottom: 70px;
+    }
+    [class$='DetailPage'] > div [id^='goods'] > p{
+        font-size: 12px; 
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .sizeSet input[type='button']:not(:first-of-type){
+        margin-left: 1.5%;
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .colorSet a:not(:first-of-type){
+        margin-left: 5%;
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .sizeSet > span{
+        line-height: 28px;
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .quantSet .numberInput{
+        width: 40%;
+        max-width: 160px;
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .quantSet .numberInput input[type='number']{
+        max-width: 40px;
+    }
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] > span{
+        margin-bottom: 30px; display: block;
+    }
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] ol li figure{
+        display: flex; align-items: center;
+    }
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] ol li figure img{
+        width: 20%; 
+        margin-right: 5%;
+        min-width: 120px;
+    }
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] ol li figure figcaption{
+        width: 75%;
+    }
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] ol li figure figcaption h3{
+        margin-bottom: 15px;
+        line-height: 18px;
+    }
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] ol li figure figcaption >span a{
+        padding-top: 2vh;
+        text-decoration: underline;
+    }
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] ol li figure figcaption >span a:hover{
+        text-decoration: underline;
+    }   
+    [class$='DetailPage'] > div:nth-child(2) div:not(.underPager){
+        padding: 50px 0 0 0;
+    }
+    [class$='DetailPage'] > div .underPager ul{
+        display: block; 
+        position: absolute;
+        top: 0%;
+        width: 92.86%;
+        margin: 0 3.57%;
+        white-space: nowrap;
+        overflow-x: scroll;
+    }
+    [class$='DetailPage'] > div .underPager ul li{
+        display: inline-block;
+    }
+    [class$='DetailPage'] > div .underPager ul li:not(:first-child){
+        margin-left: 20%;
+    }
+    [class$='DetailPage'] > div .underPager ul li a{
+        font-size: 12px; font-weight: 400; color: #9b9b9b;
+    }    
+
+    .jewelryCareTips h2{
+        margin: 50px 0 25px 0; text-align: center;
+        font-size: 24px; font-weight: 300;
+        line-height: 32px;
+    }
+    .jewelryCareTips > p{
+        margin-bottom: 50px;
+        line-height: 20px;
+        font-size: 12px; 
+    }
+    .jewelryCareTips > ol li h3{
+        font-size: 16px; 
+        margin-bottom: 30px;
+    }
+    .jewelryCareTips > ol li em{
+        font-size: 13px; 
+        line-height: 21px;
+    }
+    .jewelryCareTips > ol > li ol li:not(strong){
+        font-size: 12px; 
+        line-height: 22px;
+    }
+    .jewelryCareTips > ol > li ol li strong{
+        font-size: 15px;
+        line-height: 26px;
+    }
+    
+    .FAQ h2{
+        font-size: 30px; font-weight: 300;
+        margin: 50px 0 20px; text-align: center;
+    }
+    .FAQ > p{
+        line-height: 20px;
+        margin-bottom: 50px;
+    }
+    .FAQ > aside ul{
+        display: block;
+        margin-bottom: 70px;
+        overflow-x: scroll;
+        white-space: nowrap;
+        line-height: 18px;
+    }
+    .FAQ > aside ul li{
+        display: inline-block;
+    }
+    .FAQ > aside ul li:not(:first-child){
+        margin-left: 12%;
+    }
+    .FAQ > aside ul li a{
+         font-size: 12px; color: #9e9e9e; display: block;
+    }
+    .FAQ > aside ul li a:hover,
+    .FAQ > aside ul li a.active{
+        padding-bottom: 5px; 
+    }
+    .FAQ > div h3{
+        font-size: 18px; 
+        margin-bottom: 30px;
+    }    
+    .FAQ > div > ol{
+        counter-reset: h4;
+    }
+    .FAQ > div > ol > li{
+        padding-bottom: 50px; border-bottom: 1px solid #e8e8e8;
+    }
+    .FAQ > div > ol > li:not(:last-of-type){
+        margin-bottom: 50px;
+    }
+    .FAQ > div > ol > li h4{
+        counter-increment: h4;
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    .FAQ > div > ol > li > ol > li{
+        font-size: 16px;
+    }
+    .FAQ > div > ol > li > ol > li p,
+    .FAQ > div > ol > li > ol > li ul,
+    .FAQ > div > ol > li > ol > li.active p,
+    .FAQ > div > ol > li > ol > li.active ul{
+        font-size: 12px; 
+    }
+    
+    [class*='Editeur'] h2{
+        font-size: 24px;
+        margin: 90px 0 100px;
+        padding-bottom: 55vw;
+        background-size: 100%;
+    }    
+    [class*='Editeur'] > div{  
+        margin-bottom: 120px;
+    }
+    .EditeurMain p{
+        font-size: 12px; 
+        line-height: 20px;
+    }
+    .EditeurMain p:first-of-type strong{
+        font-size: 18px; 
+        margin-bottom: 30px;
+    }
+    .EditeurMain p:last-of-type,
+    .EditeurMain div.centerguideMain{
+        margin-bottom: 100px;
+    }
+    .EditeurMain div.centerguideMain ul li figure figcaption dl dt{
+        margin-bottom: 40px;
+    }
+    .EditeurMain div.centerguideMain ul li figure figcaption dl dt mark{
+        box-sizing: border-box;
+        color: #fff;
+        padding: 10px 3%;
+        width: 50%;
+    }
+    
+    .EditeurMain div.centerguideMain ul li:first-of-type figure figcaption dl dt mark{background-color: rgba(225,113,103,1);}
+    .EditeurMain div.centerguideMain ul li:nth-of-type(2) figure figcaption dl dt mark{background-color: rgba(102, 143, 158, 1);}
+    .EditeurMain div.centerguideMain ul li:nth-of-type(3) figure figcaption dl dt mark{background-color: rgba(232, 124, 54, 1);}
+    .EditeurMain div.centerguideMain ul li:last-of-type figure figcaption dl dt mark{background-color: rgba(178, 199, 2, 1);}
+     
+    [class*='Editeur'] [class$='Artist'] figure{
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-top:68vw;
+    }
+    [class*='Editeur'] [class$='Artist'] figure figcaption dl dt{
+        font-size: 20px; font-weight:400;
+    }
+    .EditeurJosefalbers div.centerguideArtist figure figcaption dl dd,
+    .EditeurDanielburen div.centerguideArtist figure figcaption dl dd{
+        font-size: 14px; font-weight: 300;
+        line-height: 24px;
+    }
+    [class*='Editeur'] [class$='Project'] ul li > div,
+    [class*='Editeur'] [class$='Project'] ul li > p,
+    [class*='Editeur'] [class$='Project'] ul li div > p{
+        font-size: 14px; font-weight: 300;
+        line-height: 24px;
+    }
+    [class*='Editeur'] [class$='Project'] ul li div,
+    [class*='Editeur'] [class$='Project'] ul li > p{
+        padding: 0 3.57%;
+    }
+    [class*='Editeur'] div.centerguideProject ul li:not(:last-child){
+        margin-bottom: 70px;
+    }
+
+    .EditeurJosefalbers div.centerguideArtist figure figcaption dl{
+        background-color:#e17167; 
+        padding: 7vh 3.57%;
+    }
+    .EditeurJosefalbers div.centerguideArtist figure figcaption dl dt{
+        margin-bottom: 40px;
+    }
+    .EditeurJosefalbers div.centerguideProject ul{
+        padding-top: 74vw;
+        background-size: contain;
+    }
+    .EditeurJosefalbers div.centerguideProject ul li div{
+        top: 40vh; 
+    }
+    
+    .EditeurDanielburen div.centerguideArtist figure figcaption dl{
+        background-color:#668f9e;
+        padding: 90px 4.5%;
+    }
+    .EditeurDanielburen div.centerguideArtist figure figcaption dl dt{
+        font-size: 20px; font-weight: 400;
+        margin-bottom: 30px;
+    }
+    .EditeurDanielburen div.centerguideProject ul li{
+        padding-top: 93vw;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }    
+    .EditeurHiroshisugimoto div.centerguideArtist figure figcaption dl{
+        background-color: #e87c36;
+        padding: 4vh 3.57%;
+    }
+    .EditeurHiroshisugimoto div.centerguideProject ul li{
+        padding-top: 90vw;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .EditeurJulioleparc div.centerguideArtist figure figcaption dl{
+        background-color: #b2c702;
+        padding: 45px 3.57%;
+        color: #373d01;
+    }
+    .EditeurJulioleparc div.centerguideProject ul li{
+        padding-top: 80vw;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }   
+    
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs li:not(:last-child){
+        margin-bottom: 40px;
+    }
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs li figure figcaption{
+        margin-top: 30px;
+        padding: 0 3.57%;
+    }
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs li figure figcaption dl dt{
+        font-size: 18px; font-weight: 400; margin-bottom: 15px;
+    }
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs li figure figcaption dl dd{
+        font-size: 12px; font-weight: 200;
+        line-height: 22px;
+    }
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs li figure figcaption dl dd a.btn_self{
+        font-size: 14px; font-weight: 400; 
+        display: block;  max-width: 75px;
+        margin-top: 20px;
+    }    
+   
+    [class*='AboutHermes'] h2{
+        font-size: 18px; font-weight: 500;
+        line-height: 28px;
+        margin: 50px auto 30px;
+        padding-bottom: 30px;
+        background:url('../images/bul_AboutHermesUnderLine_Mobile.png') left bottom no-repeat;
+    }
+    [class*='AboutHermes'] ul li:not(.wayClear) h3{
+        font-size: 16px; font-weight: 400;
+        line-height: 24px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #d1d1d1;
+    }
+    [class*='AboutHermes'] > div h3{
+        font-size: 26px; font-weight: 400;
+        margin-bottom: 30px;
+    }
+    [class*='AboutHermes'] > p{
+        margin-bottom: 20px;
+        font-size: 12px; 
+        line-height: 20px; 
+    }
+
+    .AboutHermesMain ul,
+    .AboutHermes > ul,
+    .AboutHermesChronology ul,
+    .AboutHermes > ul li:not(:last-child){
+        margin-bottom: 70px;
+    }
+    [class*='AboutHermes']:not(.AboutHermesChronology) ul li p{
+        font-size: 12px; font-weight: 300;
+        line-height: 20px;
+    }
+    [class*='AboutHermes']:not(.AboutHermesChronology) ul li a{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    [class*='AboutHermes']:not(.AboutHermesChronology) > div{
+        margin-bottom: 100px;
+    }
+    .AboutHermesMain ul li{
+        padding-top: 54vw;
+        background-repeat: no-repeat;
+        background-size: contain;
+        box-sizing: border-box;
+    }
+    .AboutHermesMain ul li:not(:last-of-type),
+    .AboutHermesMain ul li p{
+        margin-bottom: 50px;
+    }
+    .AboutHermes > ul li:not(.wayClear) img{
+        width: 100%; margin-bottom: 40px; 
+    }
+    .AboutHermes > ul li h3 mark{
+        background: #e8e8e8;
+        font-size: 16px; 
+        line-height: 26px;
+        font-weight: 400; font-style: normal;
+    }
+    .AboutHermes ul.aboutTheworldContent li.wayClear h3{
+        display: inline-block; border: none;
+        font-weight: 400;
+    }
+    .AboutHermes ul.aboutTheworldContent li.wayClear span{
+        margin-bottom: 40px;
+        font-size: 14px; 
+    }
+    .AboutHermesChronology > ul > li:not(:last-of-type){
+        margin-bottom: 100px;
+    }
+    .AboutHermesChronology > ul > li p{
+        font-size: 12px; 
+    }
+    .AboutHermesChronology > ul li:not(.fullImage_1937) img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .AboutHermesChronology > ul li[class*='fullImage'] h3{
+        border: none; padding: 0;
+    }
+    .AboutHermesChronology > ul li > a{
+        display: inline-block;
+        margin-top: 30px;
+    }    
+
+    #subscribePanel > div{
+        width: 80%;
+        top: 20%; left: calc(100%/10);
+    }
+    #subscribePanel > div h3{
+        font-size: 20px; 
+    }
+    #subscribePanel > div p{
+        font-size: 12px; 
+    }
+    #subscribePanel > div input[type='button']{
+        font-size: 14px;
+    }
+    .findAStore #map {
+        width: 100%;
+        height: 400px;
+    }
+    .findAStore h2{
+        font-size: 34px; 
+        line-height: 29px;
+        left: 3.57%;
+        top: 382px;
+    }
+    .findAStore form input[type='search']{
+        width: 60%; max-width: 430px; min-width: 250px;
+    }
+    .findAStore strong{
+        line-height: 24px;
+    }
+    .findAStore address{
+        width: 90%; min-width: 260px; 
+    }
+    .findAStore > p{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }    
+
+    [class*='order'] > div:first-of-type,
+    [class*='order'] [class$='UnderArea'] > div{
+        width: 92.86%; 
+        margin: 0 auto;
+    }
+    [class*='order'] > div ul.stepBox{
+        margin: 30px 0 60px 0;
+        text-align: right;
+        display: flex;
+        justify-content: space-between;
+    }
+    [class*='order'] > div ul.stepBox li{
+        color: #bababa;
+        padding-left: 15px;
+        font-size: 12px; font-weight: 300;
+    }
+    [class*='order'] > div > h2{
+        font-size: 28px; font-weight:300;
+    }    
+    [class*='order'] [class$='UnderArea']{
+        padding: 70px 0 30px 0;
+    }
+    
+    .orderShoppingCart > div:first-of-type{
+        margin-bottom: 100px;
+    }
+    .orderShoppingCart > div:first-of-type ol li{
+        padding: 50px 0;
+        border-bottom: 1px solid #bababa;
+    }
+    .orderShoppingCart > div:first-of-type > ol li div{
+        padding-left: 110px;
+        background: url('../images/detailJewerly01_Gold_2.png') left 0 / 90px no-repeat;
+    }
+    .orderShoppingCart > div:first-of-type > ol li div span,
+    .orderCheckout div fieldset:not(.summaryBox) ul > li > label,
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment li h3{
+        font-size: 14px;
+    }
+    .orderShoppingCart > div:first-of-type > ol li div span.numberInput input[type='number']{
+        font-size: 18px; 
+        max-width: 90px;
+        min-width: 60px;
+    }
+    .orderShoppingCart > div:first-of-type > ol li > input[type='button'] {
+        top: 7%;
+    }
+    .orderShoppingCart > div.shoppingUnderArea > div div{
+        position: absolute;
+        right: 0; top: -50px;
+    }
+    .orderCheckout > div> h2{
+        margin-bottom: 40px;
+    }
+    .orderCheckout div fieldset legend{
+        font-size: 18px; 
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul li input:not([type='radio'],[type='checkbox']),
+    .orderCheckout div fieldset:not(.summaryBox) ul li span.selectComponent select{
+        padding: 24px 15px; 
+    } 
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:nth-child(3) ol li,
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:nth-child(3) ol li:hover label,
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:nth-child(3) ol li.active label{
+        line-height: 90px;
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:nth-child(3) ol li label{
+        background-size: contain;
+    }   
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:last-child span{
+        font-size: 14px; display: block; line-height: 20px;
+        font-weight: 400; color: #bababa;
+        margin-left: 40px;
+    }   
+    .orderCheckout div fieldset.summaryBox figure img{
+        width: 25%;
+    }
+    .orderCheckout div fieldset.summaryBox figure figcaption{
+        width: 70%; margin-left: auto;
+    }
+    .orderCheckout div fieldset.summaryBox > p{
+        padding: 20px 0 20px 22%;
+        line-height: 20px;
+        background: url('../images/yourOrder_OrangeBoxImg.png') left center / 16% no-repeat;
+    }
+    .orderCheckout div fieldset.summaryBox div#orderComplete{
+        padding: 0 2.65% 135px 2.65%;
+    }
+    .orderCheckout div fieldset.summaryBox div#orderComplete > input[type='button']{
+        margin-top: 20px;
+    }
+    .orderCheckout div.checkoutUnderArea div >*{
+        width: 30%;     
+        max-width: 180px; min-width: 115px;
+        font-size: 14px; 
+    }
+        
+    .Account > div fieldset legend{
+        font-size: 38px;
+        font-weight: 500;
+    }  
+    .Account > div fieldset.accountSet ul li{
+        margin: 0 3.57% 40px;
+    }
+    .Account > div fieldset.createSet ul li{
+        margin: 0 3.57% 30px;
+    }
+    .Account > div fieldset ul li label{
+        font-size: 18px;
+    }
+    .Account > div fieldset ul li.pwField input[type='button']{
+        font-size: 12px;
+    }
+    .Account > div fieldset.accountSet > span:nth-child(6) > a  {
+        text-decoration: underline; 
+    }
+    .Account > div fieldset.createSet > label{
+        margin: 0 0 70px 3.57%;
+    }
+}
+
+@media screen and (min-width: 768px){  
+
+    [class$='ImageList']:not([class$='SideImageList']) > ul::after,
+    [class$='ImageList']:not([class$='SideImageList']) > ul li dl::after,
+    [class$='ImageList'] > ul li dl::after,
+    .Main > section:nth-child(3) div::after,
+    .Main > section:nth-child(4) ul::after,
+    [class$='MovingBox']::after,
+    [class$='SideImageList'] > ul::after,
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] ol::after,
+    .AboutHermes > ul li::after,
+    .AboutHermes ul.aboutCreativeContent li:nth-child(2):after,
+    .AboutHermesChronology > ul li::after,
+    .orderCheckout div::after,
+    .orderCheckout div fieldset:first-of-type ul#checkout::after,
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment::after,
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment li:nth-child(4)::after,
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment li:nth-child(5):after,
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:nth-child(3) ol::after,
+    .orderCheckout div fieldset.summaryBox figure::after{
+        content: ''; display: block; clear: both;
+    }
+
+    .jewerlyMovingBox img,
+    .AboutHermesChronology > ul li:nth-child(odd):not([class*='fullImage']) img,
+    .AboutHermesChronology > ul li:nth-child(odd):not([class*='fullImage']) *:not(img),
+    .orderCheckout div fieldset:first-of-type ul#checkout li.infoBox{
+        float: left;
+    }
+
+    /* footer,
+    .orderCheckout div fieldset:not(.summaryBox) ul > li:nth-child(3),
+    .orderCheckout div fieldset:not(.summaryBox) ul li:nth-child(6){
+        clear: both;
+    } */
+
+    [class$='SideImageList'] ul#filterPanel li > span.active+div,
+    [class$='DetailPage'] > div:nth-of-type(2) > div:not(.underPager).active,
+    [class$='DetailPage'] > div [id^='goods'] > span,
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] ol li figure figcaption > span,
+    #subscribePanel.active,
+    .findAStore address > a,
+    .orderCheckout fieldset:not(.summaryBox) ul.active,
+    .orderCheckout div fieldset:first-of-type ul#checkout li label,
+    .orderCheckout div fieldset.summaryBox div#orderComplete.active,
+    .orderCheckout div.checkoutUnderArea div a.active,
+    .Account > div fieldset.accountSet address > a,
+    .Account > div fieldset.accountSet > span:nth-child(6){
+        display: block; 
+    }
+
+    [class$='SideImageList'] > div:first-child input[type='button'],
+    [class$='DetailPage'] > div:nth-of-type(2) > div:not(.underPager),
+    .jewerlyDetailPage > div .colorSet,
+    .bagDetailPage > div .sizeSet,
+    #subscribePanel,
+    .orderCheckout fieldset:not(.summaryBox) ul,
+    .Account > div fieldset.createSet > input#agreeBox,
+    .aboutSlider .bx-wrapper .bx-pager.bx-default-pager a{
+        display: none;
+    }
+
+    [class$='SideImageList'] ul#filterPanel > li,
+    [class$='SideImageList'] div.pager ol li{
+        display: inline-block;
+    }
+
+    .mainSlider > li figure img,
+    [class$='ImageList'] > ul li a img,
+    [class*='Editeur']:not(.EditeurMain) > div:nth-child(4) img,
+    .AboutHermes ul.aboutTheworldContent li.wayClear img,
+    .AboutHermesChronology > img,
+    .AboutHermesChronology > ul [class^='fullImage'] img,
+    .orderCheckout div fieldset:not(.summaryBox) ul li input:not([type='radio'],[type='checkbox']),
+    .orderCheckout div fieldset:not(.summaryBox) ul li span.selectComponent select{
+        width: 100%;
+    }
+
+    [class$='DetailPage'] > div [id^='goods'],
+    [class$='DetailPage'] > div [id^='productDetails'] p:nth-child(2),
+    [class$='DetailPage'] > div h2,
+    [class$='DetailPage'] > div div strong:not(:nth-child(3),:nth-child(5)),
+    [class$='DetailPage'] > div div:nth-of-type(5) > a,
+    .AboutHermes ul.aboutTheworldContent li.wayClear,
+    .AboutHermesChronology > ul li[class*='fullImage'] h3,
+    .AboutHermesChronology > ul li[class*='fullImage']:not(.fullImage_1967, .fullImage_2013) p,
+    .AboutHermesChronology > ul li.fullImage_1967{
+        text-align: center;
+    }
+
+    .EditeurMain div.centerguideMain ul li:nth-child(even) figure figcaption,
+    .AboutHermes > ul li:nth-child(even),
+    .orderCheckout div fieldset.summaryBox div#orderComplete:not(h2,p){
+        text-align: right;
+    }
+
+    [class*='Editeur'] [class$='Artist'] figure figcaption,
+    [class*='Editeur'] [class$='Project'] ul li,
+    .AboutHermesChronology > ul li.fullImage_2013,
+    [class*='order'],
+    .orderCheckout div fieldset.summaryBox,
+    .orderCheckout div.checkoutUnderArea div{
+        position: relative;
+    }
+
+    .aboutSlider .way3Carousel li figure figcaption,
+    [class$='DetailPage'] > div [id^='productDetails'] strong:not(:first-of-type),
+    .findAStore address *:not(strong, :last-child){
+        margin-bottom: 15px;
+    }
+
+    [class$='ImageList'] > ul li:hover a,
+    .aboutSlider .bx-wrapper .bx-viewport,
+    [class$='DetailPage'] > div [id^='productDetails'] > ul{
+        margin-bottom: 20px;
+    }
+
+    [class$='DetailPage'] > div [id^='productDetails'] strong:first-of-type,
+    .FAQ > div > ol > li > ol > li:not(:last-of-type),
+    .AboutHermes > ul li p:not(:last-of-type),
+    .AboutHermesChronology > ul li.fullImage_1937 p,
+    .AboutHermesChronology > ul li.fullImage_1967 img,
+    .AboutHermesChronology > ul li.fullImage_1992 img,
+    .orderCheckout div fieldset:not(.summaryBox) ul > li,
+    .orderCheckout div fieldset.summaryBox > div:nth-child(3) span:first-of-type{
+        margin-bottom: 30px;
+    }
+
+    .shoesDetailPage > div [id^='goods'] form fieldset:not(:last-child),
+    .FAQ > div > ol > li:not(:last-of-type),
+    .AboutHermesMain ul li:not(:last-of-type),
+    .AboutHermesMain ul li p,
+    .orderCheckout > div> h2{
+        margin-bottom: 70px;
+    }
+
+    .FAQ > div > ol > li > ol > li ul li::before,
+    [class$='DetailPage'] > div [id^='productDetails'] > ul li::before,
+    .jewelryCareTips > ol > li ol li ul li::before,
+    .FAQ > div > ol > li > ol > li ul li::before{
+        content: '- ';
+    }
+    
+    .Account > div fieldset.accountSet > span:nth-child(6) > a,
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] ol li figure figcaption >span a:hover{
+        text-decoration: underline;
+    }
+
+
+    .wrap{
+        padding-top: 111px;
+    }
+    .Main .bx-wrapper{
+        box-shadow: none;
+        border: none;
+        background: transparent;
+    }
+    .Main > .bx-wrapper .bx-pager-item {
+        display: block; 
+        margin-bottom: 2.8vw;
+    }
+    .Main > .bx-wrapper .bx-pager,
+    .Main > .bx-wrapper .bx-controls-auto {
+        top: 19vw;
+        left: 65%;
+        width: 15px;
+    }
+    .Main > .bx-wrapper .bx-controls-direction a{
+        top: auto;
+        border-radius: 30px;
+        z-index: 99;
+    }
+    .mainSlider > li figure figcaption{
+        position: absolute; top: 12.96%; left: 11.97%;
+        color: #fff;
+        width: 13.54%; max-width: 260px;
+    }
+    .mainSlider > li figure figcaption dl{
+        margin-bottom: 25.27%;
+    }
+    .mainSlider > li figure figcaption a{
+        display: block; text-indent: -9999px;
+    }
+    .mainSlider > li p{
+        right: 31.25%;
+        padding: 2.77% 3.12%;
+        font-size: 0.84vw;
+    }
+    .mainSlider > li:nth-child(2) p{
+        background-color: #e87c36;
+    }
+    .mainSlider > li:nth-child(3) p{
+        background-color: #9e9e9e;
+    }
+    .mainSlider > li:nth-child(4) p{
+        background-color: #b2c702;
+    }
+    .mainSlider > li:nth-child(5) p{
+        background-color: #668f9e;
+    }
+    .mainSlider > li .sliderSidePanel{
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 31.25%;
+        transition: top 0.7s ease-in;
+    }
+    .mainSlider > li .sliderSidePanel.active{
+        top: 0;
+    }
+    .mainSlider > li .sliderSidePanel input[type='button']{
+        position: absolute;
+        border-style: none;
+        text-indent: -9999px;
+        opacity: 0.5;
+        transform: rotate(0deg);
+        transition: transform 0.7s ease-in-out;
+    }
+    .mainSlider > li .sliderSidePanel input[type='button'].active{
+        transform: rotate(45deg); 
+    }
+    .mainSlider > li .sliderSidePanel > ol li{
+        counter-increment: rint; 
+        margin-bottom: 3%;
+    }
+    .mainSlider > li .sliderSidePanel > ol li:not(:last-child) h3{
+        border-bottom: 1px solid #605f5f;
+    }
+    .mainSlider > li .sliderSidePanel > ol li h3 a{
+        display: block; color: #fff;
+        margin-left: 5%;
+    }
+    
+    [class$='ImageList']:not([class$='SideImageList']) > ul li a,
+    [class$='ImageList'] > ul li a{
+        display: block; margin-bottom: 10px;
+        transition: margin-bottom 0.2s ease-out;
+    }
+    [class$='ImageList']> ul li:hover a img{
+        animation: 0.2s ease-out 0s 0.5 normal forwards imgZoom;
+    }
+    @keyframes imgZoom {
+        from{
+            transform: scale(1);
+        }to{
+            transform: scale(1.1);
+        }
+    }
+    .Main > section:nth-child(3){
+        background: url('../images/main_WomenCollectionBG.png') center / cover no-repeat;
+        margin-bottom: 120px;
+    }
+    .Main > section:nth-child(3) div{
+        padding: 50px 0;
+    } 
+    .Main > section:nth-child(3) div h2{
+        float: left;
+        border-right: 1px solid #fff;
+    }
+    .Main > section:nth-child(3) div p{
+        float: left;
+        font-weight: 300;
+        width: 45%;
+    }
+    .Main > section:nth-child(4) ul li{
+        float: left; width: 21.25%; 
+        text-align: center;
+    }    
+    .Main > section:nth-child(4) ul li:not(:first-child){
+        margin-left: 5%;
+    }
+    [class$='MovingBox']{  
+        margin-bottom: 90px;
+    }
+    [class$='MovingBox'] img{
+        width: 53.15%; 
+    }
+    .bagMovingBox img{
+        float: right;
+    }
+    .bagMovingBox figcaption dl dt{
+        width: 19.79%;
+        padding: 2% 1.4% 2% 9.37%;
+        font-size: 2.7vw;
+        left: 45%;
+        transition: left 1.3s ease-in-out;
+    }
+    .bagMovingBox figcaption dl dd{
+        padding: 14% 1.3% 2.5% ;
+        width: 30.2%;
+        left: 7.29%;
+        top: 23vh;
+    }
+    .bagMovingBox figcaption.active dl dt{
+        left: 24%;
+    }
+    .jewerlyMovingBox figcaption dl dt{
+        width: 31.51%;
+        padding: 4% 1.5% ;
+        right: 45%;
+        transition: right 1.3s ease-in-out;
+    }
+    .jewerlyMovingBox figcaption dl dd{
+        padding: 8% 4.42% 2.5% ;
+        width: 30.2%;
+        right: 10.29%;
+    }
+    .jewerlyMovingBox figcaption.active dl dt{
+        right: 22%;
+    }
+    .jewerlyMovingBox figcaption.active dl dd{
+        top: 8vw
+    }
+    .Main > section:nth-child(7){
+        background-size: cover;
+        margin-bottom: 150px;
+        padding: 6vw 0;
+    }
+    .Main > section:nth-child(12) h2{
+        font-size: 46px;
+        font-weight: 300;
+        margin-bottom: 50px;
+    }
+    .aboutSlider .way3Carousel li figure figcaption dl dt{
+        font-size: 22px; 
+    }
+    .aboutSlider .way3Carousel li figure figcaption dl dd{
+        font-size: 14px; line-height: 20px;
+        margin-bottom: 25px;
+    }
+    .aboutSlider .bx-wrapper .bx-controls-direction a {
+        width: 80px;
+    }
+    .aboutSlider .bx-wrapper .bx-prev {
+        background: url('../images/bul_CarouselPrevBtn.png') no-repeat;
+    }
+    .aboutSlider .bx-wrapper .bx-next {
+        background: url('../images/bul_CarouselNextBtn.png') no-repeat right;
+    }
+
+    [class$='SideImageList'] ul#filterPanel li:not(:first-child){
+        margin-left: 4.5%;
+    }
+    [class$='SideImageList'] ul#filterPanel li > span{
+        display: block;
+        font-size: 18px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    [class$='SideImageList'] ul#filterPanel li > span:after{
+        content: url('../images/bul_List_SortBarBtn.png'); margin-left: 15px;
+        display: inline-block; vertical-align: middle;
+        transition: transform 0.3s ease-in;  transform: rotate(180deg); 
+    }
+    [class$='SideImageList'] ul#filterPanel li  > span.active:after{
+        transform: rotate(0deg) translateY(-5px);
+    }
+    [class$='SideImageList'] ul#filterPanel li div{
+        width: 100%; display: none;
+        position: absolute; 
+    }
+    [class$='SideImageList'] ul#filterPanel li div > *:not(input){
+        display: inline-block; 
+        font-size: 14px; 
+    }
+    [class$='SideImageList'] ul#filterPanel li:first-of-type div input[type='checkbox'] + label,
+    [class$='SideImageList'] ul#filterPanel li:nth-child(2) div input[type='checkbox'] + label{
+        background: url('../images/bul_List_SortBarCheckBox.png') no-repeat left center;
+    }
+    [class$='SideImageList'] ul#filterPanel li:nth-child(3) div a{
+        background: url('../images/bul_List_SortBarRadioBox.png') no-repeat left center;
+    }
+    [class$='SideImageList'] ul#filterPanel li:first-of-type div label:not(:first-of-type),
+    [class$='SideImageList'] ul#filterPanel li:nth-child(3) div a:not(:first-child){
+        margin-left: 3%;
+    }
+    [class$='SideImageList'] ul#filterPanel li:first-of-type div input[type='checkbox']:checked + label,
+    [class$='SideImageList'] ul#filterPanel li:nth-child(2) div input[type='checkbox']:checked + label{
+        background: url('../images/bul_List_SortBarCheck.png') no-repeat left center;
+    }
+    [class$='SideImageList'] ul#filterPanel li:nth-child(3) div a.active{
+        background: url('../images/bul_List_SortBarRadioCheck.png') no-repeat left center;
+    }
+    [class$='SideImageList'] ul#filterPanel li:nth-child(2) div a{
+        display: inline-block; padding-bottom: 1px; 
+    }
+    [class$='SideImageList'] ul#filterPanel li:nth-child(2) div a:not(:first-child){
+        margin-left: 50px; 
+    } 
+    [class$='SideImageList'] ul#filterPanel li:nth-child(2) div a.active{
+        border-bottom: 2px solid #605f5f;
+    }
+    [class$='SideImageList'] ul#filterPanel li:nth-child(3) div a{
+        color: #000;
+    }
+    [class$='SideImageList'] div.pager{
+        width: 35%;
+    }    
+    
+    [class$='DetailPage'] .bx-viewport{
+        min-height: 970px;
+    }
+    .bx-wrapper .bx-pager{
+        top: 91.5%;
+        left: 70%;
+        width: 20%;
+    }
+    [class$='DetailPage'] .bx-wrapper img{
+        width: 100%;
+        min-height: 970px;
+    }
+    [class$='DetailPage'] .bx-wrapper .bx-prev{
+        background: url('../images/bul_Detail_SliderPrevArrowBtn.png') no-repeat center center;
+        left: 65%;
+        z-index: 1;
+    }
+    [class$='DetailPage'] .bx-wrapper .bx-next{
+        background: url('../images/bul_Detail_SliderNextArrowBtn.png') no-repeat center center;
+        right: 5%;
+    }
+    [class$='DetailPage'] > div div strong,
+    [class$='DetailPage'] > div div .underLineTitle,
+    [class$='DetailPage'] > div [id^='goods'] form fieldset legend{
+        font-size: 20px ; font-weight: 400; 
+        display: block;
+    } 
+    [class$='DetailPage'] > div [id^='goods'],
+    [class$='DetailPage'] > div [id^='productDetails'],
+    [class$='DetailPage'] > div [id^='deliveryReturns'],
+    [class$='DetailPage'] > div [id^='thePerfectPartner']{
+        min-height:550px;
+    }
+    [class$='DetailPage'] > div [id^='goods'] .underLinePrice{
+        font-size: 34px; font-weight: 400;
+        margin-bottom: 35px;
+    }
+    [class$='DetailPage'] > div [id^='goods'] > p{
+        font-size: 16px; 
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .quantSet .numberInput{
+        width: 20%;
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .quantSet .numberInput input[type='number']{
+        max-width: 50px;
+    }
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] > span{
+        margin-bottom: 85px; display: block;
+    }
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] ol li{
+        float: left; width: 23.12%;
+    }
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] ol li:not(:first-of-type){
+        margin-left: 2.5%;
+    }
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] ol li figure img{
+        width: 100%; margin-bottom: 20px;
+    }
+    [class$='DetailPage'] > div [id^='thePerfectPartner'] ol li figure figcaption h3{
+        min-height: 60px;
+        line-height: 18px;
+    }
+    [class$='DetailPage'] > div .underPager ul{
+        display: flex; justify-content: space-between;
+    }
+    [class$='DetailPage'] > div .underPager ul li a{
+        font-size: 16px; font-weight: 400; color: #9b9b9b;
+    }
+
+    .jewelryCareTips h2{
+        margin: 80px 0 25px 0; text-align: center;
+        font-weight: 300;
+    }
+    .jewelryCareTips > p{
+        margin-bottom: 100px;
+    }
+    .jewelryCareTips > ol li h3{
+        margin-bottom: 40px;
+    }
+    .jewelryCareTips > ol li em{
+        line-height: 24px;
+    }
+    .jewelryCareTips > ol > li > ol{
+        margin-left: 25px;
+    }
+    .jewelryCareTips > ol > li ol li:not(strong){
+        line-height: 26px;
+    }
+
+    .FAQ h2{
+        font-weight: 300;
+        margin: 80px 0 20px; text-align: center;
+    }
+    .FAQ > p{
+        margin-bottom: 100px;
+    }
+    .FAQ > aside ul li a{
+        font-size: 18px; color: #9e9e9e;
+    }
+    .FAQ > aside ul li a:hover,
+    .FAQ > aside ul li a.active{
+        padding-bottom: 10px; 
+    }
+    .FAQ > div h3{
+        margin-bottom: 55px;
+    }    
+    .FAQ > div > ol{
+        counter-reset: h4;
+        margin-left: 35px;
+    }
+    .FAQ > div > ol > li{
+        padding-bottom: 70px; border-bottom: 1px solid #e8e8e8;
+    }
+    .FAQ > div > ol > li h4{
+        font-weight: 400;
+        counter-increment: h4;
+        margin-bottom: 40px;
+    }
+    .FAQ > div > ol > li > ol > li::after{
+        content: url('../images/bul_List_SortBarBtn.png'); display: block;
+        position: absolute;  right: 0; top: 0; transform: rotate(180deg);
+        transition: transform 0.35s ease-in;
+    }
+    .FAQ > div > ol > li > ol > li.active::after{
+        transform: rotate(0deg);
+    }
+    .FAQ > div > ol > li > ol > li p,
+    .FAQ > div > ol > li > ol > li ul{
+        font-size: 14px; 
+    }
+    
+    [class*='Editeur'] h2{
+        margin: 80px 0 120px 0;
+        background-size: 100% 88%;
+    }
+
+    .EditeurMain >div:last-of-type{
+        margin-bottom: 300px;
+    }
+    .EditeurMain p:first-of-type strong{
+        margin-bottom: 60px;
+    }
+    .EditeurMain p:last-of-type{
+        margin-bottom: 140px;
+    }
+    .EditeurMain div.centerguideMain ul{
+        background: url('../images/hermesEditeur_CenterLine.png') center no-repeat;
+    }
+    .EditeurMain div.centerguideMain ul li figure{
+        display: flex;
+        justify-content: space-between;
+    }
+    .EditeurMain div.centerguideMain ul li:nth-child(odd) figure{
+        flex-direction: row-reverse;  
+    }
+    .EditeurMain div.centerguideMain ul li:nth-child(odd) figure img,
+    .EditeurMain div.centerguideMain ul li:nth-child(even) figure img{
+        width: 54.54%;
+    }
+    .EditeurMain div.centerguideMain ul li:nth-child(odd) figure figcaption,
+    .EditeurMain div.centerguideMain ul li:nth-child(even) figure figcaption{
+        width: 38.96%;
+    }
+    .EditeurMain div.centerguideMain ul li figure figcaption dl dt{
+        margin-bottom: 60px;
+    }
+    .EditeurMain div.centerguideMain ul li figure figcaption dl dt mark{
+        position: relative;
+        background-color: transparent; 
+    }
+    .EditeurMain div.centerguideMain ul li figure figcaption dl dt mark::before{
+        position: absolute;
+        z-index: -1;
+        display: block;
+        content: '';
+        border-radius: 80px;
+        background-color: rgba(225,113,103,1);
+    }
+
+    .EditeurMain div.centerguideMain ul li:first-of-type figure figcaption dl dt mark::before{background-color: rgba(225,113,103,1);}
+    .EditeurMain div.centerguideMain ul li:nth-of-type(2) figure figcaption dl dt mark::before{background-color: rgba(102, 143, 158, 1);}
+    .EditeurMain div.centerguideMain ul li:nth-of-type(3) figure figcaption dl dt mark::before{background-color: rgba(232, 124, 54, 1);}
+    .EditeurMain div.centerguideMain ul li:last-of-type figure figcaption dl dt mark::before{background-color: rgba(178, 199, 2, 1);}
+
+    [class*='Editeur'] [class$='Artist'] figure figcaption dl{ 
+        position: absolute;
+        box-shadow: 0px 3px 15px rgb(93, 93, 93)
+    }
+    [class*='Editeur'] [class$='Project'] ul li > div,
+    [class*='Editeur'] [class$='Project'] ul li > p{
+        box-shadow: 0px 3px 5px rgb(174, 174, 174);
+        background-color: rgba(255, 255, 255, 0.85);
+        position: absolute;
+    }
+    .EditeurJosefalbers div.centerguideArtist figure figcaption dl dt{
+        margin-bottom: 4.2vh;
+    }
+    .EditeurJosefalbers div.centerguideProject ul{
+        background-size: 75%;
+    }
+
+    .EditeurHiroshisugimoto div.centerguideArtist figure figcaption dl{
+        background-color: rgba(232, 124, 54, 0.9);
+        padding: 4vh 4.5%;
+    }
+    
+    .EditeurJulioleparc div.centerguideArtist figure figcaption dl{
+        background-color: rgba(178, 199, 2, 0.9);
+        color: #373d01;
+    }
+
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type{
+        margin: 140px 0;
+    }
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs li figure figcaption dl dt{
+        font-size: 24px; font-weight: 400; margin-bottom: 15px;
+    }
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs li figure figcaption dl dd{
+        font-size: 14px; font-weight: 200;
+        line-height: 22px;
+    }
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs li figure figcaption dl dd a.btn_self{
+        font-size: 14px; font-weight: 400; 
+    }
+
+    [class*='AboutHermes'] h2{
+     margin: 80px auto 50px;
+     font-weight: 500;
+     background:url('../images/bul_AboutHermesUnderLine.png') left bottom no-repeat;
+    }
+    [class*='AboutHermes'] ul li:not(.wayClear) h3{
+        font-weight: 400;
+        line-height: 30px;
+        border-bottom: 1px solid #d1d1d1;
+    }
+    [class*='AboutHermes'] > div h3{
+        font-size: 34px; font-weight: 400;
+        margin-bottom: 50px;
+    }
+
+    .AboutHermes > ul li:not(.wayClear) img{
+        width: 48%; margin-bottom: 20px;
+    }
+    .AboutHermes > ul li:nth-child(odd):not(.wayClear) img{
+        float: left; margin-right: 4%;
+    }
+    .AboutHermes > ul li:nth-child(even) img{
+        float: right; margin-left: 4%;
+    }
+    .AboutHermes > ul li h3 mark{
+        position: relative; display: inline-block; 
+        background-color: transparent; 
+        font-weight: 400; font-style: normal;
+    }
+    .AboutHermes > ul li h3 mark::before{
+        position: absolute; content: ''; display: block; 
+        z-index: -1;
+        width: 100%; height: 14px; background-color: #e8e8e8;
+        bottom: 0;
+    }
+    .AboutHermes ul.aboutCreativeContent li:nth-child(2) > p{
+        width: 15.33%; float: left;
+    }
+    .AboutHermes ul.aboutCreativeContent li:nth-child(2) > p:not(:first-of-type){
+        margin-left: 1%;
+    }
+    .AboutHermes ul.aboutTheworldContent li.wayClear span{
+        margin-bottom: 60px;
+        font-size: 16px;
+    }
+    .AboutHermesChronology > ul li:not([class*='fullImage']) img,
+    .AboutHermesChronology > ul li:nth-child(odd):not([class*='fullImage']) *:not(img,a),
+    .AboutHermesChronology > ul li:nth-child(even):not([class*='fullImage']) *:not(img,a){
+        width: 48%;
+    }
+    .AboutHermesChronology > ul li:nth-child(even):not([class*='fullImage']) img,
+    .AboutHermesChronology > ul li:nth-child(even):not([class*='fullImage']) *:not(img){
+        float: right; text-align: right;
+    }
+    .AboutHermesChronology > ul li:nth-child(odd):not([class*='fullImage']) img{
+        margin-right: 4%;
+    }
+    .AboutHermesChronology > ul li:nth-child(even):not([class*='fullImage']) img{
+        margin-left: 4%;
+    }
+    .AboutHermesChronology > ul li[class*='fullImage'] h3{
+        border: none; padding: 0;
+    }
+    .AboutHermesChronology > ul li.fullImage_1967 p{
+        text-align: right;
+        margin: 0 auto;
+    }
+    .AboutHermesChronology > ul li.fullImage_1992 p{
+        width: 92.7%; 
+        margin: 0 auto;
+    }
+
+    #subscribePanel > div{      
+        width: 50%;
+        top: 30%; left: calc(100%/4);
+    }
+    #subscribePanel > div h3{
+        font-size: 24px; 
+    }
+    #subscribePanel > div p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #subscribePanel > div input[type='button']{
+        font-size: 16px; 
+    }
+    .findAStore #map {
+        width: 100%;
+        height: 670px;
+    }
+
+    [class*='order'] > div ul.stepBox{
+        margin: 30px 0 45px 0;
+        text-align: right;
+    }
+    [class*='order'] > div ul.stepBox li{
+        display: inline-block; color: #bababa;
+        padding-left: 20px;
+        font-size: 14px; font-weight: 300;
+    }
+    [class*='order'] > div ul.stepBox li:not(:first-of-type){
+        margin-left: 50px;
+    }
+    [class*='order'] [class$='UnderArea']{
+        padding: 35px 0;
+    }
+
+    .orderShoppingCart > div:first-of-type > ol li > input[type='button'] {
+        top: 45%; 
+    }
+    .orderShoppingCart > div.shoppingUnderArea > div div{
+        position: absolute;
+        right: 0; bottom: 0;
+    }
+    .orderCheckout div fieldset legend{
+        font-size: 24px; 
+    }
+    .orderCheckout div fieldset:first-of-type ul#checkout li.infoBox{
+        width: 49%;
+    }
+    .orderCheckout div fieldset:first-of-type ul#checkout li:first-child,
+    .orderCheckout div fieldset:first-of-type ul#checkout li:nth-child(4) {
+        margin-right: 2%;
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul li input:not([type='radio'],[type='checkbox']),
+    .orderCheckout div fieldset:not(.summaryBox) ul li span.selectComponent select{
+        padding: 24px; 
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul > li > label,
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment li h3{
+        font-size: 18px ; 
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:nth-child(3) ol li label{
+        line-height: 90px;   
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment li:nth-child(4){
+        width: 65%; float: left; 
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment li:nth-child(5){
+        width: 33%; float: left; margin-left: 2%;
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:last-child span{
+        font-size: 16px; font-weight: 400; color: #bababa;
+        padding-left: 40px; 
+    }
+    .orderCheckout div fieldset.summaryBox > p{
+        line-height: 22px;
+        background: url('../images/yourOrder_OrangeBoxImg.png') left center / 10% no-repeat;
+    }
+    .orderCheckout div.checkoutUnderArea div >*{
+        width: 20%; 
+        max-width: 250px; min-width: 200px; 
+        font-size: 18px; 
+    }
+}
+
+@media screen and (max-width: 1279px){
+
+    .mainSlider > li figure figcaption dl dt{
+        font-size: 20px; font-weight: 500; 
+    }
+    .mainSlider > li figure figcaption dl dd{
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .mainSlider > li figure figcaption a{
+        width: 19px; height: 19px;
+        background: url('../images/bul_MainSliderShareBtn_tablet.png') no-repeat center;
+    }
+    .mainSlider > li .sliderSidePanel input[type='button']{
+        top: 20px;
+        width: 21px; height: 21px;
+    }
+    .mainSlider > li .sliderSidePanel > ol li::before{
+        content: "0"counter(rint);
+        font-size: 14px;
+        font-weight: 500;
+    }
+    [class$='ImageList']:not([class$='SideImageList']) > div{
+        position: absolute;
+        box-sizing: border-box;
+    }
+    [class$='ImageList']:not([class$='SideImageList']) > div h2{
+        font-size: 28px; font-weight: 300;
+        margin-bottom: 30px; color: #fff;
+    }
+    [class$='ImageList']:not([class$='SideImageList']) > ul li dl{ 
+        width: 100%;
+        font-weight: 300;
+    }
+    [class$='ImageList']:not([class$='SideImageList']) > ul li dl dt{
+        float: left; width: 70%;
+    }
+    [class$='ImageList'] > div a.btn_self{
+        color: #fff; border: 1px solid #fff;
+        background-image: none;
+        padding: 10px 15px;
+        position: absolute;
+        font-size: 12px; font-weight: 300;
+    }
+    .Main > section:nth-child(3){
+        padding: 90px 0; 
+    }
+    .Main > section:nth-child(3) div p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .Main > section:nth-child(4) h2{ 
+        font-weight: 300; margin-bottom: 25px;
+    }
+    .Main > section:nth-child(4) p{
+        text-align: center; font-size: 14px;
+    }
+    .Main > section:nth-child(4) ul li a{
+        font-size: 16px;
+    }
+    .Main > section:nth-child(7) h2{
+        font-weight:300 ;
+        margin-bottom: 20px;
+    }
+    .Main > section:nth-child(7) p{
+        font-size: 14px; font-weight: 300; opacity: 50%;    
+    }
+    .Main > section:nth-child(11){
+        padding: 450px 3.64% 50px 66%;
+    }
+    .Main > section:nth-child(11) h2 a{
+        font-size: 14px;
+        padding: 10px 15px;
+        margin: 30px 0 0 auto;
+    }
+
+    .bagSideImageList{background-image: url('../images/listBag_LeftContainer_Tablet.png');}
+    .shoesSideImageList{background-image: url('../images/listShoes_LeftContainer_Tablet.png');}
+    .readytowearSideImageList{background-image: url('../images/listReadyToWear_LeftContainer_Tablet.png');}
+    .jewerlySideImageList{background-image: url('../images/listJewerly_LeftContainer_Tablet.png');}
+
+    [class$='SideImageList'] > div:first-child h2{
+        font-weight: 300;
+        position: absolute; 
+        color: #fff;
+    }
+    [class$='SideImageList'] > ul li dl{
+        margin-top: 20px;
+        font-size: 14px; font-weight: 300;
+    }
+    [class$='SideImageList'] > ul li dl dt{
+        margin-bottom: 10px;
+    }
+    [class$='DetailPage'] .bx-wrapper{
+        margin: 0 auto; width: 100%; 
+    }
+    [class$='DetailPage'] .bx-wrapper .bx-next{
+        z-index: 1;
+    }
+    [class$='DetailPage']{
+        min-height: 970px; 
+    }
+    [class$='DetailPage'] > div h2{
+        margin-bottom: 65px;
+        font-weight: 300;
+        padding-top: 110px;
+    }
+    [class$='DetailPage'] > div .underPager > a{
+        box-sizing: border-box;
+        position: fixed; 
+        bottom: 0; left: 0;
+        z-index: 1;
+        width: 100%; 
+    }
+    [class$='DetailPage'] > div .underPager > a.active{
+        position: absolute;
+        bottom : 0px;
+    }
+
+    .FAQ > p{
+        font-size: 12px;  
+    }
+    .FAQ > div > ol > li > ol > li.active p,
+    .FAQ > div > ol > li > ol > li.active ul{
+        line-height: 22px; 
+        padding: 30px 0 0 0px; 
+        color: rgba(96, 95, 95, 1);
+    }
+
+    [class*='Editeur'] > div h3{
+        font-size: 22px; font-weight: 300;
+        text-align: center; 
+        margin-bottom: 70px;
+    }
+    .EditeurMain div.centerguideMain ul li figure figcaption dl{
+        margin-bottom: 20px;
+    }
+    .EditeurMain div.centerguideMain ul li figure figcaption dl dd{
+        font-size: 14px; font-weight: 200; color: #3d3d3d;
+        line-height: 22px;
+    }
+    .EditeurMain div.centerguideMain ul li figure figcaption a{
+        font-size: 14px; font-weight: 300;
+    }
+    .EditeurMain div.centerguideMain ul li figure figcaption dl dt mark{
+        font-size: 20px;
+    }
+    .EditeurHiroshisugimoto div.centerguideArtist figure figcaption dl dd,
+    .EditeurJulioleparc div.centerguideArtist figure figcaption dl dd{
+        font-size: 14px; font-weight: 300;
+        line-height: 24px;
+    }
+    [class*='AboutHermes']:not(.AboutHermesMain) > p,
+    .AboutHermesMain > p:last-of-type{
+        margin-bottom: 70px;
+    }
+    [class*='AboutHermes']:not(.AboutHermesChronology) ul li a{
+        font-weight: 300;
+        display: block;
+        text-align: end;
+    }
+    [class*='AboutHermes'] > div h4{
+        font-size: 34px; margin-bottom: 50px;
+        font-weight: 400;
+    }
+
+    .AboutHermesMain ul li:first-child{background-image: url('../images/aboutHermes_Slider_Tablet_01.png');}
+    .AboutHermesMain ul li:nth-child(2){background-image: url('../images/aboutHermes_Slider_Tablet_02.png');}
+    .AboutHermesMain ul li:nth-child(3){background-image: url('../images/aboutHermes_Slider_Tablet_03.png');}
+    .AboutHermesMain ul li:nth-child(4){background-image: url('../images/aboutHermes_Slider_Tablet_04.png');}
+    .AboutHermesMain ul li:nth-child(5){background-image: url('../images/aboutHermes_Slider_Tablet_05.png');}
+
+    .AboutHermes > ul li p:first-child{
+        padding-top: 30px;
+    }
+    .AboutHermesChronology > ul > li h3{
+        margin-bottom: 20px;
+    }
+    .AboutHermesChronology > ul > li p{
+        font-weight: 300;
+        line-height: 22px;
+        color: #000;
+    }
+    .AboutHermesChronology > ul li > a{
+        font-size: 14px; font-weight: 400;
+    }
+    .findAStore{
+        margin-bottom: 70px;
+    }
+    .findAStore input[type='submit']{
+        padding: 10px 10%; 
+    }   
+    .orderShoppingCart > div:first-of-type h2{
+        padding-bottom: 30px; 
+        border-bottom: 1px solid #bababa;
+    }
+    .orderShoppingCart > div:first-of-type > ol li div span{
+        display: block;
+        font-weight: 400;
+        color: #3d3d3d;
+    }
+    .orderShoppingCart > div:first-of-type > ol li div span.numberInput input[type='button']{
+        width: 21px;
+        text-indent: -9999px;
+        padding: 2px 0;
+    }
+    .orderShoppingCart > div:first-of-type > ol li div span.numberInput input[type='number']{
+        width: 20%;
+        text-align: center;
+        font-weight: 400;
+    }
+    .orderShoppingCart > div:first-of-type > ol li span:nth-child(2)::before{
+        content: 'Size : '; 
+    }
+    .orderShoppingCart > div:first-of-type > ol li span:nth-child(3)::before{
+        content: 'Color : '; 
+    }
+    .orderShoppingCart > div:first-of-type > ol li span.productPrice::before{
+        content: 'Price : '; 
+    }
+    .orderShoppingCart > div.shoppingUnderArea > div div small{
+        font-size: 18px; font-weight: 300;
+    }
+    .orderShoppingCart > div.shoppingUnderArea > div div span{
+        font-size: 24px; font-weight: 400;
+        padding-left: 10px;
+    }
+    .orderCheckout div fieldset:first-of-type ul,
+    .orderCheckout div fieldset.summaryBox{
+        margin-bottom: 70px;
+    }
+    .orderCheckout div fieldset.summaryBox figure{
+        border-bottom: 1px solid #bababa;
+        margin-bottom: 30px;
+        padding-bottom: 30px
+    }
+    .orderCheckout div fieldset.summaryBox figure img{
+        float: left;
+        margin-right: 5%;
+    }
+    .orderCheckout div fieldset.summaryBox figure figcaption ul li:not(:last-child){
+        margin-bottom: 20px;
+        font-size: 14px; font-weight: 300;
+    }
+    .orderCheckout div fieldset.summaryBox > div:nth-child(3){
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        clear: both; 
+        border-bottom: 1px solid #bababa;
+    }
+    .Account > div{
+        background-color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+        color: #fff;
+        padding: 70px 0 45px 0;
+    }
+    .Account > div fieldset a{
+        color: #fff;
+    }
+    .Account > div fieldset.accountSet legend{
+        margin-bottom: 60px;
+    }
+    .Account > div fieldset.createSet legend{
+        margin-bottom: 50px;
+    }
+    .Account > div fieldset ul li label{
+        display: block;
+        margin-bottom:30px;
+        font-weight: 300;
+    }
+    .Account > div fieldset ul li input:not(input[type='button']){
+        border-style: none;
+        border-bottom: 1px solid #fff;
+        background-color: transparent;
+        width: 100%;
+        padding-bottom: 10px;
+        color: #fff;
+        text-shadow: 1px 3px 6px rgb(0, 0, 0);
+        letter-spacing: 1px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .Account > div fieldset ul li input:not(input[type='button'])::placeholder{
+        color: #605f5f; font-size: 18px;
+        font-weight: 300;
+        text-shadow: 1px 3px 6px rgb(0, 0, 0);
+    }
+    .Account > div fieldset ul li.pwField input[type='button']{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: transparent;
+        border-style: none;
+        color: #fff;
+        text-decoration: underline;  
+    }
+    .Account > div fieldset.accountSet > input[type='button']{
+        background-color: transparent;
+        border-style: none;
+        color: #fff;
+        text-decoration: underline;  
+        font-size: 14px; font-weight: 400;
+        margin-bottom: 30px;
+        letter-spacing: 1.2px;
+    }
+    .Account > div fieldset.accountSet ul li:first-child > p.deactive{
+        display: block;
+        margin: 40px 0 163px 0;
+    }
+    .Account > div fieldset.accountSet ul li:first-child > p::before{
+        content: url('../images/bul_ForgotPassword.png' ) ;
+        vertical-align: middle;
+        padding-right: 5px;
+    }
+    .Account > div fieldset.accountSet strong{
+        display: block; margin-bottom: 20px;
+        font-size: 16px; font-weight: 400;
+    }
+    .Account > div fieldset.accountSet address{
+        margin-bottom: 20px; font-style: normal;
+    }
+    .Account > div fieldset.accountSet address >*:not(strong){
+        margin-bottom: 15px;
+        font-size: 12px; font-weight: 300;
+    }
+    .Account > div fieldset.accountSet > span:nth-child(6){
+        margin-bottom: 60px;
+    }
+    .Account > div fieldset.accountSet input[type='submit'],
+    .Account > div fieldset.createSet > input[type='button']{
+        width: 100%;
+        background-color: #e87c36;
+        color: #fff;
+        padding: 30px;
+        margin-bottom: 40px;
+    }
+    .Account > div fieldset > span:last-child{
+        display: block;
+        font-size: 16px; font-weight: 300;
+    }
+    .Account > div fieldset > span:last-child input[type='button']{
+        font-size: 20px; font-weight: 400;
+        vertical-align: baseline;
+        margin-left: 20px;
+        text-decoration: underline;
+        background-color: transparent;
+        color: #fff;
+        border-style: none;
+    }
+    .Account > div fieldset > span:last-child input[type='button']:active{
+        color: #e87c36;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+
+    [class$='DetailPage'] > div a.btn_Return,
+    .orderShoppingCart > div:first-of-type ul:nth-child(3),
+    .Account > div fieldset,
+    .Account > div fieldset.accountSet ul li:first-child > p,
+    .Account > div fieldset.accountSet ul li:nth-child(2).deactive,
+    .Account > div fieldset.accountSet input#deactivePW.deactive,
+    .Account > div > a,
+    .Account > div div[class$=Active]{
+        display: none;
+    }
+
+    [class$='DetailPage'] > div,
+    [class*='AboutHermes']:not(.AboutHermesChronology) ul li,
+    .orderShoppingCart > div:first-of-type > ol li,
+    .orderShoppingCart > div.shoppingUnderArea > div,
+    .Account > div fieldset ul li.pwField{
+        position: relative;
+    }
+
+
+    .Main > .bx-wrapper .bx-controls-direction a{
+        left: 2.6%;
+        width: 50px;
+        height: 50px;
+    }
+    .Main > .bx-wrapper .bx-controls-direction a.bx-prev{
+        top: 70%;
+    }
+    .Main > .bx-wrapper .bx-controls-direction a.bx-next{
+        top: 85%;
+    }
+    .mainSlider > li figure figcaption dl dt{
+        margin-bottom: 10.63%;
+    }
+    .mainSlider > li p{
+        width: 33.2%; min-width: 230px; max-width: 235px;
+        line-height: 1.7vw;
+    }
+    .mainSlider > li .sliderSidePanel{
+        top: 33%; right: 0;
+        padding: 55px 2% 30px 2%;
+    }
+    .mainSlider > li .sliderSidePanel input[type='button']{
+        right: 3.6%; 
+        background: url('../images/bul_MainSlider_plusBtn_Tablet.png') no-repeat center ,transparent;
+    }
+    .mainSlider > li .sliderSidePanel > ol li h3{
+        width: 60%; 
+        padding: 5% 0;
+    }
+    .mainSlider > li .sliderSidePanel > ol li h3 a{
+        font-size: 12px; font-weight: 300;
+    }
+    .mainSlider > li .sliderSidePanel ol li{
+        background-position: 90% center;
+        background-size: 18%;
+        background-repeat: no-repeat;
+    }    
+    
+    [class$='ImageList']:not([class$='SideImageList']){
+        background-size: 40% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    [class$='ImageList']:not([class$='SideImageList']) > div{
+        width: 39.82%;
+        top: 25%;
+        padding: 2%; 
+    }
+    [class$='ImageList'] > div p{
+        font-size: 14px; line-height: 30px; color: #fff;
+        margin-bottom: 50px;
+    }
+    [class$='ImageList']:not([class$='SideImageList']) > ul li{
+        float: left; width: 47.5%; margin-bottom: 30px;
+    }
+    [class$='ImageList']:not([class$='SideImageList']) > ul li:not(:nth-child(2n)){
+        margin-right: 5%;
+    }
+    [class$='ImageList']:not([class$='SideImageList']) > ul li dl{
+        font-size: 12px;
+    }
+    [class$='ImageList'] > div a.btn_self{
+        right: 6%;
+    }
+    .frontImageList{
+        margin: 0 2.6% 90px 2.6%;
+        padding: 0 0 0 40.62%;
+    }
+    .frontImageList > div{
+        left: 0; 
+    }
+    .backImageList{
+        background-position: right;
+        margin: 0 2.6% 150px 2.6%;
+        padding: 0px 40.62% 0 0;
+    }
+    .backImageList > div{
+        text-align: right;
+        right: 0;
+    }
+    .Main > section:nth-child(2){
+        background-image: url('../images/mainFrontContainer_ReadyToWear_Tablet.png');
+    }
+    .Main > section:nth-child(6){
+        background-image: url('../images/mainFrontContainer_Bag_Tablet.png');
+    }
+    .Main > section:nth-child(8){
+        background-image: url('../images/mainBackContainer_Shoes_Tablet.png');
+    }
+    .Main > section:nth-child(10){
+        background-image: url('../images/mainBackContainer_Jewerly_Tablet.png');
+    }    
+    .Main > section:nth-child(3) div{
+        width: 55.98%;
+    } 
+    .Main > section:nth-child(3) div h2{
+        padding:0 5%;
+        width: 45%;
+        line-height: 30px;
+        font-size: 20px;
+        box-sizing: border-box;
+    }
+    .Main > section:nth-child(3) div p{
+        padding:0 5%;
+    }    
+    .Main > section:nth-child(4){
+        margin: 0 2.6% 90px; 
+    }
+    .Main > section:nth-child(4) h2{
+        font-size: 26px; 
+    }
+    .Main > section:nth-child(4) p{
+        margin-bottom: 70px;
+    }
+    .Main > section:nth-child(4) ul li{
+        line-height: 200px;
+    }    
+    .bagMovingBox figcaption dl dt{
+        top: 2vh;
+    }
+    .bagMovingBox figcaption dl dd{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .bagMovingBox figcaption.active dl dd{
+        top: 0;
+    }
+    .jewerlyMovingBox figcaption dl dt{
+        top: 4vw;
+        font-size: 14px;
+    }
+    .jewerlyMovingBox figcaption dl dd{
+        top: 20vh;
+        font-size: 12px;
+        line-height: 18px;
+    }    
+    .Main > section:nth-child(7) h2{
+        font-size: 20px; 
+    }    
+    .Main > section:nth-child(11) h2{
+        font-size: 30px; 
+        right: 2.6%;
+    }    
+    .Main > section:nth-child(12){
+        margin: 0 2.6% 120px;
+    }    
+    [class$='SideImageList']{
+        padding-top: 410px;   
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center 111px;
+    }    
+    [class$='SideImageList'] > div:first-child{
+        position: relative;
+        z-index: 1;
+        height: 120px;
+    }
+    [class$='SideImageList'] > div:first-child h2{
+        font-size: 62px; 
+        right: 2.6%;
+        top: -100px; 
+    }
+    [class$='SideImageList'] > ul{
+        padding: 0 2.6%;
+        background-color: #fff;
+    }
+    [class$='SideImageList'] > ul li{
+        min-height: 400px;
+        float: left; width: 33.33%; margin-bottom: 40px;
+    }
+    [class$='SideImageList'] > ul li a{
+        display: block;
+    }
+    [class$='SideImageList'] > ul li dl dt{
+        line-height: 17px;
+    }
+    [class$='SideImageList'] ul#filterPanel{
+        background-color: #fff;
+        text-align: right;
+        width: 100%;
+        position: static;
+        z-index: 1;
+        height: 120px;
+        padding: 0 2.6%;
+        box-sizing: border-box;
+    }
+    [class$='SideImageList'] ul#filterPanel.lock{
+        position: fixed; top: 111px;
+        box-shadow: 1px 1px 10px rgba(192, 192, 192, 0.3);
+    }
+    [class$='SideImageList'] ul#filterPanel li > span{
+        line-height: 70px;
+    }
+    [class$='SideImageList'] ul#filterPanel li div{
+        right: 2.6%; top: 70px;
+    }
+    [class$='SideImageList'] ul#filterPanel li:first-of-type div input[type='checkbox'] + label,
+    [class$='SideImageList'] ul#filterPanel li:nth-child(2) div input[type='checkbox'] + label,
+    [class$='SideImageList'] ul#filterPanel li:nth-child(3) div a{
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 25px;
+        line-height: 18px;
+    }    
+    
+    [class$='DetailPage'] > div h2{
+        font-size: 64px;
+        line-height: 72px;
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .colorSet a:not(:first-of-type),
+    [class$='DetailPage'] > div [id^='goods'] form .sizeSet input[type='button']:not(:first-of-type){
+        margin-left: 2%;
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .quantSet .numberInput{
+        max-width: 170px;
+    }
+    [class$='DetailPage'] > div:nth-child(2) div:not(.underPager){
+        padding: 70px 0;
+    }
+    [class$='DetailPage'] > div .underPager ul{
+        position: absolute;
+        left: 2.6%; 
+        top: 0%;
+        width: 100%
+    }
+
+    .jewelryCareTips h2{
+        font-size: 32px; 
+        line-height: 50px;
+    }
+    .jewelryCareTips h2 a.btn_Return{
+        right: 2.6%; 
+    }
+    .jewelryCareTips > p{
+        font-size: 16px; 
+    }
+    .jewelryCareTips > ol li h3{
+        font-size: 20px;
+    }
+    .jewelryCareTips > ol li em,
+    .jewelryCareTips > ol > li ol li:not(strong){
+        font-size: 14px; 
+    }
+    .jewelryCareTips > ol > li ol li strong{
+        font-size: 18px;
+    }    
+    
+    .FAQ h2{
+        font-size: 40px; 
+    }
+    .FAQ h2 a.btn_Return{
+        right: 2.6%;
+    }
+    .FAQ > aside ul{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 70px;
+    }
+    .FAQ > div{
+        padding: 0 2.6%;
+    }
+    .FAQ > div h3{
+        font-size: 20px; 
+    }
+    .FAQ > div > ol > li h4{
+        font-size: 17px;
+    }
+    .FAQ > div > ol > li > ol > li{
+        font-size: 16px;
+    }
+    .FAQ > div > ol > li > ol > li p,
+    .FAQ > div > ol > li > ol > li ul{
+        font-size: 14px; 
+        padding: 0px;
+    }
+    .FAQ > div > ol > li > ol > li.active p,
+    .FAQ > div > ol > li > ol > li.active ul{
+        font-size: 14px; 
+    }    
+    
+    [class*='Editeur'] [class^='centerguide']{
+        width: 94.79%; margin: 0 auto 180px;
+    }
+    [class*='Editeur'] h2 a.btn_Return{
+        right: 2.6%;
+    }
+    [class*='Editeur'] h2{
+        font-size: 28px; 
+        padding-bottom: 50vh;
+    }    
+
+    .EditeurMain p{
+        font-size: 14px; 
+        line-height: 22px;
+    }
+    .EditeurMain p:first-of-type{
+        margin-bottom: 30px; 
+    }
+    .EditeurMain p:first-of-type strong{
+        font-size: 22px;
+    }
+    .EditeurMain div.centerguideMain ul li figure figcaption dl dt mark::before{
+        width: 70px; height: 70px;
+        top: -120%; left: 20%;
+    }
+    [class*='Editeur'] [class$='Artist'] figure{
+        background-repeat: no-repeat;
+        background-size: 70%;
+        padding-bottom: 42vh;
+    }    
+    [class*='Editeur'] [class$='Artist'] figure figcaption dl{
+        top:7vh; right: 0;
+        width: 43%; 
+    }
+    [class*='Editeur'] [class$='Artist'] figure figcaption dl dt{
+        font-size: 20px; font-weight:400;
+    }
+    .EditeurJosefalbers div.centerguideArtist figure figcaption dl dd,
+    .EditeurDanielburen div.centerguideArtist figure figcaption dl dd{
+        font-size: 16px; font-weight: 300;
+        line-height: 26px;
+    }
+    [class*='Editeur'] [class$='Project'] ul li > div,
+    [class*='Editeur'] [class$='Project'] ul li > p{
+        padding: 2vw 3%;
+    }
+    [class*='Editeur'] [class$='Project'] ul li > div,
+    [class*='Editeur'] [class$='Project'] ul li > p,
+    [class*='Editeur'] [class$='Project'] ul li div > p{
+        font-size: 14px; font-weight: 300;
+        line-height: 22px;
+    }
+    [class*='Editeur'] [class$='Project'] ul li:not(:last-of-type){
+        margin-bottom: 130px;
+    } 
+    .EditeurJosefalbers div.centerguideArtist figure figcaption dl{
+        background-color: rgba(225, 113, 103, 0.9); 
+        padding: 7vh 4.5%;
+    }
+    .EditeurJosefalbers div.centerguideProject ul{
+        padding-bottom: 40vh;
+    }
+    .EditeurJosefalbers div.centerguideProject ul li div{
+        width: 55%; 
+        top: 50px; 
+    }    
+    
+    .EditeurDanielburen div.centerguideArtist figure figcaption dl{
+        background-color: rgba(102, 143, 158, 0.9);
+        padding: 11vh 4.5%;
+    }
+    .EditeurDanielburen div.centerguideArtist figure figcaption dl dt{
+        font-size: 20px; font-weight: 400;
+        margin-bottom: 4.2vh;
+    }
+    .EditeurDanielburen div.centerguideProject ul li{
+        padding-bottom: 40vh;
+        background-repeat: no-repeat;
+        background-size: 75%;
+    }    
+    .EditeurDanielburen div.centerguideProject ul li:first-of-type > p{
+        width: 40%; 
+        bottom: 40px; 
+    }
+    .EditeurDanielburen div.centerguideProject ul li:nth-of-type(2) div{
+        width: 60%; 
+        top: 40px; 
+    }
+    .EditeurDanielburen div.centerguideProject ul li:nth-of-type(3) > p{
+        width: 45%; 
+        bottom: 55px;
+        padding: 40px 3%;
+    }    
+
+    .EditeurHiroshisugimoto div.centerguideProject ul li{
+        padding-bottom: 40vh;
+        background-repeat: no-repeat;
+        background-size: 65% 100%;
+    }  
+    .EditeurHiroshisugimoto div.centerguideProject ul li:first-of-type div{
+        width: 55%; 
+        top: 40px;
+    }
+    .EditeurHiroshisugimoto div.centerguideProject ul li:nth-of-type(2) div{
+        width: 63%; 
+        top: 35px; 
+    }   
+    
+    .EditeurJulioleparc div.centerguideArtist figure figcaption dl{
+        padding: 45px 2%;
+    }
+   .EditeurJulioleparc div.centerguideProject ul li{
+        padding-bottom: 40vh;
+        background-repeat: no-repeat;
+        background-size: 75%;
+    }  
+    .EditeurJulioleparc div.centerguideProject ul li:first-of-type div{
+        width: 45%; max-width: 630px;
+        bottom: 30px;
+    }
+    .EditeurJulioleparc div.centerguideProject ul li:nth-of-type(2) div{
+        width: 35%; max-width: 680px;
+        bottom: 20px;
+    }
+    .EditeurJulioleparc div.centerguideProject ul li:nth-of-type(3) > p{
+        width: 31%; max-width: 600px;
+        bottom: 60px;
+    }    
+
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs li:not(:last-child){
+        margin-bottom: 20px;
+    }
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs li figure::after{
+        content: ''; display: block; clear: both;
+    }
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs li figure img{
+      width: 45%; float: left;
+    }
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs li figure figcaption{
+      width: 52%; float: left;
+      margin: 30px 0 0 3%;
+    }
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs li figure figcaption dl dd a.btn_self{
+        display: block;  max-width: 75px;
+        margin-top: 40px;
+    }    
+    
+    [class*='AboutHermes'] a.btn_Return{
+        right: 2.6%;
+    }
+    [class*='AboutHermes'] h2{
+        font-size: 28px; 
+        line-height: 48px;
+        padding-bottom: 30px;
+    }
+    [class*='AboutHermes'] ul li:not(.wayClear) h3{
+        font-size: 22px; 
+    }
+    [class*='AboutHermes'] > p{
+        font-size: 14px; 
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    [class*='AboutHermes']:not(.AboutHermesChronology) ul li p{
+        font-size: 14px; font-weight: 300;
+        line-height: 23px;
+    }
+    [class*='AboutHermes']:not(.AboutHermesChronology,.aboutCreativeContent,.AboutHermesMain) ul li p:first-of-type,
+    [class*='AboutHermes'] ul.aboutCreativeContent li:nth-child(2) > p{
+        padding-top: 80px;
+    }
+    [class*='AboutHermes']:not(.AboutHermesChronology) ul li a{
+        font-size: 16px; 
+    }
+    [class*='AboutHermes']:not(.AboutHermesChronology) > div{
+        margin-bottom: 120px;
+    }
+    .AboutHermesMain ul,
+    .AboutHermes > ul,
+    .AboutHermesChronology ul,
+    .AboutHermes > ul li{
+        margin-bottom: 70px;
+    }
+    .AboutHermesMain ul li{
+        padding-top: 380px;
+        background-repeat: no-repeat;
+        background-size: 100% 62%;
+        box-sizing: border-box;
+    }
+    .AboutHermesMain > ul li h3{
+        margin-bottom: 30px;
+    }
+    .AboutHermes > ul li:not(.wayClear) img{
+        padding-top: 80px;
+    }
+    .AboutHermes > ul li:not(.wayClear) h3{
+        position: absolute;
+        width: 100%;
+    }
+    .AboutHermes > ul li h3 mark{
+        font-size: 20px; 
+    }
+    .AboutHermesChronology > ul > li:not(:last-of-type){
+        margin-bottom: 70px;
+    }
+    .AboutHermesChronology > ul > li p{
+        font-size: 14px; 
+    }
+    .AboutHermesChronology > ul li.fullImage_1937 p{
+        width:90%; margin: 0 auto;
+    }
+    .AboutHermesChronology > ul li.fullImage_1967 img,
+    .AboutHermesChronology > ul li.fullImage_1967 p{
+        width: 70%; 
+    }
+    .AboutHermesChronology > ul li.fullImage_2013 p{
+        position: absolute; 
+        top: 20%; left: 5.72%;
+        width: 38%;
+    }
+    .AboutHermesChronology > ul li > a{
+        margin-top: 40px;
+    }
+
+    .findAStore >*:not(h2){
+        text-align: center;
+    }
+    .findAStore h2{
+        font-size: 60px;
+        line-height: 50px;
+        left: 2.6%;
+        top: 651px;
+    }
+    .findAStore form input[type='search']{
+        width: 60%; 
+        max-width: 400px; min-width: 220px;
+    }
+    .findAStore address{
+        width: 60%; min-width: 630px;
+    }    
+
+    [class*='order'] > div:first-of-type,
+    [class*='order'] [class$='UnderArea'] > div{
+        width: 94.79%; max-width: 1320px;
+        margin: 0 auto;
+    }
+    [class*='order'] > div > h2{
+        font-size: 40px; font-weight:300;
+    } 
+    .orderShoppingCart > div:first-of-type{
+        margin-bottom: 100px;
+    }
+    .orderShoppingCart > div:first-of-type ol li{
+        padding: 40px 0;
+        border-bottom: 1px solid #bababa;
+    }
+    .orderShoppingCart > div:first-of-type > ol li div{
+        padding-left: 200px;
+        background: url('../images/detailJewerly01_Gold_2.png') left center / 150px no-repeat;
+    }
+    .orderShoppingCart > div:first-of-type > ol li div span{
+        width: 40%; 
+        font-size: 20px; 
+    }
+    .orderShoppingCart > div:first-of-type > ol li div span:not(.productPrice,:last-child){
+        margin-bottom: 20px;
+    }
+    .orderShoppingCart > div:first-of-type > ol li div span.numberInput{
+        position: absolute;
+        right: 0;
+        top: 43%;
+    }
+    .orderShoppingCart > div:first-of-type > ol li div span.numberInput input[type='number']{
+        font-size: 20px; 
+    }
+    .orderCheckout div fieldset:first-of-type,
+    .orderCheckout div fieldset:last-of-type{
+        width: 100%; 
+    }
+    .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:nth-child(3) ol li{
+        line-height: 90px;
+    }
+    .orderCheckout div fieldset.summaryBox figure img{
+        width: 15%;
+    }
+    .orderCheckout div fieldset.summaryBox figure figcaption{
+        width: 80%; margin-left: auto;
+    }
+    .orderCheckout div fieldset.summaryBox > p{
+        padding: 30px 0 30px 14%;
+    }
+    .orderCheckout div fieldset.summaryBox div#orderComplete{
+        padding: 0 2.65% 130px 2.65%;
+    }
+    .orderCheckout div fieldset.summaryBox div#orderComplete h2{
+        padding-top:250px; 
+    }
+    .orderCheckout div fieldset.summaryBox div#orderComplete > input[type='button']{
+        margin-top: 20px;
+    }
+
+    .Account > div fieldset.active{
+        display: block;
+    }
+    .Account > div fieldset legend{
+        font-size: 50px;
+        font-weight: 500;
+    }  
+    .Account > div fieldset.accountSet ul li{
+        margin: 0 14.32% 40px;
+    }
+    .Account > div fieldset.createSet ul li{
+        margin: 0 14.32% 30px;
+    }
+    .Account > div fieldset ul li label{
+        font-size: 20px;
+    }
+    .Account > div fieldset ul li.pwField input[type='button']{
+        font-size: 14px;
+    }
+    .Account > div fieldset.createSet > label{
+        width: 70.5%;
+        margin: 0 auto 70px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    
+    .Main > .bx-wrapper .bx-controls-direction a{
+        left: 3.64%;
+        width: 60px;
+        height: 60px;
+    }
+    .mainSlider > li figure figcaption dl dt{
+        font-size: 34px; 
+        font-weight: 500; 
+        margin-bottom: 10.63%;
+    }
+    .mainSlider > li figure figcaption dl dd{
+        font-weight: 700;
+        font-size: 90px;
+    }
+    .mainSlider > li figure figcaption a{
+        width: 27px; height: 27px;
+        background: url('../images/bul_MainSliderShareBtn.png') no-repeat center;
+    }
+    .mainSlider > li p{
+        width: 17.7%; min-width: 280px; max-width: 340px;
+        line-height: 1.4vw;
+    }
+    .mainSlider > li .sliderSidePanel{
+        top: 37%; right: 0;
+        padding: 50px 6.77% 50px 5.2%;
+    }
+    .mainSlider > li .sliderSidePanel input[type='button']{
+        right: 11.66%; top: 30px;
+        width: 27px; height: 27px;
+        background: url('../images/bul_MainSlider_plusBtn.png') no-repeat center ,transparent;
+    }
+    .mainSlider > li .sliderSidePanel > ol li::before{
+        content: "0"counter(rint); 
+        font-size: 20px; font-weight: 500;
+    }
+    .mainSlider > li .sliderSidePanel > ol li h3{
+        width: 33.33%; min-width: 190px; 
+        padding: 3% 0 5% 2.6%;
+    }
+    .mainSlider > li .sliderSidePanel > ol li h3 a{
+        font-size: 22px; font-weight: 300; line-height: 30px; 
+    }
+    .mainSlider > li .sliderSidePanel ol li{
+        background-position: 98% center;
+        background-size: 20%;
+        background-repeat: no-repeat;
+    }  
+
+    [class$='ImageList']{
+        max-width: 1780px; width: 52.08%; 
+        background-size: 40% 100%;
+        background-repeat: no-repeat;
+    }
+    .frontImageList{
+        margin: 0 3.64% 90px 3.64%;
+        padding: 35px 0 0 40.62%;
+    }
+    [class$='ImageList']:not([class$='SideImageList']) > div{
+        margin-bottom: 20px;
+    }
+    [class$='ImageList'] > div h2{
+        font-size: 40px; font-weight: 300;
+        margin-bottom: 30px;
+    }
+    [class$='ImageList'] > div p{
+        font-size: 16px; line-height: 24px; color: #605f5f;
+        margin-bottom: 80px;
+    }
+    [class$='ImageList'] > ul li{
+        min-height: 20vw;
+        float: left; width: 31%; margin-bottom: 30px;
+    }
+    [class$='ImageList'] > ul li:not(:nth-child(3n+3)){
+        margin-right: 3.5%;
+    }
+    [class$='ImageList'] > ul li dl{
+        font-size: 0.85vw; width: 100%;
+        font-weight: 300;
+    }
+     [class$='ImageList'] > ul li dl dt{
+         float: left; width: 70%; line-height: 1.2vw;
+    }
+    [class$='ImageList']:not([class$='SideImageList']) > ul li dl dd,
+    [class$='ImageList'] > ul li dl dd{
+        float: right; width: 25%;
+        margin-left: 5%; text-align: right;
+    }
+    .backImageList{
+        background-position: right;
+        margin: 0 3.64% 150px 3.64%;
+        padding: 35px 40.62% 0 0;
+    }
+    .backImageList > div{
+        text-align: right;
+    }
+    .Main > section:nth-child(2){
+        background-image: url('../images/mainFrontContainer_ReadyToWear.png');
+    }
+    .Main > section:nth-child(6){
+        background-image: url('../images/mainFrontContainer_Bag.png');
+    }
+    .Main > section:nth-child(8){
+    background-image: url('../images/mainBackContainer_Shoes.png');
+    }
+    .Main > section:nth-child(10){
+        background-image: url('../images/mainBackContainer_Jewerly.png');
+    }  
+    .Main > section:nth-child(3){
+        padding: 150px 0; 
+    }
+    .Main > section:nth-child(3) div{
+        width: 39.06%;
+    } 
+    .Main > section:nth-child(3) div h2{
+        padding:0 6%;
+        width: 30%;
+        line-height: 3.9vh;
+        font-size: 1.97vw;
+    }
+    .Main > section:nth-child(3) div p{
+        padding:0 6%;
+        font-size: 0.83vw;
+        line-height: 2.6vh;
+    }   
+    .Main > section:nth-child(4){
+        margin: 0 3.64% 150px; 
+    }
+    .Main > section:nth-child(4) h2{
+        font-size: 46px; font-weight: 300; margin-bottom: 25px;
+    }
+    .Main > section:nth-child(4) p{
+        text-align: center; font-size: 24px;
+        margin-bottom: 130px;
+    }
+    .Main > section:nth-child(4) ul li{
+        line-height: 380px;
+    }
+    .Main > section:nth-child(4) ul li a{
+        font-size: 28px;
+    }  
+    .bagMovingBox figcaption dl dt{
+        top: 8vh;
+    }
+    .bagMovingBox figcaption dl dd{
+        font-size: 1vw;
+        line-height: 3vh;
+    }
+    .bagMovingBox figcaption.active dl dd{
+        top: 4vh
+    }
+    .jewerlyMovingBox figcaption dl dt{
+        top: 4vw;
+        font-size: 1.5vw;
+    }
+    .jewerlyMovingBox figcaption dl dd{
+        top: 30vh;
+        font-size: 1.1vw;
+        line-height: 3.2vh;
+    }
+    .Main > section:nth-child(7) h2{
+        font-size: 32px; font-weight: 300;
+        margin-bottom: 30px;
+    }
+    .Main > section:nth-child(7) p{
+        font-size: 24px; font-weight: 300; opacity: 50%;    
+    }
+    .Main > section:nth-child(11){
+        padding: 750px 3.64% 130px 71.61%;
+    }
+    .Main > section:nth-child(11) h2{
+        font-size: 3.22vw; 
+    }
+    .Main > section:nth-child(11) h2 a{
+        font-size: 1.45vw;
+        padding: 15px 40px;
+        margin: 40px 0 0 auto; 
+        max-width: 200px; 
+    }    
+    .Main > section:nth-child(12){
+        margin: 0 3.64% 120px;
+    }    
+    
+    [class$='SideImageList']{
+        float: right;
+        margin-right: 3.64%;
+        padding-left: 44.27%;   
+        background-repeat: no-repeat;
+        background-size: 41% 100%;
+        background-attachment: fixed; 
+    }
+    .bagSideImageList{background-image: url('../images/listBag_LeftContainer.png');}
+    .shoesSideImageList{background-image: url('../images/listShoes_LeftContainer.png');}
+    .readytowearSideImageList{background-image: url('../images/listReadyToWear_LeftContainer.jpg');}
+    .jewerlySideImageList{background-image: url('../images/listJewerly_LeftContainer.png');}
+    
+    [class$='SideImageList'] > div:first-child{
+        height: 220px;
+        margin-bottom: 0px;
+    }
+    [class$='SideImageList'] > div:first-child h2{
+        padding-top: 60px; font-size: 42px; font-weight: 300;
+    }
+    [class$='SideImageList'] ul#filterPanel{
+        text-align: right;
+        position: relative;
+    }
+    [class$='SideImageList'] ul#filterPanel li > span{
+        line-height: 16px;
+    }
+    [class$='SideImageList'] ul#filterPanel li div{
+        right: 0; top: 30px;
+    }
+    [class$='SideImageList'] ul#filterPanel li div > *:not(input){
+        margin-left: 4.5%; 
+    }
+    [class$='SideImageList'] ul#filterPanel li:first-of-type div input[type='checkbox'] + label,
+    [class$='SideImageList'] ul#filterPanel li:nth-child(2) div input[type='checkbox'] + label,
+    [class$='SideImageList'] ul#filterPanel li:nth-child(3) div a{
+        font-size: 0.9vw;
+        font-weight: 400;
+        padding-left: 25px;
+        line-height: 25px;
+    }
+    [class$='SideImageList'] div.pager a{
+        bottom: 70px;
+    }
+    
+    [class$='DetailPage'] .bx-wrapper{
+        margin: 0; width: 45%; 
+    }
+    [class$='DetailPage']{
+        min-height: 970px; position: relative;
+    }
+    [class$='DetailPage']:after{
+        content: ''; display: block; clear: both;
+    }
+    [class$='DetailPage'] > div{
+        float: left; width: 53%;;
+        margin-left: 2%;
+    }
+    [class$='DetailPage'] > div [id^='goods'],
+    [class$='DetailPage'] > div [id^='productDetails'],
+    [class$='DetailPage'] > div [id^='deliveryReturns']{
+        padding: 0 10%;
+    }
+    [class$='DetailPage'] > div a.btn_Return{
+        right: 0;
+    }
+    [class$='DetailPage'] > div h2{
+        margin:70px 0 45px 0;
+        font-size: 3.2vw;
+        font-weight: 300;
+        line-height: 7.2vh;
+    }
+    [class$='DetailPage'] > div [id^='goods'] form .colorSet a:not(:first-of-type),
+    [class$='DetailPage'] > div [id^='goods'] form .sizeSet input[type='button']:not(:first-of-type){
+        margin-left: 2.5%;
+    }
+    [class$='DetailPage'] > div .underPager > a{
+        max-width: 230px;
+        min-width: 200px;
+        margin: 0 auto; 
+        border-radius: 30px;
+        width: 30%; 
+    }
+    [class$='DetailPage'] > div .underPager{
+        position: absolute; bottom: 0; 
+        width: 53%;
+    }
+
+    .jewelryCareTips{
+        max-width: 1090px;
+        width: 56.77%; margin: 0 auto;
+    }
+    .jewelryCareTips h2{
+        font-size: 50px; 
+        line-height: 60px;
+    }
+    .jewelryCareTips h2 a.btn_Return{
+        right: 3.64%; 
+    }
+    .jewelryCareTips > p{
+        font-size: 22px; 
+    }
+    .jewelryCareTips > ol li h3{
+        font-size: 24px; 
+    }
+    .jewelryCareTips > ol li em,
+    .jewelryCareTips > ol > li ol li:not(strong){
+        font-size: 16px;
+    }
+    .jewelryCareTips > ol > li ol li strong{
+        font-size: 22px;
+    }
+
+    .FAQ h2{
+        font-size: 60px;
+    }
+    .FAQ h2 a.btn_Return{
+        right: 3.64%;
+    }
+    .FAQ > p{
+        font-size: 18px;  
+    }
+    .FAQ::after{
+        content: ''; display: block; clear:both;
+    }
+    .FAQ > aside{
+        float: left; width: 20%; 
+    }
+    .FAQ > div{
+        float: left; width: 65%;
+    }
+    .FAQ > aside ul li:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+    .FAQ > div h3{
+        font-size: 24px; 
+    }
+    .FAQ > div > ol > li h4{
+        font-size: 24px; 
+    }
+    .FAQ > div > ol > li > ol > li{
+        font-size: 22px;
+    }
+    .FAQ > div > ol > li > ol > li p,
+    .FAQ > div > ol > li > ol > li ul{
+        font-size: 16px;
+        padding: 0 0 0 40px;
+    }
+    .FAQ > div > ol > li > ol > li.active p,
+    .FAQ > div > ol > li > ol > li.active ul{
+        font-size: 16px; line-height: 26px; padding: 30px 0 0 40px; color: rgba(96, 95, 95, 1);
+    }    
+    
+    [class*='Editeur'] [class^='centerguide']{
+        max-width: 1540px;
+        width: 80.2%; margin: 0 auto 230px;
+    }
+    [class*='Editeur'] h2 a.btn_Return{
+        right: 3.64%;
+    }
+    [class*='Editeur'] h2{
+        font-size: 50px; 
+        padding-bottom: 84vh;
+    }    
+    [class*='Editeur'] > div h3{
+        font-size: 42px; font-weight: 300;
+        text-align: center; 
+        margin-bottom: 90px;
+    }
+    .EditeurMain p{
+        font-size: 20px; 
+        line-height: 30px;
+    }
+    .EditeurMain p:first-of-type{
+        margin-bottom: 50px; 
+    }
+    .EditeurMain p:first-of-type strong{
+        font-size: 42px;
+    }
+    .EditeurMain div.centerguideMain ul li figure figcaption dl{
+        margin-bottom: 50px;
+    }
+    .EditeurMain div.centerguideMain ul li figure figcaption dl dd{
+        font-size: 20px; font-weight: 200; color: #3d3d3d;
+        line-height: 30px;
+    }
+    .EditeurMain div.centerguideMain ul li figure figcaption a{
+        font-size: 20px; font-weight: 300;
+    }
+    .EditeurMain div.centerguideMain ul li figure figcaption dl dt mark{
+        font-size: 38px;
+    }
+    .EditeurMain div.centerguideMain ul li figure figcaption dl dt mark::before{
+        width: 120px; height: 120px;
+        top: -100%; left: 20%;
+    }
+     [class*='Editeur'] [class$='Artist'] figure{
+        background-repeat: no-repeat;
+        background-size: 70%;
+        background-position-x: 20%;
+        padding-bottom: 70vh;
+    }
+    [class*='Editeur'] [class$='Artist'] figure figcaption dl{
+        top: 17vw; right: 5%;
+        width: 35%; 
+    }
+    [class*='Editeur'] [class$='Artist'] figure figcaption dl dt{
+        font-size: 2.2vw; font-weight:400;
+    }
+    .EditeurJosefalbers div.centerguideArtist figure figcaption dl dd,
+    .EditeurDanielburen div.centerguideArtist figure figcaption dl dd{
+        font-size: 1.2vw; font-weight: 300;
+        line-height: 3.5vh;
+    }
+    .EditeurHiroshisugimoto div.centerguideArtist figure figcaption dl dd,
+    .EditeurJulioleparc div.centerguideArtist figure figcaption dl dd{
+        font-size: 1vw; font-weight: 300;
+        line-height: 3vh;
+    }
+    [class*='Editeur'] [class$='Project'] ul li > div,
+    [class*='Editeur'] [class$='Project'] ul li > p{
+        padding: 5% 20px;
+    }
+    [class*='Editeur'] [class$='Project'] ul li > div,
+    [class*='Editeur'] [class$='Project'] ul li > p,
+    [class*='Editeur'] [class$='Project'] ul li div > p{
+        font-size: 1vw; font-weight: 300;
+        line-height: 2.8vh;
+    }
+    [class*='Editeur'] [class$='Project'] ul li:not(:last-of-type){
+        margin-bottom: 220px;
+    }    
+
+    .EditeurJosefalbers div.centerguideArtist figure figcaption dl{
+        background-color: rgba(225, 113, 103, 0.9); 
+        padding: 10vh 4.5%;
+    }
+    .EditeurJosefalbers div.centerguideProject ul{
+        padding-bottom: 65vh;
+    }
+    .EditeurJosefalbers div.centerguideProject ul li div{
+        width: 41.75%; 
+        top: 10vw; 
+    }        
+    
+    .EditeurDanielburen div.centerguideArtist figure figcaption dl{
+        background-color: rgba(102, 143, 158, 0.9);
+        padding: 14vh 4.5%;
+    }
+    .EditeurDanielburen div.centerguideArtist figure figcaption dl dt{
+        font-size: 34px; font-weight: 400;
+        margin-bottom: 4.2vh;
+    }
+    .EditeurDanielburen div.centerguideProject ul li{
+        padding-bottom: 70vh;
+        background-repeat: no-repeat;
+        background-size: 75%;
+    }
+    .EditeurDanielburen div.centerguideProject ul li:first-of-type > p{
+        width: 33%; 
+        bottom: 70px; 
+    }
+    .EditeurDanielburen div.centerguideProject ul li:nth-of-type(2) div{
+        width: 43%; 
+        top: 90px; 
+    }
+    .EditeurDanielburen div.centerguideProject ul li:nth-of-type(3) > p{
+        width: 41%; 
+        bottom: 60px;
+        padding: 60px 3%;
+    }    
+    
+    .EditeurHiroshisugimoto div.centerguideProject ul li{
+        padding-bottom: 73vh;
+        background-repeat: no-repeat;
+        background-size: 75%;
+    }
+    .EditeurHiroshisugimoto div.centerguideProject ul li:first-of-type div{
+        width: 43%; 
+        top: 200px;
+    }
+    .EditeurHiroshisugimoto div.centerguideProject ul li:nth-of-type(2) div{
+        width: 47%; 
+        top: 210px; 
+    }    
+    
+    .EditeurJulioleparc div.centerguideArtist figure figcaption dl{
+        padding: 60px 3%;
+    }
+    .EditeurJulioleparc div.centerguideProject ul li{
+        padding-bottom: 70vh;
+        background-repeat: no-repeat;
+        background-size: 75%;
+    }
+    .EditeurJulioleparc div.centerguideProject ul li:first-of-type div{
+        width: 38%; max-width: 630px;
+        bottom: 40px;
+    }
+    .EditeurJulioleparc div.centerguideProject ul li:nth-of-type(2) div{
+        width: 35%; max-width: 680px;
+        bottom: 60px;
+    }
+    .EditeurJulioleparc div.centerguideProject ul li:nth-of-type(3) > p{
+        width: 31%; max-width: 600px;
+        bottom: 90px;
+    }    
+    
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs::after{
+        content: ''; display: block; clear: both;
+    }
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs li{
+        float: left; width: 32.3%;
+    }
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs li:not(:first-child){
+        margin-left: 1.5%;
+    }
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs li figure img{
+        width: 100%;
+    }
+    [class*='Editeur']:not(.EditeurMain) > div:last-of-type ul.sliderEditeurs li figure img{
+        margin-bottom: 20px;
+    }
+    
+    [class*='AboutHermes'] a.btn_Return{
+        right: 3.64%;
+    }
+    [class*='AboutHermes'] h2{
+        font-size: 50px; 
+        line-height: 80px;
+        padding-bottom: 52px;
+    }
+    [class*='AboutHermes'] ul li:not(.wayClear) h3{
+        font-size: 24px; 
+        padding-bottom: 30px; margin-bottom: 30px;
+    }
+    [class*='AboutHermes'] > p{
+        font-size: 18px; 
+        line-height: 26px;
+    }
+    [class*='AboutHermes']:not(.AboutHermesMain) > p,
+    .AboutHermesMain > p:last-of-type{
+        margin-bottom: 90px;
+    }
+    [class*='AboutHermes']:not(.AboutHermesChronology) ul li p{
+        font-size: 18px; font-weight: 300;
+        line-height: 30px; 
+    }
+    [class*='AboutHermes']:not(.AboutHermesChronology) ul li a{
+        font-size: 18px; font-weight: 300;
+    }
+    [class*='AboutHermes']:not(.AboutHermesChronology) > div,
+    .AboutHermesMain ul,
+    .AboutHermes > ul,
+    .AboutHermesChronology ul,
+    .AboutHermes > ul li{
+        margin-bottom: 140px;
+    }
+    [class*='AboutHermes'] > div h4{
+        font-size: 34px; margin-bottom: 50px;
+        font-weight: 400;
+    }
+    .AboutHermesMain > p:first-of-type{
+        margin-bottom: 30px;
+    }
+    .AboutHermesMain ul,
+    .AboutHermes > ul,
+    .AboutHermesChronology ul,
+    .AboutHermes > ul li{
+        margin-bottom: 140px;
+    }
+    .AboutHermesMain ul li{
+        height: 40vh;
+        max-height: 450px;
+        padding:50px 0 0 47.91%; 
+        background-repeat: no-repeat;
+        background-size: 44% 100%;
+        box-sizing: border-box;
+    }
+    .AboutHermesMain ul li:first-child{background-image: url('../images/aboutHermes_Slider_01.png');}
+    .AboutHermesMain ul li:nth-child(2){background-image: url('../images/aboutHermes_Slider_02.png');}
+    .AboutHermesMain ul li:nth-child(3){background-image: url('../images/aboutHermes_Slider_03.png');}
+    .AboutHermesMain ul li:nth-child(4){background-image: url('../images/aboutHermes_Slider_04.png');}
+    .AboutHermesMain ul li:nth-child(5){background-image: url('../images/aboutHermes_Slider_05.png');}
+
+    .AboutHermes > ul li:not(.wayClear) h3{
+        width: 48%; float: left;  padding-top: 20px;
+    }
+    .AboutHermes > ul li h3 mark{
+        font-size: 24px; 
+    }
+    .AboutHermesChronology > ul > li:not(:last-of-type){
+        margin-bottom: 110px;
+    }
+    .AboutHermesChronology > ul > li p{
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 28px;
+        color: #000;
+    }
+    .AboutHermesChronology > ul li.fullImage_1967 img,
+    .AboutHermesChronology > ul li.fullImage_1967 p{
+        width: 60%; 
+    }
+    .AboutHermesChronology > ul li.fullImage_2013 p{
+        position: absolute;
+        top: 12vh;
+        left: 3.64%;
+        width: 25%;
+    }
+    .AboutHermesChronology > ul li > a{
+        margin-top: 40px;
+        font-size: 1.2vw; font-weight: 300;
+    }    
+
+    .findAStore{
+        margin-bottom: 70px; position: relative;
+    }
+    .findAStore >*:not(h2){
+        text-align: center;
+    }
+    .findAStore h2{
+        font-size: 70px; line-height: 59px; 
+        top: 645px; left: 3.15%;
+    }
+    .findAStore form input[type='search']{
+        width: 43%; 
+        max-width: 430px; min-width: 250px;
+    }
+    .findAStore address{
+        width: 45%; max-width: 850px; 
+    }
+    .findAStore input[type='submit']{
+        padding: 10px 5%; 
+    }
+    .findAStore #floating-panel {
+      position: absolute;
+      top: 10px;
+      left: 25%;
+      z-index: 5;
+      background-color: #fff;
+      padding: 5px;
+      border: 1px solid #999;
+      text-align: center;
+      font-family: 'Roboto','sans-serif';
+      line-height: 30px;
+      padding-left: 10px;
+    }    
+    
+    [class*='order'] > div:first-of-type,
+    [class*='order'] [class$='UnderArea'] > div{
+        width: 68.75%; max-width: 1320px;
+        margin: 0 auto;
+    }
+    [class*='order'] > div > h2{
+        font-size: 50px; font-weight:300;
+    } 
+    .orderShoppingCart > div:first-of-type{
+        margin-bottom: 100px;
+    }
+    .orderShoppingCart > div:first-of-type h2{
+        margin-bottom: 130px;
+    }
+    .orderShoppingCart > div:first-of-type li:after,
+    .orderShoppingCart > div:first-of-type li div:after,
+    .orderShoppingCart > div:first-of-type > ol li span.numberInput:after{
+        content: ''; display: block; clear: both;
+    }
+    .orderShoppingCart > div:first-of-type li span{
+        display: block; float: left;
+    }
+    .orderShoppingCart > div:first-of-type > ul:not(.stepBox){
+        border-bottom: 1px solid #dadada
+    }
+    .orderShoppingCart > div:first-of-type > ul:not(.stepBox) li,
+    .orderShoppingCart > div:first-of-type ol li div{
+        padding-left: 47%; box-sizing: border-box;
+    }
+    .orderShoppingCart > div:first-of-type > ul:not(.stepBox) li,
+    .orderShoppingCart > div:first-of-type > ol li,
+    .orderShoppingCart > div:first-of-type > ol li span.numberInput input{
+         font-size: 22px; font-weight: 400; color: #3d3d3d;
+    }
+    .orderShoppingCart > div:first-of-type > ul:not(.stepBox) li span{
+        padding: 10px 0;
+    }
+    .orderShoppingCart > div:first-of-type li span:not(:last-of-type){
+        width: 26.5%;
+    }
+    .orderShoppingCart > div:first-of-type li span:last-of-type{
+        width: 20.5%;
+    }
+    .orderShoppingCart > div:first-of-type > ol li{
+        position: relative; padding: 30px 0; line-height: 150px;
+        border-bottom: 1px solid #dadada;
+    }
+    .orderShoppingCart > div:first-of-type > ol li div span:first-of-type{
+        width: 47%; position: absolute; left: 0; background: url('../images/detailJewerly01_Gold_2.png') left center / contain no-repeat;
+        padding-left: 170px; box-sizing: border-box;
+    }
+    .orderShoppingCart > div:first-of-type > ol li div span:nth-child(3){
+        position: relative;
+        text-indent: -9999px; 
+    }
+    .orderShoppingCart > div:first-of-type > ol li div span:nth-child(3)::before{
+        content: ''; display: block; width: 35px; height: 35px ;
+        background-color: #f8e14a; position: absolute;
+        top: 40%;
+        border-radius: 5px;
+    }
+    .orderShoppingCart > div:first-of-type > ol li span.numberInput{
+        padding:63px 3% 63px 0; box-sizing: border-box;
+    }
+    .orderShoppingCart > div:first-of-type > ol li span.numberInput > *{
+        display: block; float: left; box-sizing: border-box;
+    }
+    .orderShoppingCart > div:first-of-type > ol li span.numberInput input[type='button']{
+        width: 14%; min-width: 21px;
+        text-indent: -9999px;
+        padding: 2px 0;
+    }
+    .orderShoppingCart > div:first-of-type > ol li span.numberInput input[type='number']{
+        width: 45%; 
+        text-align: center;
+    }
+    .orderShoppingCart > div.shoppingUnderArea > div{
+        position: relative;
+    }
+    .orderShoppingCart > div.shoppingUnderArea > div div small{
+        font-size: 26px; font-weight: 300;
+    }
+    .orderShoppingCart > div.shoppingUnderArea > div div span{
+        font-size: 40px; font-weight: 400;
+        padding-left: 30px;
+    }
+    .orderCheckout div fieldset{
+        float: left;
+    }
+    .orderCheckout div fieldset:first-of-type{
+        width: 64.39%; 
+    }
+    .orderCheckout div fieldset:last-of-type{
+        width: 28.78%; margin-left: 6.83%;
+    }
+    .orderCheckout div fieldset.summaryBox figure{
+        border-bottom: 1px solid #bababa;
+        margin-bottom: 50px;
+    }
+    .orderCheckout div fieldset.summaryBox figure img{
+        float: left;
+        width: 31.57%;
+        margin-right: 2.65%;
+    }
+    .orderCheckout div fieldset.summaryBox figure figcaption{
+        width: 65.78%; margin-left: auto;
+    }
+    .orderCheckout div fieldset.summaryBox figure figcaption ul{
+        padding-bottom: 25px;
+    }
+    .orderCheckout div fieldset.summaryBox figure figcaption ul li:not(:last-child){
+        margin-bottom: 15px;
+        font-size: 14px; font-weight: 300;
+    }
+    .orderCheckout div fieldset.summaryBox > div:nth-child(3){
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        clear: both; 
+        border-bottom: 1px solid #bababa;
+    }
+    .orderCheckout div fieldset.summaryBox > p{
+        padding-left: 31.57%;
+        background: url('../images/yourOrder_OrangeBoxImg.png') left top / 25% no-repeat;
+    }
+    .orderCheckout div fieldset.summaryBox div#orderComplete{
+        padding: 0 2.65% 190px 2.65%;
+    }
+    .orderCheckout div fieldset.summaryBox div#orderComplete h2{
+        padding-top:300px; 
+    }
+    .orderCheckout div fieldset.summaryBox div#orderComplete > input[type='button']{
+        margin-top: 10px;
+    }    
+    
+    .Account > div{
+        position: relative; 
+        padding: 120px 0;
+        box-sizing: border-box;
+    }
+    .Account > div > a{
+        font-size: 14px;
+        font-weight:400;
+        color: #fff;
+        padding-left: 40px; text-align: right; box-sizing: border-box;
+        margin: 0 0 40px auto; display: block; width: 70px;
+        background: url('../images/bul_BackBtn_White.png') left center no-repeat;
+        text-shadow: 2px 2px 2px #12191c;
+    }
+    .Account > div fieldset{
+        background: #000; position: absolute; top: 0;
+        width: 38.02%; max-width: 730px; transition: all 0.35s ease-in-out;
+        opacity: 0; z-index: 0;
+        height: 100%;
+    }
+    .Account > div fieldset.createSet{
+        left: 53%;
+    }
+    .Account > div fieldset.accountSet{
+        left: 8.98%;
+    }
+    .Account > div fieldset.accountSet.active{
+        left: 53%; z-index: 1;
+    }
+    .Account > div fieldset.createSet.active{
+        left: 8.98%; z-index: 1;
+    }
+    .Account > div fieldset.accountSet.active,
+    .Account > div fieldset.createSet.active{
+        opacity: 1;
+    }
+    .Account > div fieldset *:not(input){
+        text-align: center;
+        color: #fff;
+    }
+    .Account > div fieldset input:not(input[type='submit']){
+        color: #fff;
+        background-color: transparent;
+        border-style: none;
+    }
+    .Account > div fieldset legend{
+        font-size: 3vw;
+        font-weight: 500;
+        background-color: #000;
+        width: 100%; 
+        padding-top: 175px;
+    }
+    .Account > div fieldset > ul,
+    .Account > div fieldset:last-child > p{
+        width: 61.53%;
+        margin: 0 auto;
+    }
+    .Account > div fieldset > ul li{
+        margin-bottom: 30px;
+        position: relative;
+    }
+    .Account > div fieldset > ul li label{
+        display: block ;
+        margin-bottom: 30px;
+        font-size: 20px; font-weight: 300; 
+    }
+    .Account > div fieldset > ul li input:not(input[type='button']){
+        text-align: center;
+        width: 100%; 
+        padding-bottom: 10px;
+        border-bottom: 1px solid #fff;
+        box-sizing: border-box;
+    }
+    .Account > div fieldset > ul li input:not(input[type='button'])::placeholder{
+        font-size: 18px; font-weight: 300; color: #605f5f;
+        letter-spacing: 0.8px;
+    }
+    .Account > div fieldset > ul li input[type='button']{
+        font-size: 14px; font-weight: 300;
+        position: absolute;
+        right: 0; text-decoration: underline;
+        cursor:pointer;
+    }
+    .Account > div fieldset.accountSet input[type='submit'],
+    .Account > div fieldset.createSet > input[type='button']{
+        background-color: #e87c36;
+        width: 100%; text-align: center;
+        font-size: 14px; font-weight: 400;
+        padding: 30px 0; margin-bottom: 40px;
+        color: #fff;
+    }
+    .Account > div fieldset > span:last-child{
+        display: block;
+        font-size: 16px; font-weight: 300;
+        margin-bottom: 40px;
+    }
+    .Account > div fieldset > span:last-child input[type='button']{
+        font-size: 20px; font-weight: 400;
+        vertical-align: baseline;
+        padding-left: 20px;
+        text-decoration: underline;
+    }
+    .Account > div fieldset > span:last-child input[type='button']:hover{
+        color: #e87c36;
+    }
+    .Account > div fieldset > span:nth-child(6){
+        margin-bottom: 53px;
+    }
+    .Account > div fieldset.accountSet legend{
+        margin-bottom: 55px;
+    }
+    .Account > div fieldset.accountSet ul li:first-child input[type='email']{
+        margin-bottom: 30px;
+    }
+    .Account > div fieldset.accountSet ul li:first-child > p{
+        font-size: 0.8vw;
+        font-weight: 300;
+        line-height: 20px;  
+        text-decoration: underline;
+        display: none ;
+    }
+    .Account > div fieldset.accountSet ul li:first-child > p.deactive{
+        display: block;
+        padding: 20px 0 130px;
+    }
+    .Account > div fieldset.accountSet ul li:first-child > p::before{
+        content: url('../images/bul_ForgotPassword.png' ) ;
+        vertical-align: middle;
+        padding-right: 5px;
+    }
+    .Account > div fieldset.accountSet ul li.pwField{
+        display: block;
+    }
+    .Account > div fieldset.accountSet ul li.pwField.deactive,
+    .Account > div fieldset.accountSet > input[type='button'].deactive{
+        display: none;
+    }
+    .Account > div fieldset.accountSet > input[type='button']{
+        font-size: 14px; font-weight: 300;
+        letter-spacing: 0.8px;
+        width: 100%; margin-bottom: 40px;
+        text-decoration: underline;
+    }
+    .Account > div fieldset.accountSet strong{
+        display: block; margin-bottom: 20px;
+        font-size: 16px; font-weight: 400;
+    }
+    .Account > div fieldset.accountSet address{
+        margin-bottom: 20px; font-style: normal;
+    }
+    .Account > div fieldset.accountSet address >*:not(strong){
+        margin-bottom: 15px;
+        font-size: 12px; font-weight: 300;
+    }
+    .Account > div fieldset.createSet legend{
+        margin-bottom: 50px;
+        line-height: 60px;
+    }
+    .Account > div fieldset.createSet > label{
+        width: 61.53%;
+        margin: 0 auto 85px;
+    }
+    .Account > div > div{
+        padding: 0 8.98%;
+        display: flex;
+        height: 730px;  
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    .Account > div > div > div{
+        width: 50%; 
+        box-sizing: border-box;
+        letter-spacing: 0.8px;
+        text-shadow: 2px 2px 3px #bababa;
+    }
+    .Account > div > div > div h2{
+        font-size: 52px; font-weight: 500;
+    }
+    .Account > div > div > div.accountActive h2{
+        margin-bottom: 50px;    
+    }
+    .Account > div > div > div.accountActive p{
+        font-size: 22px; font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 45px;
+    }
+    .Account > div > div > div.accountActive ul li{
+        font-size: 16px; font-weight: 300;
+    }
+    .Account > div > div > div.accountActive ul li::before{
+        content: '• ';
+    }
+    .Account > div > div > div.accountActive ul li:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .Account > div > div > div.createActive{
+        text-align: center;
+    }
+    .Account > div > div > div.createActive h2{
+        margin-bottom: 80px;    
+    }
+    .Account > div > div > div.createActive p{
+        font-size: 20px; font-weight: 400;
+        line-height: 35px;
+    }  
+}
+    

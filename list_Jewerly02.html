@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listPage - Jewerly</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+    
+    <header>
+        <div>
+            <input type="button" value="menu" id="hamburger" data-panel="asidePanel">
+            <label for="hamburger">MENU</label>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo_Black.png" alt="logo">
+                </a>
+            </h1>
+           <div>
+               <a href="account.html">ACCOUNT</a>
+               <input type="button" value="search" data-panel="searchPanel">
+               <a href="shoppingCart.html">SHOPPINGCART</a>  
+           </div>
+        </div>
+    </header>
+    
+    <!-- header fin -->
+    
+    <aside id="asidePanel">
+        <div>
+            <h2>
+                MENU
+                <input type="button" value="close" class="btn_close">
+            </h2>
+            <nav>
+                <h3>Main</h3>
+                <ul>
+                    <li>
+                        READY-TO-WEAR
+                        <div>
+                            <h4>sub</h4>
+                            <ol>
+                                <li><a href="list_ReadyToWear.html">Coats and jackets</a></li>
+                                <li><a href="list_ReadyToWear.html">Dresses</a></li>
+                                <li><a href="list_ReadyToWear.html">Tops and shirts</a></li>
+                                <li><a href="list_ReadyToWear.html">Pants and shorts</a></li>
+                                <li><a href="list_ReadyToWear.html">Knitwear and twillaines</a></li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>
+                    BAG
+                        <ol>
+                            <li><a href="list_Bag.html">Handbags</a></li>
+                            <li><a href="list_Bag.html">Shoulder bags</a></li>
+                            <li><a href="list_Bag.html">Luggages</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    SHOES
+                        <ol>
+                            <li><a href="list_Shoes.html">Ankle boots</a></li>
+                            <li><a href="list_Shoes.html">Boots</a></li>
+                            <li><a href="list_Shoes.html">Moccasins</a></li>
+                            <li><a href="list_Shoes.html">Mules</a></li>
+                            <li><a href="list_Shoes.html">Sneakers</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    JEWELRY
+                        <ol>
+                            <li><a href="list_Jewerly.html">Gold</a></li>
+                            <li><a href="list_Jewerly.html">Silver</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    ABOUT HERMÈS
+                        <ol>
+                            <li><a href="aboutHermes.html">Contemporary artisans since 1837</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                    HERMÈS EDITEUR
+                        <ol>
+                            <li><a href="editeur_josefAlbers.html">Josef Albers</a></li>
+                            <li><a href="editeur_danielBuren.html">Daniel Buren</a></li>
+                            <li><a href="editeur_hiroshiSugimoto.html">Hiroshi Sugimoto</a></li>
+                            <li><a href="editeur_julioLeParc.html">Julio Le Parc</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+            <ul>
+                <li>
+                    <strong>Services</strong>
+                    <a href="findAStore.html">Find a Store</a>
+                    <a href="FAQ.html">FAQ</a>
+                </li>
+                <li>
+                    <strong>Orders</strong>
+                    <a href="FAQ.html#payment">Payment</a>
+                    <a href="FAQ.html#delivery">Shipping</a>
+                    <a href="FAQ.html#collerctInStore">Collect in store</a>
+                    <a href="FAQ.html#returnsAndExchanges">Returns and exchanges</a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    
+    <!-- aside fin -->
+    
+    <div id="searchPanel">
+        <div>
+            <form>
+                <fieldset>
+                    <input type="submit" value="submit">
+                    <input type="search" placeholder="KEYWORDS" data-panel="searchKeyword" title="keywords">
+                    <input type="button" value="close" class="btn_close">
+                </fieldset>
+            </form>
+            <ul id="searchKeyword">
+                <li><a href="list_ReadyToWear.html">Ready to wear</a></li>
+                <li><a href="list_Jewerly.html">Jewerly</a></li>
+                <li><a href="list_Shoes.html">Shoes</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- searchPanel fin -->
+
+
+    <section class="wrap jewerlySideImageList">
+        <!-- Bg -->
+
+        <div>
+            <h2>JEWELRY</h2>
+            
+            <input type="button" value="Filter" data-panel="filterPanel">
+            
+            <ul id="filterPanel">
+                <li>
+                    <span>Category</span>
+                    <div>
+                        <input type="checkbox" id="gold">
+                        <label for="gold">Gold</label>
+                        <input type="checkbox" id="sliver">
+                        <label for="sliver">Sliver</label>
+                    </div>
+                </li>
+                <li>
+                    <span>GoldType</span> 
+                    <div>
+                        <input type="checkbox" id="roseGold">
+                        <label for="roseGold">Rose Gold</label>
+                    </div>
+                </li>
+                <li>
+                    <span>Sort by</span>
+                    <div>
+                        <a href="#">Popular</a>
+                        <a href="#">Lowest Price</a>
+                        <a href="#">Highest Price</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- <ul id="jewerlyFirstPage" >
+           <li>
+               <a href="detailPage_Jewerly_01.html">
+                   <img src="images/listJewerly_01.png" alt="Kelly Clochette bracelet01">
+               </a>
+               <dl>
+                   <dt>Kelly Clochette bracelet</dt>
+                   <dd>£3,960</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Jewerly_02.html">
+                   <img src="images/listJewerly_02.png" alt="Kelly Clochette bracelet02">
+               </a>
+               <dl>
+                   <dt>Kelly Clochette bracelet</dt>
+                   <dd>£2,590</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Jewerly_03.html">
+                   <img src="images/listJewerly_03.png" alt="Kelly Clochette necklace">
+               </a>
+               <dl>
+                   <dt>Kelly Clochette necklacet</dt>
+                   <dd>£3,760</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Jewerly_04.html">
+                   <img src="images/listJewerly_04.png" alt="Ever Chaine d'ancre earrings">
+               </a>
+               <dl>
+                   <dt>Ever Chaine d'ancre earrings</dt>
+                   <dd>£2,640</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Jewerly_05.html">
+                   <img src="images/listJewerly_05.png" alt="Loop earrings">
+               </a>
+               <dl>
+                <dt>Loop earrings</dt>
+                <dd>£1,950</dd>
+            </dl>
+           </li>
+           <li>
+               <a href="detailPage_Jewerly_06.html">
+                   <img src="images/listJewerly_06.png" alt="Collier de chien ring">
+                </a>
+                <dl>
+                    <dt>Collier de chien ring</dt>
+                    <dd>£1,480</dd>
+                </dl>
+           </li>
+           <li>
+               <a href="detailPage_Jewerly_07.html">
+                   <img src="images/listJewerly_07.png" alt="Chaine d'ancre Enchainee double ring">
+               </a>
+               <dl>
+                   <dt>Chaine d'ancre Enchainee double ring</dt>
+                   <dd>£5,070</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Jewerly_08.html">
+                   <img src="images/listJewerly_08.png" alt="Niloticus Ombre necklace">
+               </a>
+               <dl>
+                   <dt>Niloticus Ombre necklace</dt>
+                   <dd>£13,800</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Jewerly_09.html">
+                   <img src="images/listJewerly_09.png" alt="Chaine d'Ancre Punk ring">
+               </a>
+               <dl>
+                   <dt>Chaine d'Ancre Punk ring</dt>
+                   <dd>£2,110</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Jewerly_10.html">
+                   <img src="images/listJewerly_10.png" alt="Ronde ring">
+               </a>
+               <dl>
+                   <dt>"Ronde ring</dt>
+                   <dd>£990</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Jewerly_11.html">
+                   <img src="images/listJewerly_11.png" alt="Hermes Ex-Libris earrings">
+               </a>
+               <dl>
+                   <dt>Hermes Ex-Libris earrings</dt>
+                   <dd>£560</dd>
+               </dl>
+           </li>
+           <li>
+               <a href="detailPage_Jewerly_12.html">
+                   <img src="images/listJewerly_12.png" alt="Hermes Ex-Libris bracelet">
+                </a>
+                <dl>
+                    <dt>Hermes Ex-Libris bracelet</dt>
+                    <dd>£880</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Jewerly_13.html">
+                    <img src="images/listJewerly_13.png" alt="Chaine d'ancre Punk necklace">
+                </a>
+                <dl>
+                    <dt>Chaine d'ancre Punk necklace</dt>
+                    <dd>£3,860</dd>
+               </dl>
+            </li>
+            <li>
+                <a href="detailPage_Jewerly_14.html">
+                    <img src="images/listJewerly_14.png" alt="Chaine d'ancre bracelet">
+                </a>
+                <dl>
+                    <dt>Chaine d'ancre bracelets</dt>
+                    <dd>£1,110</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Jewerly_15.html">
+                    <img src="images/listJewerly_15.png" alt="Echappee Hermes ring">
+                </a>
+                <dl>
+                    <dt>Echappee Hermes ring</dt>
+                    <dd>£360</dd>
+                </dl>
+            </li>
+        </ul> -->
+
+        <ul id="jewerlySecondPage" >
+            <li>
+                <a href="detailPage_Jewerly_16.html">
+                    <img src="images/listJewerly_16.png" alt="Mini Clous bracelet">
+                </a>
+                <dl>
+                    <dt>Mini Clous bracelet</dt>
+                    <dd>£820</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Jewerly_17.html">
+                    <img src="images/listJewerly_17.png" alt="Farandole long necklace 160">
+                 </a>
+                 <dl>
+                     <dt>Farandole long necklace 160</dt>
+                     <dd>£1,330</dd>
+                 </dl>
+            </li>
+            <li>
+                <a href="detailPage_Jewerly_18.html">
+                    <img src="images/listJewerly_18.png" alt="Collier de chien ring">
+                </a>
+                <dl>
+                    <dt>Collier de chien ring</dt>
+                    <dd>£650</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Jewerly_19.html">
+                    <img src="images/listJewerly_19.png" alt="Ever Chaine d'ancre long necklace">
+                </a>
+                <dl>
+                    <dt>Ever Chaine d'ancre long necklace</dt>
+                    <dd>£890</dd>
+                </dl>
+            </li>
+            <li>
+                <a href="detailPage_Jewerly_20.html">
+                    <img src="images/listJewerly_20.png" alt="Eclipse Ruban ring">
+                </a>
+                <dl>
+                 <dt>Eclipse Ruban ring</dt>
+                 <dd>£360</dd>
+             </dl>
+            </li>
+            <li>
+                <a href="detailPage_Jewerly_21.html">
+                    <img src="images/listJewerly_21.png" alt="Galop Hermes ring">
+                 </a>
+                 <dl>
+                     <dt>Galop Hermes ring</dt>
+                     <dd>£520</dd>
+                 </dl>
+            </li>
+         </ul>
+        
+         <div class="pager">
+            <a href="list_Jewerly.html">prev</a>
+            <a href="list_Jewerly02.html">next</a>
+            <ol>
+                <li><a href="list_Jewerly.html">1</a></li>
+                <li><a href="list_Jewerly02.html"class="active">2</a></li>
+            </ol>
+        </div>
+
+    </section>
+
+    <!-- list Page fin -->
+
+    
+    <footer>
+        <div>
+            <h2>
+                <img src="images/logo_white.png" alt="logo">
+            </h2>
+    
+            <ul>
+                <li>
+                    <strong>Services</strong> 
+                    <ol>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="findAStore.html">Find a store</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <strong>Orders</strong>
+                    <ol>
+                        <li><a href="FAQ.html#payment">Payment</a></li>
+                        <li><a href="FAQ.html#delivery">Shipping</a> </li>
+                        <li><a href="FAQ.html#collerctInStore">Collect in store</a></li>
+                        <li><a href="FAQ.html#returnsAndExchanges">Returns and exchanges</a></li>
+                    </ol>
+                </li>
+                <li>
+                  <strong>La Maison Hermes</strong>
+                    <ol>
+                        <li><a href="https://www.fondationdentreprisehermes.org/en" target="_blank" >The Hermes FoundationNew tab</a></li>
+                        <li><a href="https://finance.hermes.com/en/" target="_blank">Finance & GovernanceNew tab</a></li>
+                    </ol>
+                </li>
+            </ul>
+    
+            <form>
+                <fieldset>
+                    <legend>Subscribe Now</legend>
+                        <input type="email" placeholder="Enter your  Email" title="Enter your  Email">
+                        <input type="submit" value="Subscribe">
+                </fieldset>
+            </form>
+    
+            <div>
+                <p>United Kingdom ⓒ Hermes 2021 All rights reserved.</p>
+    
+                <ul>
+                    <li><a href="https://www.facebook.com/hermes" target="_blank">fackBook</a></li>
+                    <li><a href="https://twitter.com/hermes_paris" target="_blank">Twiiter</a></li>
+                    <li><a href="https://www.youtube.com/user/hermes" target="_blank">youTube</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Footer fin -->    
+</body>
+</html>

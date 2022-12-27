@@ -1,0 +1,922 @@
+html,body{
+    height: 100%;
+}
+header > div > label,
+header > div > div a:first-of-type,
+footer > div ul li strong,
+footer > div > div p,
+footer > div fieldset legend,
+aside > div h2,
+aside > div nav h3,
+aside > div nav ul li div h4,
+aside > div nav ul >li,
+aside > div > ul li strong,
+.mainSlider > li figure figcaption dl dt,
+#searchKeyword li a,
+.mainSlider > li figure figcaption dl,
+.sliderSidePanel > ol li,
+.wrap.Main h2,
+.wrap.Main > section:nth-child(7) p,
+.wrap.Main > section:nth-child(4) ul li a,
+.Main > section:nth-child(13) h2,
+.way3Carousel li figure figcaption dl dt,
+[class$='MovingBox'] figcaption dt,
+.sideImageList h2,
+#filterPanel li >*,
+[class$='SideImageList'] > div:first-child h2,
+.Pager a,
+.btn_Return,
+.DetailPage > div h2,
+[id^='goods'] > span,
+[id^='goods'] > form fieldset legend,
+[id^='goods'] p strong,
+.DetailPage > div div strong ul li a,
+[id^='productDetails'] > span,
+[id^='thePerfectPartner'],
+.quantSet span,
+.bx-wrapper .bx-pager,
+.jewelryCareTips h2,
+.jewelryCareTips > p,
+.jewelryCareTips strong,
+.FAQ h2,
+.FAQ > aside ul li a,
+.FAQ > div h3,
+.FAQ > div > ol > li > ol > li:not(p,ul),
+[class*='AboutHermes'] h2,
+[class*='AboutHermes'] ul li:not(.wayClear) h3,
+.AboutHermes > ul li h3 mark,
+[class*='Editeur'] h2,
+[class*='Editeur'] > div h3,
+[class*='Editeur'] dl dt,
+.EditeurMain p:first-of-type strong,
+[class*='order'] > div > h2,
+[class*='order'] > div ul.stepBox,
+[class*='order'] [class$='UnderArea'],
+[class*='order'] div form fieldset legend,
+[class*='order'] div form fieldset:not(.summaryBox) ul > li > label, 
+.orderCheckout div form fieldset.summaryBox figure figcaption ul li:last-child input,
+.orderShoppingCart > div:first-of-type > ul:not(.stepBox),
+.orderShoppingCart > div:first-of-type > ol,
+.orderShoppingCart > div:first-of-type > ol li span.numberInput input[type='number'],
+.orderCheckout div form fieldset.summaryBox > div:nth-child(3) span, 
+.orderCheckout div form fieldset.summaryBox > div:nth-child(3) span input,
+.orderCheckout div form fieldset.summaryBox > p mark,
+.orderCheckout div form fieldset.summaryBox div#orderComplete,
+.Account > div fieldset legend,
+.Account > div fieldset > ul li label,
+.Account > div fieldset.accountSet ul li:first-child > p,
+.Account > div fieldset input[type='button'],
+.Account > div strong,
+.Account > div fieldset > span:last-child,
+.Account > div > div *
+.findAStore > h2,
+.findAStore strong,
+.findAStore input[type='search']{
+    font-family: 'jost';
+}
+
+footer > div a,
+aside > div nav ol li a,
+aside > div > ul li a,
+.mainSlider > li p,
+.mainSlider > li div,
+.sliderSidePanel > ol li h3 a,
+.frontImageList > div p,
+.btn_self,
+[class$='ImageList'] > ul li dl,
+.wrap.Main > section:not(:nth-child(7)) p,
+.wrap.Main > section:nth-child(11) h2 a,
+.bx-wrapper .bx-controls-direction a,
+.way3Carousel li figure figcaption dl dd,
+.way3Carousel li figure figcaption a,
+[class$='MovingBox'] figcaption dd,
+[id^='goods'] p,
+[id^='productDetails'] > *:not(strong,span),
+[id^='deliveryReturns'] > *:not(strong),
+.sizeSet > span,
+.sizeSet input[type='button'],   
+[class$='DetailPage'] > div .underPager > a,
+.jewelryCareTips >*,
+.FAQ > p,
+.FAQ > div > ol > li h4,
+.FAQ > div > ol > li > ol > li p,
+.FAQ > div > ol > li > ol > li ul li,
+[class*='AboutHermes'] > p,
+[class*='AboutHermes'] ul li p,
+[class*='Editeur'] dl dd,
+[class*='Editeur'] p,
+.AboutHermes ul.aboutTheworldContent li.wayClear span,
+.orderCheckout div form fieldset:not(.summaryBox) ul#payment > li:last-child span,
+.orderCheckout div form fieldset.summaryBox figure figcaption h3,
+.orderCheckout div form fieldset.summaryBox figure figcaption ul >*:not(:last-child),
+.orderCheckout div form fieldset.summaryBox figure figcaption ul li:not(:last-child) input,
+.orderCheckout div form fieldset.summaryBox > p,
+.Account input[type='submit'],
+.Account > div fieldset.createSet > input[type='button']
+.Account input::placeholder,
+.Account > div form fieldset.accountSet address >*:not(strong),
+.Account > div form fieldset.accountSet > span:nth-child(6),
+.Account > div fieldset.createSet > input[type='button'],
+.findAStore *:not(h2,strong,input[type='search']),
+#subscribePanel *{
+   font-family: 'Archivo';
+}
+li{
+    list-style: none;
+}
+.bx-wrapper{
+    box-shadow: none;
+    border: none;
+    background: transparent;
+}
+[class^='underLine']{
+    padding-bottom: 30px; 
+    background: url('../images/bul_Detail_UnderLine.png') center bottom no-repeat;
+    text-align: center;
+    display: block;
+}
+[class$='Price']::before{
+    content: '£';
+}
+.btn_Return{
+    font-size: 14px;
+    font-weight:400;
+    color: #000;
+    padding-left: 40px;
+    background: url('../images/bul_BackBtn_Black.png') left center no-repeat;
+    position: absolute;
+    top: 140px;
+}
+.btn_self{
+    color: #6c3a19;
+    padding-right: 20px;
+    background: url('../images/bul_MoreBtn.png') right center no-repeat;
+}
+.btn_self:hover,
+.aboutSlider .way3Carousel li figure figcaption a:hover{
+    text-decoration: underline;
+}
+input[type='submit'],
+input[type='button'],
+.FAQ > div > ol > li > ol > li:hover{
+    cursor: pointer;
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+  }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+}
+
+[class*='brown']{background-color: #9f5f37;}
+[class*='white']{background-color: #ebebeb;}
+[class*='black']{background-color: #000;}
+[class*='blue']{background-color: #02458d;}
+[class*='sky']{background-color: #b8e1ef;}
+[class*='red']{background-color: #a11920;}
+[class*='rose']{background-color: #cd7c64;}
+[class*='ivory']{background-color: #ece4cf;}
+[class*='pink']{background-color: #E96163;}
+[class*='purple']{background-color: #A01556;}
+[class*='yellow']{background-color: #ebd36a;}
+[class*='orange']{background-color: #FB6200;}
+[class*='navy']{background-color: #0b103a;}
+[class*='wine']{background-color: #611730;}
+[class*='gray']{background-color: #A5A5A5;}
+[class*='darkgray']{background-color: #222C2E;}
+[class*='darkbrown']{background-color: #46352E;}
+[class*='green']{background-color: #05ab7d;}
+[class*='neon']{background-color: #FC6B58;}
+[class*='beige']{background-color: #d4bc9a;}
+
+header{
+    border-bottom: 1px solid #bababa; width: 100%; 
+    position: fixed; background-color: #fff; 
+}
+header > div{
+    position: relative;
+}
+header > div label{
+    cursor: pointer;
+}
+header > div label,
+header > div > div{
+    position: absolute;
+}
+header > div h1 a img{
+    vertical-align: middle; width: 100%;
+}
+header > div > div{
+    width: 43.75%; 
+    line-height: 18px;
+    text-align: right;
+}
+header > div > div *{
+    display: inline-block; line-height: 18px;
+    text-align: left;
+}
+header > div > div *:not(a:first-of-type){
+    text-indent: -9999px;
+    cursor: pointer;
+}
+header > div > div input{
+    border: none; width: 18px;
+    background: url('../images/svg_Search.svg') no-repeat center; 
+}
+header > div > div a:first-child{
+    color: #000;
+}
+header > div > div a:nth-child(3){
+    width: 18px; padding: 2px 0;
+    background: url('../images/svg_ShoppingBag.svg') no-repeat center;
+}
+#asidePanel{
+    position: fixed; width: 30%; height: 100%;
+    z-index: 9999; 
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 4px 1px 10px 1px rgba(0,0,0,0.2);
+    transition: left 0.5s ease-in-out;
+    max-width: 600px;
+    min-width: 500px;
+} 
+#asidePanel > div h2{
+    font-weight: 500;
+    padding-left: 10px; border-left: 3px solid #d1d1d1;
+    line-height: 35px;
+    position: relative;
+}
+#asidePanel > div h2 input{
+    position: absolute; 
+    width: 30px;
+    background: url('../images/bul_AsideCloseBtn.png') no-repeat center;
+    line-height: 35px; border-style: none;
+    text-indent: -9999px;
+    border-radius: 15px; cursor: pointer;
+}
+#asidePanel > div nav ul > li{
+    position: relative; 
+    font-size: 18px; cursor: default;
+}
+#asidePanel > div nav ul > li ol li a{
+    color: #3d3d3d;
+    display: block;
+}
+#asidePanel > div nav ul > li ol li{
+    transition-duration: 0.3s; 
+    transition-timing-function: ease-out;
+    font-size: 0; margin-bottom: 0;
+}
+#asidePanel > div nav ul > li ol li a{
+    opacity: 0;
+}
+#asidePanel > div nav ul > li ol li a:hover,
+#asidePanel > div > ul li a:hover{
+    color: #3d3d3d;
+}
+#asidePanel > div > ul{
+    display: flex; 
+}
+#asidePanel > div > ul li{
+    width: 50%;
+}
+#asidePanel > div > ul li a{
+    font-weight: 300; 
+    display: block; 
+    color: #9e9e9e;
+}
+#asidePanel > div > nav > ul li:first-child{z-index: 10;}
+#asidePanel > div > nav > ul li:nth-child(2){z-index: 9;}
+#asidePanel > div > nav > ul li:nth-child(3){z-index: 8;}
+
+#searchPanel{
+    position: fixed; 
+    z-index: 1000;
+    background-color: #fff; 
+    border-bottom: 1px solid transparent;
+    box-shadow: 0px 10px 10px 1px rgba(0,0,0,0.1);
+}
+#searchPanel > div fieldset input[type= 'submit'],
+#searchPanel > div fieldset input[type= 'button']{
+    border-style: none; 
+    text-indent: -9999px; 
+    position: absolute;
+    width: 40px; height: 40px; border-radius: 20px;
+    top: 10px; right: 180px;
+}
+#searchPanel > div fieldset input[type= 'search']{
+    background-color: #e8e8e8; 
+    line-height: 30px; border: none; border-radius: 55px;
+    color: #3d3d3d;
+}
+#searchPanel > div #searchKeyword li a{
+    display: block; 
+    color: #3d3d3d;
+}
+footer > div a{
+    display: block;
+    font-weight: 300; 
+}
+footer > div ul li strong{
+    display: block; font-size: 22px; font-weight: 500; 
+}
+footer > div > div ul li:not(:first-child){
+    margin-left: 4.26%;
+}
+footer > div > div{
+    padding: 30px 0; 
+    width: 100%;
+    border-top: 1px solid #fff; 
+    position: relative;
+}
+footer > div > div *{
+    display: inline-block; vertical-align: middle;
+}
+footer > div > div > ul{
+    position: absolute; width: 50%;
+}
+footer > div > div ul li a{
+    line-height: 21px; width: 30px;
+    text-align: left;
+    text-indent: -9999px; 
+}
+ footer > div > div ul li:first-child a{
+    background: url('../images/icon_Footer_FaceBook.png') no-repeat center;
+}
+footer > div > div ul li:nth-child(2) a{
+    background: url('../images/icon_Footer_Twiiter.png') no-repeat center;
+}
+footer > div > div ul li:nth-child(3) a{
+    background: url('../images/icon_Footer_Youtube.png') no-repeat center;
+}
+footer > div,
+footer > div fieldset input[type='email'],
+footer > div fieldset input[type='email']::placeholder,
+footer div ul li a,
+footer > div{
+    color: #fff;
+}
+
+@media screen and (max-width: 767px){
+
+    .btn_Return{
+        display: none;
+    }
+    
+    header > div,
+    #searchPanel > div,
+    [class$='SideImageList'] ul#filterPanel,
+    [class$='DetailPage'] > div:nth-child(2) > *:not(.underPager),
+    .FAQ,
+    .EditeurMain div.centerguideMain ul li figure figcaption,
+    [class*='Editeur'] > p,
+    [class*='AboutHermes']:not(.AboutHermesChronology),
+    .AboutHermesChronology > *:not(a,img,ul),
+    .AboutHermesChronology > ul li:not(.fullImage_1992,.fullImage_2013),
+    .AboutHermesChronology > ul li.fullImage_1992 p,
+    .AboutHermesChronology > ul li.fullImage_2013 p,
+    .jewelryCareTips,
+    [class$='SideImageList'] ul#filterPanel{
+        max-width: 767px; 
+        width: 92.86%; margin: 0 auto; 
+    }
+
+    header{
+        z-index: 100; 
+    }
+    header > div > input{
+        display: none; 
+    }
+    header > div label{
+        background: url('../images/bul_hamburger.png') no-repeat left center;
+        padding-left: 20px;
+        line-height: 90px;
+        text-indent: -9999px; 
+        right: 0; top: 0; 
+    }
+    header > div h1{
+        line-height: 90px; max-width: 70px; 
+        margin-left: 0;
+    }
+    header > div h1 a{
+        display: block; 
+    }
+    header > div > div{
+        right: 45px; top: 33px;
+    }
+    header > div > div *:not(a:first-of-type){
+        margin-left: 10%;
+    }
+    header > div div a:first-child{
+        text-indent: -9999px;
+        width: 20px ; height: 20px;
+        background: url('../images/svg_Account.svg') no-repeat center;
+    }
+
+    #asidePanel{
+        width: 100%;
+        max-width: 400px;
+        min-width: 280px;
+        padding: 30px 3.57% 0;
+        left: -160%; top: 0;
+    } 
+    #asidePanel > div h2{
+        font-size: 32px;
+    }
+    #asidePanel > div h2 input{
+        right: 2%;
+    }
+    #asidePanel > div nav ul > li{
+        font-size: 18px; 
+    }
+    #asidePanel > div nav h3{
+        font-size: 16px; color: #d1d1d1;
+        font-weight: 400;
+    }
+    #asidePanel > div nav ul > li ol li a{
+        font-size: 0px; 
+    }
+    #asidePanel > div nav h3{
+        margin-bottom: 20px;
+    }
+    #asidePanel > div nav ul > li div h4{
+        display: none;
+    }
+    #asidePanel > div nav ul > li ol{
+       margin-left: 5%;
+    }
+    #asidePanel > div nav ul > li:hover ol li{
+        margin-top: 25px;
+    }
+    #asidePanel > div nav ul > li:hover ol li a{
+        opacity: 1; font-size: 14px;
+    }
+    #asidePanel > div > ul li a{
+        font-size: 14px;
+    }
+    #asidePanel > div > ul li strong{
+        font-size: 16px; display: block;
+    }
+
+    #searchPanel{
+        display: none;
+    }
+    #searchPanel.active{
+        display: block;
+    }
+    #searchPanel{
+        top: 91px; width: 100%; 
+    }
+    #searchPanel > div{
+        padding: 60px 0;
+    }
+    #searchPanel > div fieldset{
+        position: relative;
+        margin-bottom: 40px;
+    }
+    #searchPanel > div fieldset input[type= 'submit'],
+    #searchPanel > div fieldset input[type= 'button']{
+        width: 40px; height: 40px; border-radius: 20px;
+        top: 10px; right: 180px;
+    }
+    #searchPanel > div fieldset input[type= 'submit']{
+        background: url('../images/bul_search.png') no-repeat center , #fff;
+        left: 10px;
+    }
+    #searchPanel > div fieldset input[type= 'button']{
+        background: url('../images/bul_SearchCloseBtn_Mobile.png') no-repeat right , transparent;
+        right: 0; top: -45px;
+        cursor: pointer;
+    }
+    #searchPanel > div fieldset input[type= 'search']{
+        padding: 15px 0 15px 60px;
+        width: 100%; font-size: 14px; font-weight: 300;
+    }
+    #searchPanel > div fieldset input[type= 'search']::placeholder{
+        font-size: 14px; color: #000;
+    }
+    #searchPanel > div #searchKeyword{
+       padding-left: 60px; 
+    }
+    #searchPanel > div #searchKeyword li:not(:last-child){
+        margin-bottom: 30px;
+    }
+    #searchPanel > div #searchKeyword li a{
+        font-size: 14px; 
+    }
+    
+    footer{
+        background-color: #e17167; 
+        padding: 30px 0 0;
+    }
+    footer > div{
+        width: 92.86%; max-width: 767px; margin: 0 auto;
+    }
+    footer > div a{
+        font-size: 0px;
+    }
+    footer > div h2{
+        max-width: 110px; margin: 0 auto 50px;
+    }
+    footer > div h2 img{
+        width: 100%; min-width: 100px;
+    }
+    footer > div > ul{
+        margin-bottom: 70px;
+    }
+    footer > div > ul > li:not(:last-child){
+        margin-bottom: 40px;
+    }
+    footer > div ul li strong::after{
+        content: url('../images/bul_footerBtn.png');
+        float: right;
+    }
+    footer > div ul li ol{
+        margin-left: 10px;
+    }
+    footer > div ul li ol li{
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in;  
+        margin-top: 0px;
+    }
+    footer > div ul li:hover strong::after{
+        transform: rotate(180deg) translateY(-3px);
+        transition: transform 0.5s ease-in;
+    }
+    footer > div ul li:hover ol li{
+        margin-top: 25px;
+    }
+    footer > div ul li:hover ol li a{
+        line-height: 23px;        
+        font-size: 14px;
+        font-weight: 300; 
+    }
+    footer > div fieldset{
+        padding-bottom: 80px;
+    }
+    footer > div fieldset input[type='email']{
+        width: 85%;
+    }
+    footer > div fieldset input[type='submit']{
+        width: 15%; 
+        text-indent: -9999px;
+        background-image: url('../images/bul_submitBtn.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    footer > div > div{
+        clear: both; 
+    }
+    footer > div > div > ul{
+        display: flex;
+        justify-content: space-between ;
+    }
+    footer > div > div p{
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    header > div > input,
+    #searchPanel{
+        display: none; 
+    }
+    header > div h1 a,
+    #searchPanel.active{
+        display: block; 
+    }
+
+    header{
+        z-index: 1001; 
+    }
+    header > div label{
+        background: url('../images/bul_hamburger.png') no-repeat left center; 
+        padding-left: 30px;
+        left: 0; top: 0; line-height: 110px;
+    }
+    header > div h1{
+        line-height: 110px; max-width: 100px; 
+        margin: 0 auto;
+    }
+    header > div > div{
+        right: 0; top: 45px; 
+    }
+    header > div > div *:not(a:first-of-type){
+        margin-left: 4.76%;
+    }
+
+    #asidePanel{
+        max-width: 600px;
+        min-width: 500px;
+    } 
+    #asidePanel > div h2{
+        font-size: 40px;
+    }
+    #asidePanel > div h2 input{
+        right: 0;
+    }
+    #asidePanel > div nav ul > li{
+        font-size: 24px; 
+    }
+    #asidePanel > div nav ul > li div{
+        width: 50%;
+        position: absolute;
+        top: -46px; right: 0;
+    }
+    #asidePanel > div nav h3,
+    #asidePanel > div nav ul > li div h4{
+        font-size: 16px; color: #d1d1d1;
+        font-weight: 400;
+    }
+    #asidePanel > div nav ul > li ol li a{
+        font-size: 16px;
+    }
+    #asidePanel > div nav h3,
+    #asidePanel > div nav ul > li div h4{
+        margin-bottom: 30px;
+    }
+    #asidePanel > div nav ul > li > ol{
+        position: absolute; top: 0; right: 0;
+        width: 50%;
+    }
+    #asidePanel > div nav ul > li:hover ol li{
+        font-size: 16px;     
+    }
+    #asidePanel > div nav ul > li:hover ol li a{
+        opacity: 1;
+    }
+    #asidePanel > div > ul li a{
+        font-size: 16px;
+    }
+    #asidePanel > div > ul li strong{
+        font-size: 20px; display: block;
+    }    
+
+    #searchPanel{
+        top: 111px; width: 100%; 
+    }
+    #searchPanel > div fieldset{
+        position: relative;
+        margin-bottom: 60px;
+    }
+    #searchPanel > div fieldset input[type= 'submit'],
+    #searchPanel > div fieldset input[type= 'button']{
+        width: 60px; height: 60px; border-radius: 30px;
+        top: 15px;
+    }
+    #searchPanel > div fieldset input[type= 'submit']{
+        background: url('../images/bul_search.png') no-repeat center , #fff;
+        left: 15px;
+    }
+    #searchPanel > div fieldset input[type= 'button']{
+        background: url('../images/bul_SearchCloseBtn.png') no-repeat center , transparent;
+        right: 0; cursor: pointer;
+    }
+    #searchPanel > div fieldset input[type= 'search']{
+        padding: 30px 110px;
+        font-size: 24px; 
+    }
+    #searchPanel > div fieldset input[type= 'search']::placeholder{
+        font-size: 20px; color: #000;
+    }
+    #searchPanel > div #searchKeyword{
+       padding: 0 110px; 
+    }
+    #searchPanel > div #searchKeyword li:not(:last-child){
+        margin-bottom: 40px;
+    }
+    #searchPanel > div #searchKeyword li a{
+        font-size: 20px; 
+    }
+
+    footer{
+        background-color: #e17167; 
+        padding: 85px 0 0;
+    }
+    footer > div a{
+        line-height: 23px;
+        font-size: 16px; 
+    }
+    footer > div:after,
+    footer > div > ul::after{
+        content: ''; display: block; clear: both;
+    }
+    footer > div > *,
+    footer > div > ul > li{
+        float: left;
+    }
+    footer > div > ul > li{
+        width: 32.16%;
+    }
+    footer > div > ul > li:not(:first-of-type){
+        margin-left: 1.76%;
+    }
+    footer > div ul li strong,
+    footer > div ul li ol li{
+        margin-bottom: 30px; 
+    }
+    footer > div > div > ul{
+        text-align: right;
+    }
+    footer > div > div p{
+        font-weight: 300;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1279px){
+
+    #asidePanel.active{
+        left: 0;
+    } 
+    #asidePanel > div h2{
+        margin-bottom: 5vh;
+    }
+    #asidePanel > div nav{
+        margin-bottom: 14vh;
+    }
+    #asidePanel > div nav ul > li:not(:last-child){
+        margin-bottom: 4vh;
+    }
+    #asidePanel > div > ul li strong,
+    #asidePanel > div > ul li a:not(:last-child){
+        margin-bottom: 2.5vh;
+    }   
+    footer > div fieldset legend{
+        font-size: 24px; font-weight: 500; 
+        margin-bottom: 20px;
+    }
+    footer > div fieldset{
+        display: flex;
+    }
+    footer > div fieldset input[type='email']{
+        width: 85%;
+        box-sizing: border-box;
+        padding-left: 50px; line-height: 45px;
+        background: url('../images/Icon_Footer_Email.png') no-repeat 10px center , transparent;
+        border: 1px solid #fff;
+    }
+    footer > div fieldset input[type='submit']{
+        background-color: #fff;
+        border: 1px solid #fff;
+    }
+    footer > div > div{
+        margin-top: 40px; 
+        text-align: center;
+    }
+    footer > div > div > ul{
+        top: -70px; right: 0;
+   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+
+    header > div,
+    #searchPanel > div,
+    [class$='DetailPage'] > div:nth-child(2) > *:not(.underPager),
+    [class$='DetailPage'] > div div.underPager ul,
+    .FAQ,
+    [class*='Editeur'] > div:last-of-type ul.sliderEditeurs,
+    [class*='Editeur'] > p,
+    [class*='AboutHermes']:not(.AboutHermesChronology),
+    .AboutHermesChronology > *:not(a,img,ul),
+    .AboutHermesChronology > ul li:not([class^='fullImage']),
+    .jewelryCareTips{
+        max-width: 1279px; 
+        width: 94.79%; margin: 0 auto; 
+    } 
+    
+    #asidePanel{
+        padding: 60px 60px 0;
+        left: -70%; top: 0;
+    } 
+    #asidePanel > div nav ul > li:hover ol li{
+        margin-bottom: 20px;
+    }        
+    
+    #searchPanel > div{
+        padding: 80px 2.6%;
+    }
+    #searchPanel > div fieldset input[type= 'search']{
+        width: 87.23%; 
+    }    
+
+    footer > div{
+        width: 94.79%; max-width: 1640px; margin: 0 auto;
+    }
+    footer > div h2{
+        max-width: 110px; width: 14.32%;
+    }
+    footer > div h2 img{
+        width: 100%; min-width: 110px;
+    }
+    footer > div > ul{
+        width: 75.27%; margin-left: 10.41%;
+    }
+    footer > div form{
+        width: 45%;
+    }
+    footer > div fieldset input[type='email']{
+        width: 70%;
+    }
+    footer > div fieldset input[type='submit']{
+        width: 30%;
+        color: #e17167;
+    }
+}
+
+@media screen and (min-width: 1280px){
+
+    header > div,
+    #searchPanel > div,
+    [class$='DetailPage'],
+    .FAQ,
+    [class*='Editeur'] > div:last-of-type ul.sliderEditeurs,
+    [class*='Editeur'] > p,
+    [class*='AboutHermes']:not(.AboutHermesChronology),
+    .AboutHermesChronology > *:not(a,img,ul),
+    .AboutHermesChronology > ul li:not([class^='fullImage']),
+    .Account > div{
+        max-width: 1780px; 
+        width: 93.7%; margin: 0 auto; 
+    }
+
+    #asidePanel{
+        padding: 70px 60px 0;
+        left: -40%; top: 0;
+    } 
+    #asidePanel.active{
+        left: 0;
+    }
+    #asidePanel > div h2{
+        margin-bottom: 75px;
+    }
+    #asidePanel > div nav{
+        margin-bottom: 210px;
+    }
+    #asidePanel > div nav ul > li{
+        margin-bottom: 50px;
+    }
+    #asidePanel > div > ul li a:not(:last-child),
+    #asidePanel > div nav ul > li:hover ol li,
+    #asidePanel > div > ul li strong{
+        margin-bottom: 30px;
+    }
+
+    #searchPanel > div{
+        padding: 80px 3.64%;
+    }
+    #searchPanel > div fieldset input[type= 'search']{
+        width: 94.38%; 
+    }    
+
+    footer > div{
+        width: 85.41%; max-width: 1640px; margin: 0 auto;
+    }
+    footer > div h2{
+        max-width: 130px; width: 7.92%;
+    }
+    footer > div h2 img{
+        width: 100%; min-width: 130px;
+    }
+    footer > div > ul{
+        width: 43.59%; margin-left: 24.39%;
+    }
+    footer > div form{
+        width: 17.34%; margin-left: 6.76%;
+    }
+    footer > div fieldset legend{
+        font-size: 24px; font-weight: 500; margin-bottom: 50px;
+    }
+    footer > div fieldset input[type='email']{
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 40px; line-height: 45px;
+        background: url('../images/Icon_Footer_Email.png') no-repeat left center , transparent;
+        border-width: 0 0 1px;
+        border-style: none none solid;
+        border-color: #fff;
+        margin-bottom: 30px;
+    }
+    footer > div fieldset input[type='submit']{
+        padding: 12px 15px; background-color: transparent;
+        border-radius: 25px; border: 1px solid #fff;
+        box-sizing: border-box;
+    }
+    footer > div > div{
+        clear: both; margin-top: 100px; 
+    }
+    footer > div > div > ul{
+        right: 0; padding-left: 50%;
+    }
+    footer > div fieldset input[type='submit']{
+        color: #fff;
+    }
+}
