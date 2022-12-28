@@ -849,25 +849,26 @@ footer > div{
     }
 
     #asidePanel{
-        padding: 70px 60px 0;
+        /* padding: 70px 60px 0; */
+        padding: 6.3vh 60px 0;
         left: -40%; top: 0;
     } 
     #asidePanel.active{
         left: 0;
     }
     #asidePanel > div h2{
-        margin-bottom: 75px;
+        margin-bottom: 6.7vh;
     }
     #asidePanel > div nav{
-        margin-bottom: 210px;
+        margin-bottom: 18.7vh;
     }
-    #asidePanel > div nav ul > li{
-        margin-bottom: 50px;
+    #asidePanel > div nav ul > li:not(:last-child){
+        margin-bottom: 4.5vh;
     }
     #asidePanel > div > ul li a:not(:last-child),
     #asidePanel > div nav ul > li:hover ol li,
     #asidePanel > div > ul li strong{
-        margin-bottom: 30px;
+        margin-bottom: 2.7vh;
     }
 
     #searchPanel > div{
