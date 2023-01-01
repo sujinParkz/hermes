@@ -558,9 +558,6 @@ footer > div{
     footer > div fieldset{
         padding-bottom: 80px;
     }
-    footer > div fieldset input[type='email']{
-        width: 85%;
-    }
     footer > div fieldset input[type='submit']{
         width: 15%; 
         text-indent: -9999px;
@@ -573,7 +570,7 @@ footer > div{
     }
     footer > div > div > ul{
         display: flex;
-        justify-content: space-between ;
+        justify-content: space-around;
     }
     footer > div > div p{
         font-weight: 300;

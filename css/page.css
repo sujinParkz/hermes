@@ -734,7 +734,7 @@
     }
     .findAStore h2{
         color: #fff; font-weight: 600; position: absolute;
-        z-index: 1000;
+        z-index: 1;
         text-shadow: 5px -4px 5px rgb(107, 107, 107);
     }
     .findAStore h2::first-line{
@@ -793,10 +793,10 @@
         border: none; 
     }
     .orderShoppingCart > div:first-of-type > ol li div span.numberInput input[type='button']:first-of-type{
-        background: url('../images/bul_MinusBtn_shoppingCart.png') left center no-repeat;
+        background: url('../images/bul_MinusBtn_shoppingCart.png') center / contain no-repeat;
     }
     .orderShoppingCart > div:first-of-type > ol li div span.numberInput input[type='button']:last-of-type{
-        background: url('../images/bul_plusBtn_shoppingCart.png') left center no-repeat;
+        background: url('../images/bul_PlusBtn_shoppingCart.png') center / contain no-repeat;
     } 
     .orderShoppingCart > div:first-of-type > ol li > input[type='button'] {
         position: absolute;
@@ -1479,6 +1479,7 @@
         margin-left: auto;
         line-height: 70px;
         font-size: 14px;
+        color: #000;
     }
     [class$='SideImageList'] > div:first-child input[type='button'].active{
         position: absolute; right: 3.57%; top: 20px;
@@ -3989,6 +3990,7 @@
     [class$='ImageList'] > ul li dl dd{
         float: right; width: 25%;
         margin-left: 5%; text-align: right;
+        line-height: 1.2vw
     }
     .backImageList{
         background-position: right;
