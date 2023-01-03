@@ -132,8 +132,8 @@ function panelControl(openPanel){
 function motionPanel(){
     var currentPanel = null;
     $(".Account div fieldset span input[type='button']").click(function(){
+        location.href="#";
         currentPanel = "." + $(this).attr('data-motionpanel');
-        // console.log(currentPanel);
         $(".Account div fieldset").removeClass("active");
         $(currentPanel).addClass("active");
     });

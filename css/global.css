@@ -68,7 +68,7 @@ aside > div > ul li strong,
 .Account > div fieldset input[type='button'],
 .Account > div strong,
 .Account > div fieldset > span:last-child,
-.Account > div > div *
+.Account > div div [class$='Active'],
 .findAStore > h2,
 .findAStore strong,
 .findAStore input[type='search']{
@@ -842,7 +842,7 @@ footer > div{
     .AboutHermesChronology > ul li:not([class^='fullImage']),
     .Account > div{
         max-width: 1780px; 
-        width: 93.7%; margin: 0 auto; 
+        width: 92.71%; margin: 0 auto; 
     }
 
     #asidePanel{

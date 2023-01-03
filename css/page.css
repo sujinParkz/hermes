@@ -329,6 +329,7 @@
         width: 35px; height: 35px; color:#bababa; font-weight:700;
         background-color: transparent;
         border: 1px solid #bababa;
+        padding: 0; text-align: center;
     }
     [class$='DetailPage'] > div [id^='goods'] form .sizeSet input[type='button']:hover,
     [class$='DetailPage'] > div [id^='goods'] form .sizeSet input[type='button'].active{
@@ -771,6 +772,7 @@
     }
     .findAStore input[type='submit']{
         font-size: 12px; font-weight: 400;
+        color: #000;
         letter-spacing: 0.7px;
         background-color: transparent;
         border: 1px solid #605f5f;
@@ -857,7 +859,7 @@
     
     .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:nth-child(3) ol li:hover label,
     .orderCheckout div fieldset:not(.summaryBox) ul#payment > li:nth-child(3) ol li.active label{
-        border-color: #3d3d3d; border-width: 2px; 
+        border-color: #000000; border-width: 2px;
     }
     .orderCheckout div fieldset:not(.summaryBox) ul#payment li:nth-child(4) input[type='text']{
         width: 47%; 
@@ -1908,7 +1910,7 @@
         line-height: 24px;
         padding-bottom: 20px;
         margin-bottom: 20px;
-        border-bottom: 1px solid #d1d1d1;
+        border-bottom: 1px solid #e8e8e8;
     }
     [class*='AboutHermes'] > div h3{
         font-size: 26px; font-weight: 400;
@@ -2770,7 +2772,7 @@
     [class*='AboutHermes'] ul li:not(.wayClear) h3{
         font-weight: 400;
         line-height: 30px;
-        border-bottom: 1px solid #d1d1d1;
+        border-bottom: 1px solid #e8e8e8;
     }
     [class*='AboutHermes'] > div h3{
         font-size: 34px; font-weight: 400;
@@ -3252,7 +3254,7 @@
         width: 100%;
         background-color: #e87c36;
         color: #fff;
-        padding: 30px;
+        padding: 30px 0;
         margin-bottom: 40px;
     }
     .Account > div fieldset > span:last-child{
@@ -4350,7 +4352,7 @@
         bottom: 70px; 
     }
     .EditeurDanielburen div.centerguideProject ul li:nth-of-type(2) div{
-        width: 43%; 
+        width: 40%; 
         top: 90px; 
     }
     .EditeurDanielburen div.centerguideProject ul li:nth-of-type(3) > p{
@@ -4420,7 +4422,7 @@
     }
     [class*='AboutHermes'] ul li:not(.wayClear) h3{
         font-size: 24px; 
-        padding-bottom: 30px; margin-bottom: 30px;
+        padding-bottom: 25px; margin-bottom: 30px;
     }
     [class*='AboutHermes'] > p{
         font-size: 18px; 
@@ -4492,7 +4494,7 @@
     }
     .AboutHermesChronology > ul li.fullImage_2013 p{
         position: absolute;
-        top: 12vh;
+        top: 16vh;
         left: 3.64%;
         width: 25%;
     }
@@ -4855,11 +4857,12 @@
     }
     .Account > div > div > div.accountActive p{
         font-size: 22px; font-weight: 400;
-        line-height: 30px;
+        line-height: 30px; width: 95%;
         margin-bottom: 45px;
     }
     .Account > div > div > div.accountActive ul li{
-        font-size: 16px; font-weight: 300;
+        font-size: 0.9vw; letter-spacing: 1px; 
+        font-weight: 300;
     }
     .Account > div > div > div.accountActive ul li::before{
         content: '• ';
