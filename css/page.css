@@ -3778,7 +3778,8 @@
         width: 100%;
     }
     .AboutHermes > ul li h3 mark{
-        font-size: 20px; 
+        font-size: 20px;
+        margin-bottom: 15px; 
     }
     .AboutHermesChronology > ul > li:not(:last-of-type){
         margin-bottom: 70px;
@@ -4421,23 +4422,23 @@
         padding-bottom: 52px;
     }
     [class*='AboutHermes'] ul li:not(.wayClear) h3{
-        font-size: 24px; 
+        font-size: 2.8vh; 
         padding-bottom: 25px; margin-bottom: 30px;
     }
     [class*='AboutHermes'] > p{
-        font-size: 18px; 
-        line-height: 26px;
+        font-size: 16px; 
+        line-height: 23px;
     }
     [class*='AboutHermes']:not(.AboutHermesMain) > p,
     .AboutHermesMain > p:last-of-type{
         margin-bottom: 90px;
     }
     [class*='AboutHermes']:not(.AboutHermesChronology) ul li p{
-        font-size: 18px; font-weight: 300;
-        line-height: 30px; 
+        font-size: 2.1vh; font-weight: 300;
+        line-height: 28px; 
     }
     [class*='AboutHermes']:not(.AboutHermesChronology) ul li a{
-        font-size: 18px; font-weight: 300;
+        font-size: 2.1vh; font-weight: 300;
     }
     [class*='AboutHermes']:not(.AboutHermesChronology) > div,
     .AboutHermesMain ul,
@@ -4462,7 +4463,7 @@
     .AboutHermesMain ul li{
         height: 40vh;
         max-height: 450px;
-        padding:50px 0 0 47.91%; 
+        padding:20px 0 0 47.91%; 
         background-repeat: no-repeat;
         background-size: 44% 100%;
         box-sizing: border-box;
@@ -4478,6 +4479,7 @@
     }
     .AboutHermes > ul li h3 mark{
         font-size: 24px; 
+        margin-bottom: 20px;
     }
     .AboutHermesChronology > ul > li:not(:last-of-type){
         margin-bottom: 110px;
@@ -4485,7 +4487,7 @@
     .AboutHermesChronology > ul > li p{
         font-size: 18px;
         font-weight: 300;
-        line-height: 28px;
+        line-height: 30px;
         color: #000;
     }
     .AboutHermesChronology > ul li.fullImage_1967 img,

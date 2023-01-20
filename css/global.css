@@ -24,14 +24,16 @@ aside > div > ul li strong,
 .sideImageList h2,
 #filterPanel li >*,
 [class$='SideImageList'] > div:first-child h2,
-.Pager a,
+[class$='SideImageList'] div.pager > a,
+[class$='SideImageList'] div.pager ol li > a
 .btn_Return,
-.DetailPage > div h2,
+[class$='DetailPage'] > div h2,
 [id^='goods'] > span,
 [id^='goods'] > form fieldset legend,
 [id^='goods'] p strong,
 .DetailPage > div div strong ul li a,
 [id^='productDetails'] > span,
+[class$='DetailPage'] > div .underPager ul li a,
 [id^='thePerfectPartner'],
 .quantSet span,
 .bx-wrapper .bx-pager,
@@ -43,6 +45,7 @@ aside > div > ul li strong,
 .FAQ > div h3,
 .FAQ > div > ol > li > ol > li:not(p,ul),
 [class*='AboutHermes'] h2,
+[class*='AboutHermes'] > div h3,
 [class*='AboutHermes'] ul li:not(.wayClear) h3,
 .AboutHermes > ul li h3 mark,
 [class*='Editeur'] h2,
@@ -62,6 +65,7 @@ aside > div > ul li strong,
 .orderCheckout div form fieldset.summaryBox > div:nth-child(3) span input,
 .orderCheckout div form fieldset.summaryBox > p mark,
 .orderCheckout div form fieldset.summaryBox div#orderComplete,
+.Account > div > a,
 .Account > div fieldset legend,
 .Account > div fieldset > ul li label,
 .Account > div fieldset.accountSet ul li:first-child > p,
@@ -93,9 +97,9 @@ aside > div > ul li a,
 [id^='goods'] p,
 [id^='productDetails'] > *:not(strong,span),
 [id^='deliveryReturns'] > *:not(strong),
+[class$='DetailPage'] > div .underPager > a,
 .sizeSet > span,
 .sizeSet input[type='button'],   
-[class$='DetailPage'] > div .underPager > a,
 .jewelryCareTips >*,
 .FAQ > p,
 .FAQ > div > ol > li h4,
@@ -117,6 +121,7 @@ aside > div > ul li a,
 .Account > div form fieldset.accountSet address >*:not(strong),
 .Account > div form fieldset.accountSet > span:nth-child(6),
 .Account > div fieldset.createSet > input[type='button'],
+.Account > div fieldset.createSet > label,
 .findAStore *:not(h2,strong,input[type='search']),
 #subscribePanel *{
    font-family: 'Archivo';
@@ -260,7 +265,7 @@ header > div > div a:nth-child(3){
 }
 #asidePanel > div nav ul > li{
     position: relative; 
-    font-size: 18px; cursor: default;
+    cursor: default;
 }
 #asidePanel > div nav ul > li ol li a{
     color: #3d3d3d;
@@ -614,13 +619,13 @@ footer > div{
         min-width: 500px;
     } 
     #asidePanel > div h2{
-        font-size: 40px;
+        font-size: 4.1vh;
     }
     #asidePanel > div h2 input{
         right: 0;
     }
     #asidePanel > div nav ul > li{
-        font-size: 24px; 
+        font-size: 2.5vw;
     }
     #asidePanel > div nav ul > li div{
         width: 50%;
@@ -632,8 +637,9 @@ footer > div{
         font-size: 16px; color: #d1d1d1;
         font-weight: 400;
     }
-    #asidePanel > div nav ul > li ol li a{
-        font-size: 16px;
+    #asidePanel > div nav ul > li ol li a,
+    #asidePanel > div > ul li a{
+        font-size: 1.8vw;
     }
     #asidePanel > div nav h3,
     #asidePanel > div nav ul > li div h4{
@@ -643,17 +649,11 @@ footer > div{
         position: absolute; top: 0; right: 0;
         width: 50%;
     }
-    #asidePanel > div nav ul > li:hover ol li{
-        font-size: 16px;     
-    }
     #asidePanel > div nav ul > li:hover ol li a{
         opacity: 1;
     }
-    #asidePanel > div > ul li a{
-        font-size: 16px;
-    }
     #asidePanel > div > ul li strong{
-        font-size: 20px; display: block;
+        font-size: 2.3vw; display: block;
     }    
 
     #searchPanel{
@@ -846,7 +846,6 @@ footer > div{
     }
 
     #asidePanel{
-        /* padding: 70px 60px 0; */
         padding: 6.3vh 60px 0;
         left: -40%; top: 0;
     } 
@@ -857,10 +856,19 @@ footer > div{
         margin-bottom: 6.7vh;
     }
     #asidePanel > div nav{
-        margin-bottom: 18.7vh;
+        margin-bottom: 18.6vh;
     }
+    #asidePanel > div nav ul > li {
+        font-size: 2.4vh;
+    }
+    #asidePanel > div nav ul > li ol li a, #asidePanel > div > ul li a {
+        font-size: 1.7vh;
+    }    
     #asidePanel > div nav ul > li:not(:last-child){
-        margin-bottom: 4.5vh;
+        margin-bottom: 4.3vh;
+    }
+    #asidePanel > div > ul li strong{
+        font-size: 2.2vh;
     }
     #asidePanel > div > ul li a:not(:last-child),
     #asidePanel > div nav ul > li:hover ol li,
