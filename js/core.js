@@ -40,16 +40,16 @@ function justToggle(target){
     });
 }
 
-function sliderFunc(target, mod, autoVal, minS, maxS, margin, slidew, pt){ //?
+function sliderFunc(target, mod, autoVal, minS, maxS, margin, slidew, pt){
     $(target).bxSlider({
-        mode: mod, //?
-        touchEnabled: false, //?
-        auto: autoVal, //?
-        minSlides: minS, //?
-        maxSlides: maxS, //?
-        slideMargin: margin, //?
-        slideWidth: slidew, //?
-        pagerType: pt //?
+        mode: mod,
+        touchEnabled: false,
+        auto: autoVal,
+        minSlides: minS,
+        maxSlides: maxS,
+        slideMargin: margin,
+        slideWidth: slidew,
+        pagerType: pt
     });
 }
 function slidePanel(){
@@ -65,10 +65,10 @@ function slidePanel(){
         }
     });
 }
-function toggleAction(target){ //?
-    $(target).click(function(){ //?
-        $(target).removeClass("active"); //?
-        $(this).addClass("active"); //?
+function toggleAction(target){
+    $(target).click(function(){
+        $(target).removeClass("active");
+        $(this).addClass("active");
     });
 }
 function listFilterControl(){
@@ -96,17 +96,15 @@ function listFilterControl(){
 }
 function historyBacking(target){
     $(target).click(function(){
-        window.history.back(); //? browser에 cache되어있는 이전 page로 돌아가기.
+        window.history.back(); 
     });
 }
 function countSet(){
     $(".numberInput input[value='minusBtn']").click(function(){
         this.parentNode.querySelector('input[type=number]').stepDown();
-        //? button 클릭시 클릭된 대상의 부모 로부터 안의 자식중 input number의 step value를 down 시켜라.
     });
     $(".numberInput input[value='plusBtn']").click(function(){
         this.parentNode.querySelector('input[type=number]').stepUp();
-        //? button 클릭시 클릭된 대상의 부모 로부터 안의 자식중 input number의 step value를 up 시켜라.
     });
 }
 function detailControl(openBtn){
