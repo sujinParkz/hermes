@@ -1,10 +1,10 @@
 
 $(document).ready(function(){
     
-    sliderFunc(".mainSlider","vertical",false,1,3,0,0,0,'full');
-    sliderFunc(".way3Carousel","horizontal",false,1,5,30,540,'full');
+    sliderFunc(".mainSlider","vertical",1,3,0,0,0,'full');
+    sliderFunc(".way3Carousel","horizontal",1,5,30,540,'full');
     
-    sliderFunc(".sliderDetail","horizontal",false,1,1,0,0,'short');
+    sliderFunc(".sliderDetail","horizontal",1,1,0,0,'short');
     slidePanel();
     
     toggleAction(".sizeSet input[type='button']");
@@ -40,11 +40,11 @@ function justToggle(target){
     });
 }
 
-function sliderFunc(target, mod, autoVal, minS, maxS, margin, slidew, pt){
+function sliderFunc(target, mod, minS, maxS, margin, slidew, pt){
     $(target).bxSlider({
         mode: mod,
         touchEnabled: false,
-        auto: autoVal,
+        auto: false,
         minSlides: minS,
         maxSlides: maxS,
         slideMargin: margin,
@@ -74,10 +74,7 @@ function toggleAction(target){
 function listFilterControl(){
     var holdonPos = parseInt($("[class$='SideImageList']").css("padding-top"));
     
-    $(window).scroll(function(){
-        // console.log($(this).scrollTop());
-        // console.log(holdonPos);
-        
+    $(window).scroll(function(){        
         if (window.matchMedia("(min-width: 768px) and (max-width: 1279px)").matches) {
             if($(this).scrollTop() >= holdonPos){
                 $("#filterPanel").addClass("lock");
@@ -208,13 +205,10 @@ function paymentControl(){
     });
 
 }
-
 function detailTabletControl(){
     if (window.matchMedia("(max-width: 1279px)").matches) {
-        // var footerOffSet = $("footer").offset().top;
         var sliderHeight = $(".bx-wrapper").height();
         $(window).scroll(function(){
-            // console.log($("footer").offset().top);
             if($(this).scrollTop()>=sliderHeight){
                 $(".underPager > a[href='shoppingCart.html']").addClass("active");
             }else{
