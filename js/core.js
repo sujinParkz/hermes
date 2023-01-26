@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
     
     sliderFunc(".mainSlider","vertical",1,3,0,0,0,'full');
@@ -166,7 +165,6 @@ function paymentControl(){
     var titleSlot = $(".orderCheckout >div > h2");
     var subTitleSlot = $(".orderCheckout div form:first-of-type fieldset:first-of-type legend");
     var btnBack = $(".orderCheckout .checkoutUnderArea a");
-    var titleTxt = "";
     
     $(".toggleButton").click(function(){
 
