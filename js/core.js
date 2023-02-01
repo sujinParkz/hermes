@@ -10,8 +10,9 @@ $(document).ready(function(){
     toggleAction(".FAQ div ol li ol li");
     toggleAction("ul#payment > li:nth-child(3) ol li");
     toggleAction("#filterPanel li > span");
-    justToggle("#filterPanel li:nth-child(2) div a");
     toggleAction("#filterPanel li:nth-child(3) div a");
+    
+    justToggle("#filterPanel li:nth-child(2) div a");
     
     countSet("#subscribe input[type='button']");
     detailControl(".underPager ul li a");
