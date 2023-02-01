@@ -2,8 +2,8 @@ $(document).ready(function(){
     
     sliderFunc(".mainSlider","vertical",1,3,0,0,0,'full');
     sliderFunc(".way3Carousel","horizontal",1,5,30,540,'full');
-    
     sliderFunc(".sliderDetail","horizontal",1,1,0,0,'short');
+
     slidePanel();
     
     toggleAction(".sizeSet input[type='button']");
@@ -38,7 +38,6 @@ function justToggle(target){
         $(this).toggleClass("active");
     });
 }
-
 function sliderFunc(target, mod, minS, maxS, margin, slidew, pt){
     $(target).bxSlider({
         mode: mod,
@@ -73,19 +72,19 @@ function toggleAction(target){
 function listFilterControl(){
     var holdonPos = parseInt($("[class$='SideImageList']").css("padding-top"));
     
-    $(window).scroll(function(){        
-        if (window.matchMedia("(min-width: 768px) and (max-width: 1279px)").matches) {
-            if($(this).scrollTop() >= holdonPos){
-                $("#filterPanel").addClass("lock");
+    $(window).scroll(function(){ 
+        if (window.matchMedia("(min-width: 768px) and (max-width: 1279px)").matches){ 
+            if($(this).scrollTop() >= holdonPos){ 
+                $("#filterPanel").addClass("lock"); 
             }else{
                 $("#filterPanel").removeClass("lock");
             }
         }
-        if (window.matchMedia("(max-width: 767px)").matches) {
-            if($(this).scrollTop() >= holdonPos){
-                $("[class$='SideImageList'] > div:first-child").addClass("lock");
-            }else{
-                $("[class$='SideImageList'] > div:first-child").removeClass("lock");
+        if (window.matchMedia("(max-width: 767px)").matches) { 
+            if($(this).scrollTop() >= holdonPos){ 
+                $("[class$='SideImageList'] > div:first-child").addClass("lock"); 
+            }else{ 
+                $("[class$='SideImageList'] > div:first-child").removeClass("lock"); 
             }
         }
     });
@@ -96,33 +95,32 @@ function historyBacking(target){
     });
 }
 function countSet(){
-    $(".numberInput input[value='minusBtn']").click(function(){
+    $(".numberInput input[value='minusBtn']").click(function(){ 
         this.parentNode.querySelector('input[type=number]').stepDown();
     });
     $(".numberInput input[value='plusBtn']").click(function(){
         this.parentNode.querySelector('input[type=number]').stepUp();
     });
 }
-function detailControl(openBtn){
-    $(openBtn).click(function(){
-        var panelName = $(this).attr('data-panel');
-        $(openBtn).removeClass("active");
+function detailControl(openBtn){ 
+    $(openBtn).click(function(){ 
+        var panelName = $(this).attr('data-panel'); 
+        $(openBtn).removeClass("active"); 
         $(this).addClass("active");
         $("[class$='DetailPage'] > div:nth-of-type(2) > div:not(.underPager)").removeClass("active");
-        $("#" + panelName).addClass("active");
+        $("#" + panelName).addClass("active"); 
     });
 }
 function panelControl(openPanel){
-    var panelName = null;
-    $(openPanel).click(function(){
-        panelName = $(this).attr('data-panel');
-        $("#" + panelName).addClass("active");
+    var panelName = null; 
+    $(openPanel).click(function(){ 
+        panelName = $(this).attr('data-panel'); 
+        $("#" + panelName).addClass("active"); 
     });
-    $(".btn_close").click(function(){
-        $("[id$='Panel']").removeClass("active");
+    $(".btn_close").click(function(){ 
+        $("[id$='Panel']").removeClass("active"); 
     });
 }
-
 function motionPanel(){
     var currentPanel = null;
     $(".Account div fieldset span input[type='button']").click(function(){

@@ -4,9 +4,9 @@ $(document).ready(function(){
 });
 
 function scrollControl(target,pa){
-    $(window).scroll(function(){ //? window = browser
-        var currentScroll = $(this).scrollTop(); //? browser에 scroll의 현재위치(상단선)
-        var targetoffset = $(target).offset().top - pa; //? 대상의 현재 top 좌표.
+    $(window).scroll(function(){ 
+        var currentScroll = $(this).scrollTop(); 
+        var targetoffset = $(target).offset().top - pa;
         if(currentScroll >= targetoffset){
             $(target).addClass("active");
         }
