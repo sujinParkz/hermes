@@ -125,7 +125,7 @@ function panelControl(openPanel){
 function motionPanel(){
     var currentPanel = null;
     $(".Account div fieldset span input[type='button']").click(function(){
-        location.href="#";
+        location.href="#"; //위치, 최상단으로 올리는 것
         currentPanel = "." + $(this).attr('data-motionpanel');
         $(".Account div fieldset").removeClass("active");
         $(currentPanel).addClass("active");
@@ -167,7 +167,7 @@ function paymentControl(){
     
     $(".toggleButton").click(function(){
 
-        if($(this).val() == "PAYMENT"){
+        if($(this).val() == "PAYMENT"){ //value가 Payment 일때
             currentPanelName = "#" + $(this).attr("data-panel");
             $(panels).removeClass("active");
             $(currentPanelName).addClass("active");
