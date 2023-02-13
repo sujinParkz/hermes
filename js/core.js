@@ -81,11 +81,11 @@ function listFilterControl(){
                 $("#filterPanel").removeClass("lock");
             }
         }
-        if (window.matchMedia("(max-width: 767px)").matches) { 
+        if (window.matchMedia("(max-width: 767px)").matches){ 
             if($(this).scrollTop() >= holdonPos){ 
                 $("[class$='SideImageList'] > div:first-child").addClass("lock"); 
             }else{ 
-                $("[class$='SideImageList'] > div:first-child").removeClass("lock"); 
+                $("[class$='SideImageList'] > div:first-child").removeClass("lock");
             }
         }
     });
@@ -200,13 +200,12 @@ function paymentControl(){
         $(".stepBox li").removeClass("active");
         $(".stepBox li:nth-child(2)").addClass("active");
     });
-
 }
 function detailTabletControl(){
-    if (window.matchMedia("(max-width: 1279px)").matches) {
+    if (window.matchMedia("(max-width: 1279px)").matches){
         var sliderHeight = $(".bx-wrapper").height();
         $(window).scroll(function(){
-            if($(this).scrollTop()>=sliderHeight){
+            if($(this).scrollTop() >= sliderHeight){
                 $(".underPager > a[href='shoppingCart.html']").addClass("active");
             }else{
                 $(".underPager > a[href='shoppingCart.html']").removeClass("active");
