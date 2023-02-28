@@ -1,5 +1,4 @@
-$(document).ready(function(){
-    
+$(document).ready(function(){    
     sliderFunc(".mainSlider","vertical",1,3,0,0,0,'full');
     sliderFunc(".way3Carousel","horizontal",1,5,30,540,'full');
     sliderFunc(".sliderDetail","horizontal",1,1,0,0,'short');
@@ -44,7 +43,7 @@ function sliderFunc(target, mod, minS, maxS, margin, slidew, pt){
         mode: mod,
         touchEnabled: false,
         auto: false,
-        minSlides: minS,
+        minSlides: minS, 
         maxSlides: maxS,
         slideMargin: margin,
         slideWidth: slidew,
@@ -124,7 +123,7 @@ function panelControl(openPanel){
 }
 function motionPanel(){
     var currentPanel = null;
-    $(".Account div fieldset span input[type='button']").click(function(){
+    $(".Account div fieldset input[type='button']").click(function(){
         location.href="#"; //위치, 최상단으로 올리는 것
         currentPanel = "." + $(this).attr('data-motionpanel');
         $(".Account div fieldset").removeClass("active");
