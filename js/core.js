@@ -56,10 +56,12 @@ function slidePanel(){
         $(this).toggleClass("active");
         $(this).parent(".sliderSidePanel").toggleClass("active");
         toggleStatus = !toggleStatus;
-        if(toggleStatus == true){
-            $(".mainSlider").css("z-index","10");
-        }else if(toggleStatus == false){
-            $(".mainSlider").css("z-index","0");
+        if (window.matchMedia("(max-width: 767px)").matches){ 
+            if(toggleStatus == true){
+                $(".mainSlider").css("z-index","10");
+            }else if(toggleStatus == false){
+                $(".mainSlider").css("z-index","0");
+            }
         }
     });
 }
