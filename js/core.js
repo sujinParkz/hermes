@@ -125,8 +125,8 @@ function panelControl(openPanel){
 }
 function motionPanel(){
     var currentPanel = null;
-    $(".Account div fieldset input[type='button']").click(function(){
-        location.href="#"; //위치, 최상단으로 올리는 것
+    $(".Account div fieldset span input[type='button']").click(function(){
+        location.href="#";
         currentPanel = "." + $(this).attr('data-motionpanel');
         $(".Account div fieldset").removeClass("active");
         $(currentPanel).addClass("active");
@@ -168,7 +168,7 @@ function paymentControl(){
     
     $(".toggleButton").click(function(){
 
-        if($(this).val() == "PAYMENT"){ //value가 Payment 일때
+        if($(this).val() == "PAYMENT"){ 
             currentPanelName = "#" + $(this).attr("data-panel");
             $(panels).removeClass("active");
             $(currentPanelName).addClass("active");
