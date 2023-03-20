@@ -568,7 +568,7 @@
     .FAQ > div h3.iconOnline{background-image: url('../images/bul_FAQ_Online-Shopping.png');}
     .FAQ > div h3.iconCustomer{background-image: url('../images/bul_FAQ_Customer-account.png');}
     .FAQ > div h3.iconProducts{background-image: url('../images/bul_FAQ_Products.png');}
-    .FAQ > div h3.iconLamaison{background-image: url('../images/bul_FAQ_La-Maison-Hermès.png');}
+    .FAQ > div h3.iconLamaison{background-image: url('../images/bul_FAQ_La-Maison-Hermes.png');}
 
     .FAQ > div > ol > li h4::before{
         content: counter(h4)". ";
